@@ -1,0 +1,5048 @@
+[
+  {
+    "id": 1,
+    "word": "slap",
+    "phonetic": "/slæp/",
+    "meaning": "vt.拍,掌击,拍击 n.拍,掌击,拍击"
+  },
+  {
+    "id": 2,
+    "word": "dispatch",
+    "phonetic": "/dɪˈspætʃ/",
+    "meaning": "vt.分派,派遣 n.派遣,急件"
+  },
+  {
+    "id": 3,
+    "word": "smuggle",
+    "phonetic": "/ˈsmʌɡl/",
+    "meaning": "vt. 走私；偷运 vi. 走私，私运；偷带"
+  },
+  {
+    "id": 4,
+    "word": "nourish",
+    "phonetic": "/ˈnɜːrɪʃ/",
+    "meaning": "vt. 滋养；怀有；使健壮"
+  },
+  {
+    "id": 5,
+    "word": "fling",
+    "phonetic": "/flɪŋ/",
+    "meaning": "vt. 掷，抛；嘲笑；使陷入；轻蔑地投射；猛动 n. 掷，抛；嘲弄；急冲 vi. 猛冲，急行"
+  },
+  {
+    "id": 6,
+    "word": "heal",
+    "phonetic": "/hiːl/",
+    "meaning": "vt. 治愈，痊愈；和解 vi. 痊愈"
+  },
+  {
+    "id": 7,
+    "word": "fabricate",
+    "phonetic": "/ˈfæbrɪkeɪt/",
+    "meaning": "vt. 制造；伪造；装配"
+  },
+  {
+    "id": 8,
+    "word": "designate",
+    "phonetic": "/ˈdezɪɡneɪt/",
+    "meaning": "vt. 指定；指派；标出；把…定名为 adj. 指定的；选定的"
+  },
+  {
+    "id": 9,
+    "word": "uphold",
+    "phonetic": "/ʌpˈhoʊld/",
+    "meaning": "vt. 支撑；鼓励；赞成；举起"
+  },
+  {
+    "id": 10,
+    "word": "convict",
+    "phonetic": "/kənˈvɪkt; ˈkɑnvɪkt/",
+    "meaning": "vt. 证明…有罪；宣告…有罪 n. 罪犯"
+  },
+  {
+    "id": 11,
+    "word": "testify",
+    "phonetic": "/ˈtestɪfaɪ/",
+    "meaning": "vt. 证明，证实；作证 vi. 作证；证明"
+  },
+  {
+    "id": 12,
+    "word": "afflict",
+    "phonetic": "/əˈflɪkt/",
+    "meaning": "vt. 折磨；使痛苦；使苦恼"
+  },
+  {
+    "id": 13,
+    "word": "summon",
+    "phonetic": "/ˈsʌmən/",
+    "meaning": "vt. 召唤；召集；鼓起；振作"
+  },
+  {
+    "id": 14,
+    "word": "inflict",
+    "phonetic": "/ɪnˈflɪkt/",
+    "meaning": "vt. 造成；使遭受（损伤、痛苦等）；给予（打击等）"
+  },
+  {
+    "id": 15,
+    "word": "pose",
+    "phonetic": "/poʊz/",
+    "meaning": "vt. 造成，形成；摆姿势；装模作样；提出…讨论 vi. 摆姿势；佯装；矫揉造作 n. 姿势，姿 态；装模作样"
+  },
+  {
+    "id": 16,
+    "word": "ponder",
+    "phonetic": "/ˈpɑːndər/",
+    "meaning": "vt. 仔细考虑；衡量 vi. 考虑；沉思"
+  },
+  {
+    "id": 17,
+    "word": "resent",
+    "phonetic": "/rɪˈzent/",
+    "meaning": "vt. 怨恨；愤恨；厌恶"
+  },
+  {
+    "id": 18,
+    "word": "induce",
+    "phonetic": "/ɪnˈduːs/",
+    "meaning": "vt. 诱导；引起；引诱；感应"
+  },
+  {
+    "id": 19,
+    "word": "originate",
+    "phonetic": "/əˈrɪdʒɪneɪt/",
+    "meaning": "vt. 引起；创作 vi. 发源；发生；起航"
+  },
+  {
+    "id": 20,
+    "word": "evoke",
+    "phonetic": "/ɪˈvoʊk/",
+    "meaning": "vt. 引起，唤起；博得"
+  },
+  {
+    "id": 21,
+    "word": "suppress",
+    "phonetic": "/səˈpres/",
+    "meaning": "vt. 抑制；镇压；废止"
+  },
+  {
+    "id": 22,
+    "word": "inhibit",
+    "phonetic": "/ɪnˈhɪbɪt/",
+    "meaning": "vt. 抑制；禁止"
+  },
+  {
+    "id": 23,
+    "word": "disguise",
+    "phonetic": "/dɪsˈɡaɪz/",
+    "meaning": "vt. 掩饰；假装；隐瞒 n. 伪装；假装；用作伪装的东西"
+  },
+  {
+    "id": 24,
+    "word": "prolong",
+    "phonetic": "/prəˈlɔːŋ/",
+    "meaning": "vt. 延长；拖延"
+  },
+  {
+    "id": 25,
+    "word": "overwhelm",
+    "phonetic": "/ˌoʊvərˈwelm/",
+    "meaning": "vt. 淹没；压倒；受打击；覆盖；压垮"
+  },
+  {
+    "id": 26,
+    "word": "oppress",
+    "phonetic": "/əˈpres/",
+    "meaning": "vt. 压迫，压抑；使……烦恼；使……感到沉重"
+  },
+  {
+    "id": 27,
+    "word": "proclaim",
+    "phonetic": "/prəˈkleɪm/",
+    "meaning": "vt. 宣告，公布；声明；表明；赞扬"
+  },
+  {
+    "id": 28,
+    "word": "visualize",
+    "phonetic": "/ˈvɪʒuəlaɪz/",
+    "meaning": "vt. 形象，形象化；想像，设想 vi. 显现"
+  },
+  {
+    "id": 29,
+    "word": "extinguish",
+    "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
+    "meaning": "vt. 熄灭；压制；偿清"
+  },
+  {
+    "id": 30,
+    "word": "quench",
+    "phonetic": "/kwentʃ/",
+    "meaning": "vt. 熄灭，[机] 淬火；解渴；结束；冷浸 vi. 熄灭；平息"
+  },
+  {
+    "id": 31,
+    "word": "assimilate",
+    "phonetic": "/əˈsɪməleɪt/",
+    "meaning": "vt. 吸收；使同化；把…比作；使相似 vi. 吸收；同化"
+  },
+  {
+    "id": 32,
+    "word": "overhear",
+    "phonetic": "/ˌoʊvərˈhɪr/",
+    "meaning": "vt. 无意中听到；偷听 vi. 无意中听到；偷听到"
+  },
+  {
+    "id": 33,
+    "word": "contaminate",
+    "phonetic": "/kənˈtæmɪneɪt/",
+    "meaning": "vt. 污染，弄脏"
+  },
+  {
+    "id": 34,
+    "word": "assert",
+    "phonetic": "/əˈsɜːrt/",
+    "meaning": "vt. 维护，坚持；断言；主张；声称"
+  },
+  {
+    "id": 35,
+    "word": "violate",
+    "phonetic": "/ˈvaɪəleɪt/",
+    "meaning": "vt. 违反；侵犯，妨碍；亵渎"
+  },
+  {
+    "id": 36,
+    "word": "jeopardize",
+    "phonetic": "/ˈdʒepərdaɪz/",
+    "meaning": "vt. 危害；使陷危地；使受危困"
+  },
+  {
+    "id": 37,
+    "word": "propel",
+    "phonetic": "/prəˈpel/",
+    "meaning": "vt. 推进；驱使；激励；驱策"
+  },
+  {
+    "id": 38,
+    "word": "nominate",
+    "phonetic": "/ˈnɑːmɪneɪt/",
+    "meaning": "vt. 推荐；提名；任命；指定"
+  },
+  {
+    "id": 39,
+    "word": "snap",
+    "phonetic": "/snæp/",
+    "meaning": "vt. 突然折断，拉断；猛咬；啪地关上 vi. 咬；厉声说；咯嗒一声关上 n. 猛咬；劈啪声；突 然折断 adj. 突然的"
+  },
+  {
+    "id": 40,
+    "word": "notify",
+    "phonetic": "/ˈnoʊtɪfaɪ/",
+    "meaning": "vt. 通告，通知；公布"
+  },
+  {
+    "id": 41,
+    "word": "lick",
+    "phonetic": "/lɪk/",
+    "meaning": "vt. 舔；卷过；鞭打 vt. （非正式）战胜 vi. 舔；轻轻拍打 n. 舔；打；少许"
+  },
+  {
+    "id": 42,
+    "word": "enhance",
+    "phonetic": "/ɪnˈhæns/",
+    "meaning": "vt. 提高；加强；增加"
+  },
+  {
+    "id": 43,
+    "word": "negotiate",
+    "phonetic": "/nɪˈɡoʊʃieɪt/",
+    "meaning": "vt. 谈判，商议；转让；越过 vi. 谈判，交涉"
+  },
+  {
+    "id": 44,
+    "word": "impair",
+    "phonetic": "/ɪmˈper/",
+    "meaning": "vt. 损害；削弱；减少"
+  },
+  {
+    "id": 45,
+    "word": "shrug",
+    "phonetic": "/ʃrʌɡ/",
+    "meaning": "vt. 耸肩，耸肩表示 n. 耸肩 vi. 耸肩"
+  },
+  {
+    "id": 46,
+    "word": "rip",
+    "phonetic": "/rɪp/",
+    "meaning": "vt. 撕；锯 vi. 裂开，被撕裂 n. 裂口，裂缝"
+  },
+  {
+    "id": 47,
+    "word": "preach",
+    "phonetic": "/priːtʃ/",
+    "meaning": "vt. 说教；讲道；鼓吹；传道；反复灌输 vi. 说教；讲道；鼓吹；宣扬 n. 说教"
+  },
+  {
+    "id": 48,
+    "word": "confer",
+    "phonetic": "/kənˈfɜːr/",
+    "meaning": "vt. 授予；给予 vi. 协商"
+  },
+  {
+    "id": 49,
+    "word": "reap",
+    "phonetic": "/riːp/",
+    "meaning": "vt. 收获，获得；收割 vi. 收割，收获"
+  },
+  {
+    "id": 50,
+    "word": "terminate",
+    "phonetic": "/ˈtɜːrmɪneɪt/",
+    "meaning": "vt. 使终止；使结束；解雇 vi. 结束，终止；结果 adj. 结束的"
+  },
+  {
+    "id": 51,
+    "word": "reconcile",
+    "phonetic": "/ˈrekənsaɪl/",
+    "meaning": "vt. 使一致；使和解；调停，调解；使顺从"
+  },
+  {
+    "id": 52,
+    "word": "entail",
+    "phonetic": "/ɪnˈteɪl/",
+    "meaning": "vt. 使需要，必需；承担；遗传给；蕴含 n. 引起；需要；继承"
+  },
+  {
+    "id": 53,
+    "word": "startle",
+    "phonetic": "/ˈstɑːrtl/",
+    "meaning": "vt. 使吓一跳；使惊奇 vi. 惊吓；惊跳；惊奇 n. 惊愕；惊恐"
+  },
+  {
+    "id": 54,
+    "word": "stabilize",
+    "phonetic": "/ˈsteɪbəlaɪz/",
+    "meaning": "vt. 使稳固，使安定 vi. 稳定，安定"
+  },
+  {
+    "id": 55,
+    "word": "ventilate",
+    "phonetic": "/ˈventɪleɪt/",
+    "meaning": "vt. 使通风；给…装通风设备；宣布"
+  },
+  {
+    "id": 56,
+    "word": "suffice",
+    "phonetic": "/səˈfaɪs/",
+    "meaning": "vt. 使满足；足够…用；合格 vi. 足够；有能力"
+  },
+  {
+    "id": 57,
+    "word": "perish",
+    "phonetic": "/ˈperɪʃ/",
+    "meaning": "vt. 使麻木；毁坏 vi. 死亡；毁灭；腐烂；枯萎"
+  },
+  {
+    "id": 58,
+    "word": "paralyze",
+    "phonetic": "/ˈpærəˌlaɪz/",
+    "meaning": "vt. 使麻痹；使瘫痪"
+  },
+  {
+    "id": 59,
+    "word": "perplex",
+    "phonetic": "/pərˈpleks/",
+    "meaning": "vt. 使困惑，使为难；使复杂化"
+  },
+  {
+    "id": 60,
+    "word": "minimize",
+    "phonetic": "/ˈmɪnɪmaɪz/",
+    "meaning": "vt. 使减到最少；小看，极度轻视 vi. 最小化 61.   converge/kənˈvɜːrdʒ/ vt. 使汇聚 vi. 聚集；靠拢；收敛"
+  },
+  {
+    "id": 62,
+    "word": "segregate",
+    "phonetic": "/ˈseɡrɪɡeɪt/",
+    "meaning": "vt. 使隔离；使分离；在…实行种族隔离"
+  },
+  {
+    "id": 63,
+    "word": "grieve",
+    "phonetic": "/ɡriːv/",
+    "meaning": "vt. 使悲伤，使苦恼 vi. 悲痛，哀悼"
+  },
+  {
+    "id": 64,
+    "word": "invert",
+    "phonetic": "/ɪnˈvɜːrt/",
+    "meaning": "vt. 使…转化；使…颠倒；使…反转；使…前后倒置 n. 颠倒的事物；倒置物；倒悬者 adj. 转化的"
+  },
+  {
+    "id": 65,
+    "word": "integrate",
+    "phonetic": "/ˈɪntɪɡreɪt/",
+    "meaning": "vt. 使…完整；使…成整体；求…的积分；表示…的总和 vi. 求积分；取消隔离；成为一体 adj. 整合的；完全的 n. 一体化；集成体"
+  },
+  {
+    "id": 66,
+    "word": "baffle",
+    "phonetic": "/ˈbæfl/",
+    "meaning": "vt. 使…困惑；使…受挫折；用挡板控制 n. 挡板；困惑 vi. 做徒劳挣扎"
+  },
+  {
+    "id": 67,
+    "word": "implement",
+    "phonetic": "/ˈɪmplɪmənt/",
+    "meaning": "vt. 实施，执行；实现，使生效 n. 工具，器具；手段"
+  },
+  {
+    "id": 68,
+    "word": "transcend",
+    "phonetic": "/trænˈsend/",
+    "meaning": "vt. 胜过，超越"
+  },
+  {
+    "id": 69,
+    "word": "contrive",
+    "phonetic": "/kənˈtraɪv/",
+    "meaning": "vt. 设计；发明；图谋 vi. 谋划；设法做到"
+  },
+  {
+    "id": 70,
+    "word": "ascertain",
+    "phonetic": "/ˌæsərˈteɪn/",
+    "meaning": "vt. 确定；查明；探知"
+  },
+  {
+    "id": 71,
+    "word": "tease",
+    "phonetic": "/tiːz/",
+    "meaning": "vt. 取笑；戏弄；梳理；欺负；强求；使起毛 n. 戏弄；爱纠缠的小孩；挑逗者；卖弄风骚的 女孩 vi. 取笑"
+  },
+  {
+    "id": 72,
+    "word": "constrain",
+    "phonetic": "/kənˈstreɪn/",
+    "meaning": "vt. 驱使；强迫；束缚"
+  },
+  {
+    "id": 73,
+    "word": "provoke",
+    "phonetic": "/prəˈvoʊk/",
+    "meaning": "vt. 驱使；激怒；煽动；惹起"
+  },
+  {
+    "id": 74,
+    "word": "despise",
+    "phonetic": "/dɪˈspaɪz/",
+    "meaning": "vt. 轻视，鄙视"
+  },
+  {
+    "id": 75,
+    "word": "corrode",
+    "phonetic": "/kəˈroʊd/",
+    "meaning": "vt. 侵蚀；损害 vi. 受腐蚀；起腐蚀作用"
+  },
+  {
+    "id": 76,
+    "word": "denounce",
+    "phonetic": "/dɪˈnaʊns/",
+    "meaning": "vt. 谴责；告发；公然抨击；通告废除"
+  },
+  {
+    "id": 77,
+    "word": "disrupt",
+    "phonetic": "/dɪsˈrʌpt/",
+    "meaning": "vt. 破坏；使瓦解；使分裂；使中断；使陷于混乱 adj. 分裂的，中断的；分散的"
+  },
+  {
+    "id": 78,
+    "word": "undermine",
+    "phonetic": "/ˌʌndərˈmaɪn/",
+    "meaning": "vt. 破坏，渐渐破坏；挖掘地基"
+  },
+  {
+    "id": 79,
+    "word": "stagger",
+    "phonetic": "/ˈstæɡər/",
+    "meaning": "vt. 蹒跚；使交错；使犹豫 vi. 蹒跚；犹豫 n. 蹒跚；交错安排 adj. 交错的；错开的"
+  },
+  {
+    "id": 80,
+    "word": "preclude",
+    "phonetic": "/prɪˈkluːd/",
+    "meaning": "vt. 排除；妨碍；阻止"
+  },
+  {
+    "id": 81,
+    "word": "simulate",
+    "phonetic": "/ˈsɪmjuleɪt/",
+    "meaning": "vt. 模仿；假装；冒充 adj. 模仿的；假装的"
+  },
+  {
+    "id": 82,
+    "word": "depict",
+    "phonetic": "/dɪˈpɪkt/",
+    "meaning": "vt. 描述；描画"
+  },
+  {
+    "id": 83,
+    "word": "portray",
+    "phonetic": "/pɔːrˈtreɪ/",
+    "meaning": "vt. 描绘；扮演"
+  },
+  {
+    "id": 84,
+    "word": "indulge",
+    "phonetic": "/ɪnˈdʌldʒ/",
+    "meaning": "vt. 满足；纵容；使高兴；使沉迷于… vi. 沉溺；满足；放任"
+  },
+  {
+    "id": 85,
+    "word": "precede",
+    "phonetic": "/prɪˈsiːd/",
+    "meaning": "vt. 领先，在…之前；优于，高于 vi. 领先，在前面"
+  },
+  {
+    "id": 86,
+    "word": "quantify",
+    "phonetic": "/ˈkwɑːntɪfaɪ/",
+    "meaning": "vt. 量化；为…定量；确定数量 vi. 量化；定量"
+  },
+  {
+    "id": 87,
+    "word": "exemplify",
+    "phonetic": "/ɪɡˈzemplɪfaɪ/",
+    "meaning": "vt. 例证；例示"
+  },
+  {
+    "id": 88,
+    "word": "dissipate",
+    "phonetic": "/ˈdɪsɪpeɪt/",
+    "meaning": "vt. 浪费；使…消散 vi. 驱散；放荡"
+  },
+  {
+    "id": 89,
+    "word": "sue",
+    "phonetic": "/suː/",
+    "meaning": "vt. 控告；请求 vi. 控告；提出请求"
+  },
+  {
+    "id": 90,
+    "word": "terrify",
+    "phonetic": "/ˈterɪfaɪ/",
+    "meaning": "vt. 恐吓；使恐怖；使害怕"
+  },
+  {
+    "id": 91,
+    "word": "intimidate",
+    "phonetic": "/ɪnˈtɪmɪdeɪt/",
+    "meaning": "vt. 恐吓，威胁；胁迫"
+  },
+  {
+    "id": 92,
+    "word": "reclaim",
+    "phonetic": "/rɪˈkleɪm/",
+    "meaning": "vt. 开拓；回收再利用；改造某人，使某人悔改 vi. 抗议，喊叫 n. 改造，感化；再生胶"
+  },
+  {
+    "id": 93,
+    "word": "discern",
+    "phonetic": "/dɪˈsɜːrn/",
+    "meaning": "vt. 觉察出；识别；了解；隐约看见 vi. 辨别"
+  },
+  {
+    "id": 94,
+    "word": "heave",
+    "phonetic": "/hiːv/",
+    "meaning": "vt. 举起；使起伏；投掷；恶心；发出（叹息等） vi. 起伏；举起；喘息；呕吐 n. 举起；起 伏；投掷；一阵呕吐"
+  },
+  {
+    "id": 95,
+    "word": "purify",
+    "phonetic": "/ˈpjʊrɪfaɪ/",
+    "meaning": "vt. 净化；使纯净 vi. 净化；变纯净"
+  },
+  {
+    "id": 96,
+    "word": "saturate",
+    "phonetic": "/ˈsætʃəreɪt/",
+    "meaning": "vt. 浸透，使湿透；使饱和，使充满 adj. 浸透的，饱和的；深颜色的"
+  },
+  {
+    "id": 97,
+    "word": "plead",
+    "phonetic": "/pliːd/",
+    "meaning": "vt. 借口；为...辩护；托称 vi. 恳求；辩护"
+  },
+  {
+    "id": 98,
+    "word": "alleviate",
+    "phonetic": "/əˈliːvieɪt/",
+    "meaning": "vt. 减轻，缓和 99. postulate/ˈpɑːstʃəleɪt/ vt. 假定；要求；视…为理所当然 n. 基本条件；假定"
+  },
+  {
+    "id": 100,
+    "word": "presume",
+    "phonetic": "/prɪˈzuːm/",
+    "meaning": "vt. 假定；推测；擅自；意味着 vi. 相信；擅自行为"
+  },
+  {
+    "id": 101,
+    "word": "aggravate",
+    "phonetic": "/ˈæɡrəveɪt/",
+    "meaning": "vt. 加重；使恶化；激怒"
+  },
+  {
+    "id": 102,
+    "word": "repel",
+    "phonetic": "/rɪˈpel/",
+    "meaning": "vt. 击退；抵制；使厌恶；使不愉快"
+  },
+  {
+    "id": 103,
+    "word": "conceive",
+    "phonetic": "/kənˈsiːv/",
+    "meaning": "vt. 怀孕；构思；以为；持有 vi. 怀孕；设想；考虑"
+  },
+  {
+    "id": 104,
+    "word": "merge",
+    "phonetic": "/mɜːrdʒ/",
+    "meaning": "vt. 合并；使合并；吞没 vi. 合并；融合"
+  },
+  {
+    "id": 105,
+    "word": "formulate",
+    "phonetic": "/ˈfɔːrmjuleɪt/",
+    "meaning": "vt. 规划；用公式表示；明确地表达"
+  },
+  {
+    "id": 106,
+    "word": "ascribe",
+    "phonetic": "/əˈskraɪb/",
+    "meaning": "vt. 归因于；归咎于"
+  },
+  {
+    "id": 107,
+    "word": "update",
+    "phonetic": "/ˌʌpˈdeɪt/",
+    "meaning": "vt. 更新；校正，修正；使现代化 n. 更新；现代化"
+  },
+  {
+    "id": 108,
+    "word": "insulate",
+    "phonetic": "/ˈɪnsəleɪt/",
+    "meaning": "vt. 隔离，使孤立；使绝缘，使隔热"
+  },
+  {
+    "id": 109,
+    "word": "impart",
+    "phonetic": "/ɪmˈpɑːrt/",
+    "meaning": "vt. 告知，传授；透露，透漏；赋予，给予（尤指抽象事物）"
+  },
+  {
+    "id": 110,
+    "word": "rectify",
+    "phonetic": "/ˈrektɪfaɪ/",
+    "meaning": "vt. 改正；精馏；整流"
+  },
+  {
+    "id": 111,
+    "word": "endow",
+    "phonetic": "/ɪnˈdaʊ/",
+    "meaning": "vt. 赋予；捐赠；天生具有"
+  },
+  {
+    "id": 112,
+    "word": "radiate",
+    "phonetic": "/ˈreɪdieɪt/",
+    "meaning": "vt. 辐射；传播；流露；发射；广播 vi. 辐射；流露；发光；从中心向各方伸展 adj. 辐 射状的，有射线的"
+  },
+  {
+    "id": 113,
+    "word": "shatter",
+    "phonetic": "/ˈʃætər/",
+    "meaning": "vt. 粉碎；打碎；破坏；破掉；使散开 vi. 粉碎；损坏；落叶 n. 碎片；乱七八糟的状态"
+  },
+  {
+    "id": 114,
+    "word": "disperse",
+    "phonetic": "/dɪˈspɜːrs/",
+    "meaning": "vt. 分散；使散开；传播 vi. 分散 adj. 分散的"
+  },
+  {
+    "id": 115,
+    "word": "graze",
+    "phonetic": "/ɡreɪz/",
+    "meaning": "vt. 放牧；擦伤 vi. 吃草；擦伤 n. 放牧；轻擦"
+  },
+  {
+    "id": 116,
+    "word": "magnify",
+    "phonetic": "/ˈmæɡnɪfaɪ/",
+    "meaning": "vt. 放大；赞美；夸大 vi. 放大；有放大能力"
+  },
+  {
+    "id": 117,
+    "word": "hamper",
+    "phonetic": "/ˈhæmpər/",
+    "meaning": "vt. 妨碍；束缚；使困累 n. 食盒，食篮；阻碍物"
+  },
+  {
+    "id": 118,
+    "word": "contradict",
+    "phonetic": "/ˌkɑːntrəˈdɪkt/",
+    "meaning": "vt. 反驳；否定；与…矛盾；与…抵触 vi. 反驳；否认；发生矛盾"
+  },
+  {
+    "id": 119,
+    "word": "refute",
+    "phonetic": "/rɪˈfjuːt/",
+    "meaning": "vt. 反驳，驳斥；驳倒"
+  },
+  {
+    "id": 120,
+    "word": "mobilize",
+    "phonetic": "/ˈmoʊbəlaɪz/",
+    "meaning": "vt. 动员，调动；集合，组织；使…流通；使…松动 vi. 组织；动员起来"
+  },
+  {
+    "id": 121,
+    "word": "hurl",
+    "phonetic": "/hɜːrl/",
+    "meaning": "vt. 丢下；用力投掷；愤慨地说出 vi. 猛投；猛掷 n. 用力的投掷"
+  },
+  {
+    "id": 122,
+    "word": "ignite",
+    "phonetic": "/ɪɡˈnaɪt/",
+    "meaning": "vt. 点燃；使燃烧；使激动 vi. 点火；燃烧"
+  },
+  {
+    "id": 123,
+    "word": "underestimate",
+    "phonetic": "/ˌʌndərˈestɪmeɪt/",
+    "meaning": "vt. 低估；看轻 n. 低估"
+  },
+  {
+    "id": 124,
+    "word": "unfold",
+    "phonetic": "/ʌnˈfoʊld/",
+    "meaning": "vt. 打开；呈现 vi. 展开；显露"
+  },
+  {
+    "id": 125,
+    "word": "frustrate",
+    "phonetic": "/ˈfrʌstreɪt/",
+    "meaning": "vt. 挫败；阻挠；使感到灰心 vi. 失败；受挫 adj. 挫败的；无益的"
+  },
+  {
+    "id": 126,
+    "word": "facilitate",
+    "phonetic": "/fəˈsɪlɪteɪt/",
+    "meaning": "vt. 促进；帮助；使容易"
+  },
+  {
+    "id": 127,
+    "word": "irritate",
+    "phonetic": "/ˈɪrɪteɪt/",
+    "meaning": "vt. 刺激，使兴奋；激怒 vi. 引起恼怒，引起不愉快"
+  },
+  {
+    "id": 128,
+    "word": "inaugurate",
+    "phonetic": "/ɪˈnɔːɡjəreɪt/",
+    "meaning": "vt. 创新；开辟；开创；举行开幕典礼；举行就职典礼"
+  },
+  {
+    "id": 129,
+    "word": "propagate",
+    "phonetic": "/ˈprɑːpəɡeɪt/",
+    "meaning": "vt. 传播；传送；繁殖；宣传 vi. 繁殖；增殖"
+  },
+  {
+    "id": 130,
+    "word": "elicit",
+    "phonetic": "/ɪˈlɪsɪt/",
+    "meaning": "vt. 抽出，引出；引起"
+  },
+  {
+    "id": 131,
+    "word": "concede",
+    "phonetic": "/kənˈsiːd/",
+    "meaning": "vt. 承认；退让；给予，容许 vi. 让步"
+  },
+  {
+    "id": 132,
+    "word": "contemplate",
+    "phonetic": "/ˈkɑːntəmpleɪt/",
+    "meaning": "vt. 沉思；注视；思忖；预期 vi. 冥思苦想；深思熟虑"
+  },
+  {
+    "id": 133,
+    "word": "immerse",
+    "phonetic": "/ɪˈmɜːrs/",
+    "meaning": "vt. 沉浸；使陷入"
+  },
+  {
+    "id": 134,
+    "word": "surpass",
+    "phonetic": "/sərˈpæs/",
+    "meaning": "vt. 超越；胜过，优于；非…所能办到或理解"
+  },
+  {
+    "id": 135,
+    "word": "haunt",
+    "phonetic": "/hɔːnt/",
+    "meaning": "vt. 常出没于…；萦绕于…；经常去… vi. 出没；作祟 n. 栖息地；常去的地方"
+  },
+  {
+    "id": 136,
+    "word": "illuminate",
+    "phonetic": "/ɪˈluːmɪneɪt/",
+    "meaning": "vt. 阐明，说明；照亮；使灿烂；用灯装饰 vi. 照亮"
+  },
+  {
+    "id": 137,
+    "word": "reckon",
+    "phonetic": "/ˈrekən/",
+    "meaning": "vt. 测算，估计；认为；计算 vi. 估计；计算；猜想，料想"
+  },
+  {
+    "id": 138,
+    "word": "manipulate",
+    "phonetic": "/məˈnɪpjuleɪt/",
+    "meaning": "vt. 操纵；操作；巧妙地处理；篡改"
+  },
+  {
+    "id": 139,
+    "word": "signify",
+    "phonetic": "/ˈsɪɡnɪfaɪ/",
+    "meaning": "vt. 表示；意味；预示 vi. 有重要性；要紧；冒充内行"
+  },
+  {
+    "id": 140,
+    "word": "denote",
+    "phonetic": "/dɪˈnoʊt/",
+    "meaning": "vt. 表示，指示"
+  },
+  {
+    "id": 141,
+    "word": "compile",
+    "phonetic": "/kəmˈpaɪl/",
+    "meaning": "vt. 编译；编制；编辑；[图情] 汇编"
+  },
+  {
+    "id": 142,
+    "word": "avert",
+    "phonetic": "/əˈvɜːrt/",
+    "meaning": "vt. 避免，防止；转移"
+  },
+  {
+    "id": 143,
+    "word": "recite",
+    "phonetic": "/rɪˈsaɪt/",
+    "meaning": "vt. 背诵；叙述；列举 vi. 背诵；叙述"
+  },
+  {
+    "id": 144,
+    "word": "withhold",
+    "phonetic": "/wɪðˈhəʊld/",
+    "meaning": "vt. 保留，不给；隐瞒；抑制 vi. 忍住；克制"
+  },
+  {
+    "id": 145,
+    "word": "conserve",
+    "phonetic": "/kənˈsɜːrv/",
+    "meaning": "vt. 保存；将…做成蜜饯；使守恒 n. 果酱；蜜饯"
+  },
+  {
+    "id": 146,
+    "word": "streamline",
+    "phonetic": "/ˈstriːmlaɪn/",
+    "meaning": "vt. 把…做成流线型；使现代化；组织；使合理化；使简单化 n. 流线；流线型 adj. 流线型的"
+  },
+  {
+    "id": 147,
+    "word": "retrieve",
+    "phonetic": "/rɪˈtriːv/",
+    "meaning": "vt. [计] 检索；恢复；重新得到 vi. 找回猎物 n. [计] 检索；恢复，取回"
+  },
+  {
+    "id": 148,
+    "word": "reside",
+    "phonetic": "/rɪˈzaɪd/",
+    "meaning": "vi. 住，居住；属于"
+  },
+  {
+    "id": 149,
+    "word": "preside",
+    "phonetic": "/prɪˈzaɪd/",
+    "meaning": "vi. 主持，担任会议主席 vt. 管理 150. distil/dɪˈstɪl/ vi. 蒸馏；提炼；渗出 vt. 蒸馏；提取…的精华；使渗出"
+  },
+  {
+    "id": 151,
+    "word": "intensify",
+    "phonetic": "/ɪnˈtensɪfaɪ/",
+    "meaning": "vi. 增强，强化；变激烈 vt. 使加强，使强化；使变激烈"
+  },
+  {
+    "id": 152,
+    "word": "augment",
+    "phonetic": "/ɔːɡˈment/",
+    "meaning": "vi. 增加；增大 vt. 增加；增大 n. 增加；增大"
+  },
+  {
+    "id": 153,
+    "word": "migrate",
+    "phonetic": "/ˈmaɪɡreɪt/",
+    "meaning": "vi. 移动；随季节而移居；移往 vt. 使移居；使移植"
+  },
+  {
+    "id": 154,
+    "word": "revolve",
+    "phonetic": "/rɪˈvɑːlv/",
+    "meaning": "vi. 旋转；循环出现；反复考虑 vt. 使…旋转；使…循环；反复考虑 n. 旋转；循环；旋转 舞台"
+  },
+  {
+    "id": 155,
+    "word": "speculate",
+    "phonetic": "/ˈspekjuleɪt/",
+    "meaning": "vi. 推测；投机；思索 vt. 推断"
+  },
+  {
+    "id": 156,
+    "word": "skip",
+    "phonetic": "/skɪp/",
+    "meaning": "vi. 跳跃；跳绳；遗漏；跳读 vt. 跳过；遗漏 n. 跳跃；跳读"
+  },
+  {
+    "id": 157,
+    "word": "tumble",
+    "phonetic": "/ˈtʌmbl/",
+    "meaning": "vi. 摔倒；倒塌；滚动；打滚；仓惶地行动 vt. 使摔倒；使滚翻；弄乱 n. 跌倒；翻筋斗；跌 跤[ 过去式 tumbled 过去分词 tumbled 现在分词 tumbling ]"
+  },
+  {
+    "id": 158,
+    "word": "lubricate",
+    "phonetic": "/ˈluːbrɪkeɪt/",
+    "meaning": "vi. 润滑；涂油；起润滑剂作用 vt. 使…润滑；给…加润滑油"
+  },
+  {
+    "id": 159,
+    "word": "expire",
+    "phonetic": "/ɪkˈspaɪər/",
+    "meaning": "vi. 期满；终止；死亡；呼气 vt. 呼出（空气）"
+  },
+  {
+    "id": 160,
+    "word": "hover",
+    "phonetic": "/ˈhʌvər/",
+    "meaning": "vi. 盘旋，翱翔；徘徊 n. 徘徊；盘旋；犹豫 vt. 孵；徘徊在…近旁"
+  },
+  {
+    "id": 161,
+    "word": "linger",
+    "phonetic": "/ˈlɪŋɡər/",
+    "meaning": "vi. 徘徊；苟延残喘；磨蹭 vt. 消磨；缓慢度过"
+  },
+  {
+    "id": 162,
+    "word": "strive",
+    "phonetic": "/straɪv/",
+    "meaning": "vi. 努力；奋斗；抗争"
+  },
+  {
+    "id": 163,
+    "word": "grope",
+    "phonetic": "/ɡroʊp/",
+    "meaning": "vi. 摸索；探索 vt. 摸索 n. 摸索；触摸"
+  },
+  {
+    "id": 164,
+    "word": "dwell",
+    "phonetic": "/dwel/",
+    "meaning": "vi. 居住；存在于；细想某事"
+  },
+  {
+    "id": 165,
+    "word": "contend",
+    "phonetic": "/kənˈtend/",
+    "meaning": "vi. 竞争；奋斗；斗争；争论 vt. 主张；为...斗争"
+  },
+  {
+    "id": 166,
+    "word": "refrain",
+    "phonetic": "/rɪˈfreɪn/",
+    "meaning": "vi. 节制，克制；避免；制止 n. 叠句，副歌；重复"
+  },
+  {
+    "id": 167,
+    "word": "soar",
+    "phonetic": "/sɔːr/",
+    "meaning": "vi. 急升，激增；高飞；升空；翱翔；       （树木、建筑物等）高耸；（情绪）高涨 n. 高飞；高涨"
+  },
+  {
+    "id": 168,
+    "word": "mingle",
+    "phonetic": "/ˈmɪŋɡl/",
+    "meaning": "vi. 混合；交往 vt. 使混合；使相混"
+  },
+  {
+    "id": 169,
+    "word": "glide",
+    "phonetic": "/ɡlaɪd/",
+    "meaning": "vi. 滑翔；滑行；悄悄地走；消逝 vt. 使滑行；使滑动 n. 滑翔；滑行；滑移；滑音"
+  },
+  {
+    "id": 170,
+    "word": "mutter",
+    "phonetic": "/ˈmʌtər/",
+    "meaning": "vi. 咕哝；喃喃自语 vt. 咕哝；抱怨地说；低声含糊地说 n. 咕哝；喃喃低语"
+  },
+  {
+    "id": 171,
+    "word": "rejoice",
+    "phonetic": "/rɪˈdʒɔɪs/",
+    "meaning": "vi. 高兴；庆祝 vt. 使高兴"
+  },
+  {
+    "id": 172,
+    "word": "revive",
+    "phonetic": "/rɪˈvaɪv/",
+    "meaning": "vi. 复兴；复活；苏醒；恢复精神 vt. 使复兴；使苏醒；回想起；重演，重播"
+  },
+  {
+    "id": 173,
+    "word": "recur",
+    "phonetic": "/rɪˈkɜːr/",
+    "meaning": "vi. 复发；重现；采用；再来；循环；递归"
+  },
+  {
+    "id": 174,
+    "word": "conform",
+    "phonetic": "/kənˈfɔːrm/",
+    "meaning": "vi. 符合；遵照；适应环境 vt. 使遵守；使一致；使顺从 adj. 一致的；顺从的"
+  },
+  {
+    "id": 175,
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪriəreɪt/",
+    "meaning": "vi. 恶化，变坏 vt. 恶化"
+  },
+  {
+    "id": 176,
+    "word": "subscribe",
+    "phonetic": "/səbˈskraɪb/",
+    "meaning": "vi. 订阅；捐款；认购；赞成；签署 vt. 签署；赞成；捐助"
+  },
+  {
+    "id": 177,
+    "word": "mediate",
+    "phonetic": "/ˈmiːdieɪt/",
+    "meaning": "vi. 调解；斡旋；居中 vt. 调停；传达 adj. 间接的；居间的"
+  },
+  {
+    "id": 178,
+    "word": "culminate",
+    "phonetic": "/ˈkʌlmɪneɪt/",
+    "meaning": "vi. 到绝顶；达到高潮；达到顶点 vt. 使结束；使达到高潮"
+  },
+  {
+    "id": 179,
+    "word": "yell",
+    "phonetic": "/jel/",
+    "meaning": "vi. 大叫，叫喊 n. 喊声，叫声 vt. 喊叫着说"
+  },
+  {
+    "id": 180,
+    "word": "poke",
+    "phonetic": "/poʊk/",
+    "meaning": "vi. 刺，捅；戳；伸出；刺探；闲荡 vt. 刺，捅；戳；拨开 n. 戳；刺；袋子；懒汉"
+  },
+  {
+    "id": 181,
+    "word": "gasp",
+    "phonetic": "/ɡæsp/",
+    "meaning": "vi. 喘气；喘息；渴望 vt. 气喘吁吁地说；喘着气说话 n. 喘气"
+  },
+  {
+    "id": 182,
+    "word": "stumble",
+    "phonetic": "/ˈstʌmbl/",
+    "meaning": "vi. 踌躇，蹒跚；失足；犯错 vt. 使…困惑；使…绊倒 n. 绊倒；蹒跚而行"
+  },
+  {
+    "id": 183,
+    "word": "hinder",
+    "phonetic": "/ˈhɪndər/",
+    "meaning": "vi. 成为阻碍 vt. 阻碍；打扰 adj. 后面的"
+  },
+  {
+    "id": 184,
+    "word": "repay",
+    "phonetic": "/rɪˈpeɪ/",
+    "meaning": "vi. 偿还；报答；报复 vt. 回报；报复；付还"
+  },
+  {
+    "id": 185,
+    "word": "fluctuate",
+    "phonetic": "/ˈflʌktʃueɪt/",
+    "meaning": "vi. 波动；涨落；动摇 vt. 使波动；使动摇"
+  },
+  {
+    "id": 186,
+    "word": "knit",
+    "phonetic": "/nɪt/",
+    "meaning": "vi. 编织；结合；皱眉 vt. 编织；结合 n. 编织衣物；编织法"
+  },
+  {
+    "id": 187,
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "meaning": "vi. （搭乘车、船等）通勤；代偿 vt. 减刑；交换；用……交换；使……变成 n. 通勤 （口语）"
+  },
+  {
+    "id": 188,
+    "word": "rally",
+    "phonetic": "/ˈræli/",
+    "meaning": "v.重整旗鼓,给予新力量,(使)恢复健康,力量,决心,集结 n.集会"
+  },
+  {
+    "id": 189,
+    "word": "toss",
+    "phonetic": "/tɔːs/",
+    "meaning": "v.投,掷"
+  },
+  {
+    "id": 190,
+    "word": "snatch",
+    "phonetic": "/snætʃ/",
+    "meaning": "v.攫取 n.攫取"
+  },
+  {
+    "id": 191,
+    "word": "smash",
+    "phonetic": "/smæʃ/",
+    "meaning": "v.打碎,粉碎 n.打碎,粉碎 adj.出色的"
+  },
+  {
+    "id": 192,
+    "word": "mock",
+    "phonetic": "/mɑːk/",
+    "meaning": "v.嘲笑,骗,挫败,嘲弄 adj.假的 n.嘲弄,模仿,仿制品"
+  },
+  {
+    "id": 193,
+    "word": "overlap",
+    "phonetic": "/ˌoʊvərˈlæp/",
+    "meaning": "v.(与...)交迭"
+  },
+  {
+    "id": 194,
+    "word": "whirl",
+    "phonetic": "/wɜːrl/",
+    "meaning": "v.(使)旋转,急动,急走 n.旋转,—连串快速的活动"
+  },
+  {
+    "id": 195,
+    "word": "rot",
+    "phonetic": "/rɑːt/",
+    "meaning": "v.(使)腐烂,(使)腐败 n.腐烂,腐败"
+  },
+  {
+    "id": 196,
+    "word": "unify",
+    "phonetic": "/ˈjuːnɪfaɪ/",
+    "meaning": "v. 整合，联合；统一，使成一体"
+  },
+  {
+    "id": 197,
+    "word": "recruit",
+    "phonetic": "/rɪˈkruːt/",
+    "meaning": "v. 征募；聘用；通过招募组建；补充； （非正式）说服； （使）恢复健康 n. 招聘；新兵； 新成员"
+  },
+  {
+    "id": 198,
+    "word": "incur",
+    "phonetic": "/ɪnˈkɜːr/",
+    "meaning": "v. 招致，遭受；引致，带来……"
+  },
+  {
+    "id": 199,
+    "word": "avail",
+    "phonetic": "/əˈveɪl/",
+    "meaning": "v. 有助于；（使）对某人有利 n. 效用，利益"
+  },
+  {
+    "id": 200,
+    "word": "transplant",
+    "phonetic": "/trænsˈplɑːnt/",
+    "meaning": "v. 移植；移栽；使移居 n. 移植；移植器官；被移植物；移居者"
+  },
+  {
+    "id": 201,
+    "word": "dilute",
+    "phonetic": "/daɪˈluːt/",
+    "meaning": "v. 稀释，冲淡；削弱；变稀薄，变淡 adj. 稀释的；淡的；（颜色、光线）浅的"
+  },
+  {
+    "id": 202,
+    "word": "tow",
+    "phonetic": "/toʊ/",
+    "meaning": "v. 拖；牵引；拽 n. 拖；麻的粗纤维；拖具"
+  },
+  {
+    "id": 203,
+    "word": "overthrow",
+    "phonetic": "/ˌoʊvərˈθroʊ/",
+    "meaning": "v. 推翻，倾覆；瓦解；投（球）过远；背弃 n. 推翻，打倒，倾覆；投球过猛； （拱门、门廊上方的）铁艺装饰板"
+  },
+  {
+    "id": 204,
+    "word": "degenerate",
+    "phonetic": "/dɪˈdʒenəreɪt/",
+    "meaning": "v. 使退化；恶化；堕落 adj. 退化的；堕落的；退化的；简并的 n. 堕落的人"
+  },
+  {
+    "id": 205,
+    "word": "hoist",
+    "phonetic": "/hɔɪst/",
+    "meaning": "v. 升起，吊起；抬高，举起 n. 起重机；吊车；升降机；升起，增加；信号旗；旗宽"
+  },
+  {
+    "id": 206,
+    "word": "envisage",
+    "phonetic": "/ɪnˈvɪzɪdʒ/",
+    "meaning": "v. 设想，想像；正视，面对"
+  },
+  {
+    "id": 207,
+    "word": "embark",
+    "phonetic": "/ɪmˈbɑːrk/",
+    "meaning": "v. 上船（或飞机）；（使）上船（或登记）；从事"
+  },
+  {
+    "id": 208,
+    "word": "tilt",
+    "phonetic": "/tɪlt/",
+    "meaning": "v. 倾斜，翘起；俯仰（摄影机）；以言词或文字抨击 n. 倾斜；   （意欲赢得某物或战胜某人的）企 图，尝试"
+  },
+  {
+    "id": 209,
+    "word": "ensue",
+    "phonetic": "/ɪnˈsuː/",
+    "meaning": "v. 接着发生，因而发生；追求 210. supervise/ˈsuːpərvaɪz/ v. 监督；管理；指导；主管；照看"
+  },
+  {
+    "id": 211,
+    "word": "recycle",
+    "phonetic": "/ˌriːˈsaɪkl/",
+    "meaning": "v. 回收利用；使再循环；重新使用 n. 回收利用，循环使用"
+  },
+  {
+    "id": 212,
+    "word": "retort",
+    "phonetic": "/rɪˈtɔːrt/",
+    "meaning": "v. 反驳，回嘴；蒸馏；在曲颈瓶里加热；（对侮辱或伤害）进行报复 n. 反驳，顶嘴；曲颈瓶， 蒸馏瓶；蒸馏，干馏"
+  },
+  {
+    "id": 213,
+    "word": "foster",
+    "phonetic": "/ˈfɑːstər/",
+    "meaning": "v. 促进；抚育（他人子女一段时间） ；收养；把（孩子）交托给养父母 adj. 代养的，寄养的"
+  },
+  {
+    "id": 214,
+    "word": "rig",
+    "phonetic": "/rɪɡ/",
+    "meaning": "v. 操纵；装配；装扮；装上索具；为……提供服装 n. 装备；钻探设备；服装； 帆装；重型铰接 式开车"
+  },
+  {
+    "id": 215,
+    "word": "peel",
+    "phonetic": "/piːl/",
+    "meaning": "v. 剥，剥落；削；（槌球中）击（他人的球）穿过铁环门 n. 皮"
+  },
+  {
+    "id": 216,
+    "word": "mourn",
+    "phonetic": "/mɔːrn/",
+    "meaning": "v. 哀悼；忧伤；服丧"
+  },
+  {
+    "id": 217,
+    "word": "overflow",
+    "phonetic": "/ˌoʊvərˈfloʊ/",
+    "meaning": "v. （尤指液体）溢出； （容器）满得溢出；挤满人了；淹没（某一表面或地区）；过度延 伸 n. 泛滥；挤不下或多余的人（或物）；溢流管；数据过载"
+  },
+  {
+    "id": 218,
+    "word": "pave",
+    "phonetic": "/peɪv/",
+    "meaning": "v. （用石板或砖）铺（路），铺砌，铺设；为某事物铺平道路，创造条件"
+  },
+  {
+    "id": 219,
+    "word": "tug",
+    "phonetic": "/tʌɡ/",
+    "meaning": "v. （用力地）拉，拖；（迅速地）穿衣服；较量；用拖船拖；竞争；努力做 n. 拖船；拖曳；苦干； 一股强烈的感情；（系在马鞍上的）圆环"
+  },
+  {
+    "id": 220,
+    "word": "sparkle",
+    "phonetic": "/ˈspɑːrkl/",
+    "meaning": "v. （使）闪耀；（使）发光；（酒类饮料）发泡；活跃，生机勃勃；活泼机智 n. 闪耀； 火花；起泡；亮点；活力，活跃机智；生动新颖"
+  },
+  {
+    "id": 221,
+    "word": "affiliate",
+    "phonetic": "/əˈfɪlieɪt/",
+    "meaning": "v. （使）附属，隶属；加入，加盟，并入；接纳；紧密联系 n. 分支机构；子公司；分 社；联号"
+  },
+  {
+    "id": 222,
+    "word": "tangle",
+    "phonetic": "/ˈtæŋɡl/",
+    "meaning": "v. （使）缠结在一起； （使）乱成一团；处于混乱状态； （和……）争吵；打架 n. 缠结；混乱， 纷乱；争吵；打架；大型棕色海藻（尤指昆布）"
+  },
+  {
+    "id": 223,
+    "word": "cripple",
+    "phonetic": "/ˈkrɪpl/",
+    "meaning": "v. （使）跛； （使）残废；削弱；严重毁坏（机器） ；给……造成严重问题 n. 古，冒犯跛子， 残废人"
+  },
+  {
+    "id": 224,
+    "word": "notwithstanding",
+    "phonetic": "/ˌnɒtwɪθˈstændɪŋ/",
+    "meaning": "prep. 尽管，虽然 adv. 尽管，仍然 conj. 虽然，尽管"
+  },
+  {
+    "id": 225,
+    "word": "versus",
+    "phonetic": "/ˈvɜːrsəs/",
+    "meaning": "prep. 对，对抗；与……相对，与……相比"
+  },
+  {
+    "id": 226,
+    "word": "brace",
+    "phonetic": "/breɪs/",
+    "meaning": "n.支柱,带子,振作精神 vt.支住,撑牢,振作起来,奋起 adj.曲柄的 v.支持"
+  },
+  {
+    "id": 227,
+    "word": "swamp",
+    "phonetic": "/swɑːmp/",
+    "meaning": "n.沼泽,湿地,煤层聚水 v.陷入沼泽,淹没,覆没"
+  },
+  {
+    "id": 228,
+    "word": "manifest",
+    "phonetic": "/ˈmænɪfest/",
+    "meaning": "n.载货单,旅客名单 adj.显然的,明白的 vi.出现 vt.表明,证明"
+  },
+  {
+    "id": 229,
+    "word": "haul",
+    "phonetic": "/hɔːl/",
+    "meaning": "n.用力拖拉,拖,拉,捕获物,努力得到的结果,(尤指)一网捕获的鱼量,拖运距离 vi.拖,拉,改变方向,改变 主意 vt.拖拉,拖运"
+  },
+  {
+    "id": 230,
+    "word": "poll",
+    "phonetic": "/poʊl/",
+    "meaning": "n.选举之投票,民意测验 v.投票,获得选票,选举中获得 231. slaughter/ˈslɔːtər/ n.屠宰,残杀,屠杀 v.屠宰,残杀,屠杀"
+  },
+  {
+    "id": 232,
+    "word": "queer",
+    "phonetic": "/kwɪr/",
+    "meaning": "n.同性恋者 adj.奇怪的,可疑的,不舒服的 vt.搞糟 n.同性恋者"
+  },
+  {
+    "id": 233,
+    "word": "vent",
+    "phonetic": "/vent/",
+    "meaning": "n.通风孔,出烟孔,出口,(感情等的)发泄 v.放出,排出,发泄"
+  },
+  {
+    "id": 234,
+    "word": "slack",
+    "phonetic": "/slæk/",
+    "meaning": "n.松弛,静止,淡季,闲散,家常裤 adj.松弛的,不流畅的,疏忽的,软弱的,漏水的,呆滞的,懒散的 adv.马虎地,缓慢地 vt.使松弛,使缓慢,马虎从事 vi.松懈,减弱,松驰"
+  },
+  {
+    "id": 235,
+    "word": "upgrade",
+    "phonetic": "/ˈʌpɡreɪd/",
+    "meaning": "n.升级,上升,上坡 adv.往上 vt.使升级,提升,改良品种"
+  },
+  {
+    "id": 236,
+    "word": "scar",
+    "phonetic": "/skɑːr/",
+    "meaning": "n.伤痕,疤痕 v.结疤,使留下伤痕,创伤"
+  },
+  {
+    "id": 237,
+    "word": "offset",
+    "phonetic": "/ˈɔːfset/",
+    "meaning": "n.偏移量,抵销,弥补,分支,平版印刷,胶印 vt.弥补,抵销,用平版印刷 vi.偏移,形成分支"
+  },
+  {
+    "id": 238,
+    "word": "transit",
+    "phonetic": "/ˈtrænzɪt/",
+    "meaning": "n.经过,通行,搬运,运输,运输线,转变 vt.横越,通过,经过 vi.通过 n.[天] 中天,经纬仪"
+  },
+  {
+    "id": 239,
+    "word": "splash",
+    "phonetic": "/splæʃ/",
+    "meaning": "n.溅,飞溅,斑点 v.溅,泼,溅湿"
+  },
+  {
+    "id": 240,
+    "word": "stall",
+    "phonetic": "/stɔːl/",
+    "meaning": "n.货摊,畜栏,厩,出售摊 v.(使)停转,(使)停止,迟延"
+  },
+  {
+    "id": 241,
+    "word": "traverse",
+    "phonetic": "/'trævɜːs/",
+    "meaning": "n.横贯,横断,横木,障碍,否认,反驳,(建筑)通廊 vt.横过,穿过,经过,在...来回移动,反对,详细 研究 vi.横越,横断,旋转,来回移动 adj.横断的,横的"
+  },
+  {
+    "id": 242,
+    "word": "sponge",
+    "phonetic": "/spʌndʒ/",
+    "meaning": "n.海绵,海绵体,海绵状物,(外科用的)棉球,纱布 v.用海绵等冼涤、揩拭、擦拭或清除,用海绵吸 收(液体),(俗)依赖某人生活,诈取某人钱财,海绵般吸收"
+  },
+  {
+    "id": 243,
+    "word": "tackle",
+    "phonetic": "/ˈtækl/",
+    "meaning": "n.工具,复滑车,滑车,用具,装备,扭倒 vt.固定,应付(难事等),处理,解决,抓住 vi.捉住,扭住,扭倒"
+  },
+  {
+    "id": 244,
+    "word": "tuck",
+    "phonetic": "/tʌk/",
+    "meaning": "n.缝摺,活力,鼓声,船尾突出部下方,食物(尤指点心、蛋糕) vt.打摺,卷起,挤进,塞,使隐藏 vi.折成摺子, 缩拢"
+  },
+  {
+    "id": 245,
+    "word": "landscape",
+    "phonetic": "/ˈlændskeɪp/",
+    "meaning": "n.风景,山水画,地形,前景 v.美化"
+  },
+  {
+    "id": 246,
+    "word": "orient",
+    "phonetic": "/ˈɔːrient/",
+    "meaning": "n.东方,东方诸国(指地中海以东各国) adj.东方的,上升的,灿烂的 vi.适应形势,向东 vt.使朝东, 使适应,确定方向"
+  },
+  {
+    "id": 247,
+    "word": "tick",
+    "phonetic": "/tɪk/",
+    "meaning": "n.滴答声,记号,勾号,扁虱 v.滴答地响,标以记号,作滴答声"
+  },
+  {
+    "id": 248,
+    "word": "virgin",
+    "phonetic": "/ˈvɜːrdʒɪn/",
+    "meaning": "n.处女,(晚近用法)处男 adj.处女的,童贞的,纯洁的,洁白无瑕疵的,未被玷污的,原始的,处 于原耒状态的,未采伐过的森林 美国著名游戏软件公司"
+  },
+  {
+    "id": 249,
+    "word": "gear",
+    "phonetic": "/ɡɪr/",
+    "meaning": "n.齿轮,传动装置 v.调整,(使)适合,换档"
+  },
+  {
+    "id": 250,
+    "word": "precipitate",
+    "phonetic": "/prɪˈsɪpɪteɪt/",
+    "meaning": "n.沉淀物 vt.猛抛,使陷入,促成,使沉淀 vi.猛地落下 adj.突如其来的,陡然下降 (或下落)的,贸然轻率的"
+  },
+  {
+    "id": 251,
+    "word": "foil",
+    "phonetic": "/fɔɪl/",
+    "meaning": "n.箔,金属薄片,[建]叶形片,烘托,衬托 vt.衬托,阻止,挡开,挫败,贴箔于"
+  },
+  {
+    "id": 252,
+    "word": "token",
+    "phonetic": "/ˈtoʊkən/",
+    "meaning": "n.表示,向征,记号,代币 adj.象征的,表意的"
+  },
+  {
+    "id": 253,
+    "word": "flutter",
+    "phonetic": "/ˈflʌtər/",
+    "meaning": "n.摆动,鼓翼,烦扰 vi.鼓翼,飘动,悸动,乱跳,烦扰 vt.拍(翅),使焦急"
+  },
+  {
+    "id": 254,
+    "word": "sin",
+    "phonetic": "/sɪn/",
+    "meaning": "n. 罪恶；罪孽；过失 vi. 犯罪；犯过失 vt. 犯罪"
+  },
+  {
+    "id": 255,
+    "word": "lease",
+    "phonetic": "/liːs/",
+    "meaning": "n. 租约；租期；租赁物；租赁权 vt. 出租；租得 vi. 出租"
+  },
+  {
+    "id": 256,
+    "word": "synthesis",
+    "phonetic": "/ˈsɪnθəsɪs/",
+    "meaning": "n. 综合，[化学] 合成；综合体"
+  },
+  {
+    "id": 257,
+    "word": "ego",
+    "phonetic": "/ˈiːɡoʊ/",
+    "meaning": "n. 自我；自负；自我意识"
+  },
+  {
+    "id": 258,
+    "word": "suicide",
+    "phonetic": "/ˈsuːɪsaɪd/",
+    "meaning": "n. 自杀；自杀行为；自杀者 adj. 自杀的 vt. 自杀 vi. 自杀"
+  },
+  {
+    "id": 259,
+    "word": "qualification",
+    "phonetic": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+    "meaning": "n. 资格；条件；限制；赋予资格"
+  },
+  {
+    "id": 260,
+    "word": "membership",
+    "phonetic": "/ˈmembərʃɪp/",
+    "meaning": "n. 资格；成员资格；会员身份"
+  },
+  {
+    "id": 261,
+    "word": "asset",
+    "phonetic": "/ˈæset/",
+    "meaning": "n. 资产；优点；有用的东西；有利条件；财产；有价值的人或物"
+  },
+  {
+    "id": 262,
+    "word": "quest",
+    "phonetic": "/kwest/",
+    "meaning": "n. 追求；寻找；任务（游戏术语） vi. 追求；寻找 vt. 探索"
+  },
+  {
+    "id": 263,
+    "word": "pursuit",
+    "phonetic": "/pərˈsuːt/",
+    "meaning": "n. 追赶，追求；职业，工作"
+  },
+  {
+    "id": 264,
+    "word": "ornament",
+    "phonetic": "/ˈɔːrnəmənt/",
+    "meaning": "n. 装饰；[建][服装] 装饰物；教堂用品 vt. 装饰，修饰 265. shipment/ˈʃɪpmənt/ n. 装货 n. 装载的货物 n. 出货量"
+  },
+  {
+    "id": 266,
+    "word": "expertise",
+    "phonetic": "/ˌekspɜːrˈtiːz/",
+    "meaning": "n. 专门知识；专门技术；专家的意见"
+  },
+  {
+    "id": 267,
+    "word": "patent",
+    "phonetic": "/ˈpeɪt(ə)nt/",
+    "meaning": "n. 专利权；专利证；专利品 adj. 专利的；特许生产或销售的；显著的；公开的； （脉管 等）开放的 v. 取得……的专利权；授予专利"
+  },
+  {
+    "id": 268,
+    "word": "theme",
+    "phonetic": "/θiːm/",
+    "meaning": "n. 主题；主旋律；题目 adj. 以奇想主题布置的"
+  },
+  {
+    "id": 269,
+    "word": "wrinkle",
+    "phonetic": "/ˈrɪŋkl/",
+    "meaning": "n. 皱纹 vi. 起皱 vt. 使起皱纹"
+  },
+  {
+    "id": 270,
+    "word": "therapy",
+    "phonetic": "/ˈθerəpi/",
+    "meaning": "n. 治疗，疗法"
+  },
+  {
+    "id": 271,
+    "word": "texture",
+    "phonetic": "/ˈtekstʃər/",
+    "meaning": "n. 质地；纹理；结构；本质，实质 vt. 使具有浮凸纹理；使质地不平"
+  },
+  {
+    "id": 272,
+    "word": "sanction",
+    "phonetic": "/ˈsæŋkʃn/",
+    "meaning": "n. 制裁，处罚；认可；支持 vt. 制裁，处罚；批准；鼓励"
+  },
+  {
+    "id": 273,
+    "word": "volunteer",
+    "phonetic": "/ˌvɑːlənˈtɪr/",
+    "meaning": "n. 志愿者；志愿兵 adj. 志愿的 vi. 自愿 vt. 自愿"
+  },
+  {
+    "id": 274,
+    "word": "vegetation",
+    "phonetic": "/ˌvedʒəˈteɪʃn/",
+    "meaning": "n. 植被；植物，草木；呆板单调的生活"
+  },
+  {
+    "id": 275,
+    "word": "intuition",
+    "phonetic": "/ˌɪntuˈɪʃn/",
+    "meaning": "n. 直觉；直觉力；直觉的知识"
+  },
+  {
+    "id": 276,
+    "word": "regime",
+    "phonetic": "/reɪˈʒiːm/",
+    "meaning": "n. 政权，政体；社会制度；管理体制"
+  },
+  {
+    "id": 277,
+    "word": "controversy",
+    "phonetic": "/ˈkɑːntrəvɜːrsi/",
+    "meaning": "n. 争论；论战；辩论"
+  },
+  {
+    "id": 278,
+    "word": "pearl",
+    "phonetic": "/pɜːrl/",
+    "meaning": "n. 珍珠；珍珠色；杰出者；珍品 adj. 镶珍珠的；珍珠状的 vi. 采珍珠；成珍珠状 vt. 使成 珠状；用珍珠装饰；使呈珍珠色"
+  },
+  {
+    "id": 279,
+    "word": "stitch",
+    "phonetic": "/stɪtʃ/",
+    "meaning": "n. 针脚，线迹；一针 vt. 缝，缝合 vi. 缝，缝合"
+  },
+  {
+    "id": 280,
+    "word": "marsh",
+    "phonetic": "/mɑːrʃ/",
+    "meaning": "n. 沼泽；湿地 adj. 沼泽的；生长在沼泽地的"
+  },
+  {
+    "id": 281,
+    "word": "warfare",
+    "phonetic": "/ˈwɔːrfer/",
+    "meaning": "n. 战争；冲突"
+  },
+  {
+    "id": 282,
+    "word": "presentation",
+    "phonetic": "/ˌpriːzenˈteɪʃn/",
+    "meaning": "n. 展示；描述，陈述；介绍；赠送"
+  },
+  {
+    "id": 283,
+    "word": "liability",
+    "phonetic": "/ˌlaɪəˈbɪləti/",
+    "meaning": "n. 责任；债务；倾向；可能性；不利因素"
+  },
+  {
+    "id": 284,
+    "word": "reproach",
+    "phonetic": "/rɪˈproʊtʃ/",
+    "meaning": "n. 责备；耻辱 vt. 责备；申斥"
+  },
+  {
+    "id": 285,
+    "word": "prototype",
+    "phonetic": "/ˈproʊtətaɪp/",
+    "meaning": "n. 原型；样本；标准，模范；全真模型；[电]原型滤波网络 vt. 制作原型"
+  },
+  {
+    "id": 286,
+    "word": "ingredient",
+    "phonetic": "/ɪnˈɡriːdiənt/",
+    "meaning": "n. 原料；要素；组成部分 adj. 构成组成部分的"
+  },
+  {
+    "id": 287,
+    "word": "marshal",
+    "phonetic": "/ˈmɑːrʃl/",
+    "meaning": "n. 元帅；司仪 vt. 整理；引领；编列 vi. 排列"
+  },
+  {
+    "id": 288,
+    "word": "reservation",
+    "phonetic": "/ˌrezərˈveɪʃn/",
+    "meaning": "n. 预约，预订；保留"
+  },
+  {
+    "id": 289,
+    "word": "blunder",
+    "phonetic": "/ˈblʌndər/",
+    "meaning": "n. 愚蠢（或粗心）的错误，大错 v. 犯大错，笨嘴笨舌；跌跌撞撞地走；误入（某地）"
+  },
+  {
+    "id": 290,
+    "word": "recreation",
+    "phonetic": "/ˌriːkriˈeɪʃn/",
+    "meaning": "n. 娱乐；消遣；休养"
+  },
+  {
+    "id": 291,
+    "word": "pastime",
+    "phonetic": "/ˈpæstaɪm/",
+    "meaning": "n. 娱乐，消遣"
+  },
+  {
+    "id": 292,
+    "word": "yacht",
+    "phonetic": "/jɑːt/",
+    "meaning": "n. 游艇，快艇；轻舟 v. 乘游艇，驾游艇；驾帆船比赛"
+  },
+  {
+    "id": 293,
+    "word": "grease",
+    "phonetic": "/ɡriːs/",
+    "meaning": "n. 油脂；润滑油；（非正式）贿赂 v. 涂脂于；给……加润滑油；（非正式）向某人行贿"
+  },
+  {
+    "id": 294,
+    "word": "superiority",
+    "phonetic": "/suːˌpɪriˈɔːrəti/",
+    "meaning": "n. 优越，优势；优越性"
+  },
+  {
+    "id": 295,
+    "word": "priority",
+    "phonetic": "/praɪˈɔːrəti/",
+    "meaning": "n. 优先；优先权；[数] 优先次序；优先考虑的事"
+  },
+  {
+    "id": 296,
+    "word": "privacy",
+    "phonetic": "/ˈpraɪvəsi/",
+    "meaning": "n. 隐私；秘密；隐居；隐居处"
+  },
+  {
+    "id": 297,
+    "word": "intrigue",
+    "phonetic": "/ɪnˈtriːɡ/",
+    "meaning": "n. 阴谋；诡计；复杂的事；私通 vt. 用诡计取得；激起...的兴趣 vi. 私通；密谋"
+  },
+  {
+    "id": 298,
+    "word": "casualty",
+    "phonetic": "/ˈkæʒuəlti/",
+    "meaning": "n. 意外事故；伤亡人员；急诊室"
+  },
+  {
+    "id": 299,
+    "word": "intent",
+    "phonetic": "/ɪnˈtent/",
+    "meaning": "n. 意图；目的；含义 adj. 专心的；急切的；坚决的"
+  },
+  {
+    "id": 300,
+    "word": "ideology",
+    "phonetic": "/ˌaɪdiˈɑːlədʒi/",
+    "meaning": "n. 意识形态；思想意识；观念学"
+  },
+  {
+    "id": 301,
+    "word": "curb",
+    "phonetic": "/kɜːrb/",
+    "meaning": "n. 抑制；路边；勒马绳 vt. 控制；勒住"
+  },
+  {
+    "id": 302,
+    "word": "obligation",
+    "phonetic": "/ˌɑːblɪˈɡeɪʃn/",
+    "meaning": "n. 义务；职责；债务"
+  },
+  {
+    "id": 303,
+    "word": "heritage",
+    "phonetic": "/ˈherɪtɪdʒ/",
+    "meaning": "n. 遗产；传统；继承物；继承权"
+  },
+  {
+    "id": 304,
+    "word": "ritual",
+    "phonetic": "/ˈrɪtʃuəl/",
+    "meaning": "n. 仪式；惯例；礼制 adj. 仪式的；例行的；礼节性的"
+  },
+  {
+    "id": 305,
+    "word": "garment",
+    "phonetic": "/ˈɡɑːrmənt/",
+    "meaning": "n. 衣服，服装；外表，外观 vt. 给…穿衣服"
+  },
+  {
+    "id": 306,
+    "word": "consensus",
+    "phonetic": "/kənˈsensəs/",
+    "meaning": "n. 一致；舆论；合意"
+  },
+  {
+    "id": 307,
+    "word": "batch",
+    "phonetic": "/bætʃ/",
+    "meaning": "n. 一批；一炉；一次所制之量 vt. 分批处理"
+  },
+  {
+    "id": 308,
+    "word": "prescription",
+    "phonetic": "/prɪˈskrɪpʃn/",
+    "meaning": "n. 药方；指示；惯例 adj. 凭处方方可购买的"
+  },
+  {
+    "id": 309,
+    "word": "patrol",
+    "phonetic": "/pəˈtroʊl/",
+    "meaning": "n. 巡逻；巡逻队；侦察队 vt. 巡逻；巡查 vi. 巡逻；巡查"
+  },
+  {
+    "id": 310,
+    "word": "medal",
+    "phonetic": "/ˈmedl/",
+    "meaning": "n. 勋章，奖章；纪念章"
+  },
+  {
+    "id": 311,
+    "word": "vein",
+    "phonetic": "/veɪn/",
+    "meaning": "n. 血管；叶脉；[地质] 岩脉；纹理；翅脉；性情 vt. 使成脉络；像脉络般分布于"
+  },
+  {
+    "id": 312,
+    "word": "tuition",
+    "phonetic": "/tuˈɪʃn/",
+    "meaning": "n. 学费；讲授"
+  },
+  {
+    "id": 313,
+    "word": "melody",
+    "phonetic": "/ˈmelədi/",
+    "meaning": "n. 旋律；歌曲；美妙的音乐"
+  },
+  {
+    "id": 314,
+    "word": "suspension",
+    "phonetic": "/səˈspenʃn/",
+    "meaning": "n. 悬浮；暂停；停职"
+  },
+  {
+    "id": 315,
+    "word": "propaganda",
+    "phonetic": "/ˌprɑːpəˈɡændə/",
+    "meaning": "n. 宣传；传道总会"
+  },
+  {
+    "id": 316,
+    "word": "publicity",
+    "phonetic": "/pʌbˈlɪsəti/",
+    "meaning": "n. 宣传，宣扬；公开；广告；注意"
+  },
+  {
+    "id": 317,
+    "word": "narrative",
+    "phonetic": "/ˈnærətɪv/",
+    "meaning": "n. 叙述；故事；讲述 adj. 叙事的，叙述的；叙事体的"
+  },
+  {
+    "id": 318,
+    "word": "lounge",
+    "phonetic": "/laʊndʒ/",
+    "meaning": "n. 休息室；闲逛；躺椅；         （英）酒吧间 vi. 闲逛；懒洋洋地躺卧；闲混 vt. 虚度光阴"
+  },
+  {
+    "id": 319,
+    "word": "surge",
+    "phonetic": "/sɜːrdʒ/",
+    "meaning": "n. 汹涌；大浪，波涛；汹涌澎湃；巨涌 v. 汹涌；起大浪，蜂拥而来"
+  },
+  {
+    "id": 320,
+    "word": "survival",
+    "phonetic": "/sərˈvaɪvl/",
+    "meaning": "n. 幸存，残存；幸存者，残存物"
+  },
+  {
+    "id": 321,
+    "word": "reliance",
+    "phonetic": "/rɪˈlaɪəns/",
+    "meaning": "n. 信赖；信心；受信赖的人或物"
+  },
+  {
+    "id": 322,
+    "word": "journalist",
+    "phonetic": "/ˈdʒɜːrnəlɪst/",
+    "meaning": "n. 新闻工作者；报人；记日志者"
+  },
+  {
+    "id": 323,
+    "word": "novelty",
+    "phonetic": "/ˈnɑːvlti/",
+    "meaning": "n. 新奇；新奇的事物；新颖小巧而廉价的物品"
+  },
+  {
+    "id": 324,
+    "word": "wedge",
+    "phonetic": "/wedʒ/",
+    "meaning": "n. 楔子；楔形物；不和 v. 楔入；挤进；楔住"
+  },
+  {
+    "id": 325,
+    "word": "leaflet",
+    "phonetic": "/ˈliːflət/",
+    "meaning": "n. 小叶；传单"
+  },
+  {
+    "id": 326,
+    "word": "gossip",
+    "phonetic": "/ˈɡɑːsɪp/",
+    "meaning": "n. 小道传闻；随笔；爱说长道短的人 vi. 闲聊；传播流言蜚语"
+  },
+  {
+    "id": 327,
+    "word": "snack",
+    "phonetic": "/snæk/",
+    "meaning": "n. 小吃，点心；快餐；易办到的事，小事一桩 v. 吃点心（或快餐、小吃）"
+  },
+  {
+    "id": 328,
+    "word": "pamphlet",
+    "phonetic": "/ˈpæmflət/",
+    "meaning": "n. 小册子"
+  },
+  {
+    "id": 329,
+    "word": "ivory",
+    "phonetic": "/ˈaɪvəri/",
+    "meaning": "n. 象牙；乳白色；长牙 adj. 乳白色的；象牙制的"
+  },
+  {
+    "id": 330,
+    "word": "scrutiny",
+    "phonetic": "/ˈskruːtəni/",
+    "meaning": "n. 详细审查；监视；细看；选票复查"
+  },
+  {
+    "id": 331,
+    "word": "perfume",
+    "phonetic": "/pərˈfjuːm/",
+    "meaning": "n. 香水；香味 vt. 洒香水于…；使…带香味 vi. 散发香气"
+  },
+  {
+    "id": 332,
+    "word": "resemblance",
+    "phonetic": "/rɪˈzembləns/",
+    "meaning": "n. 相似；相似之处；相似物；肖像"
+  },
+  {
+    "id": 333,
+    "word": "prophet",
+    "phonetic": "/ˈprɑːfɪt/",
+    "meaning": "n. 先知；预言者；提倡者"
+  },
+  {
+    "id": 334,
+    "word": "raid",
+    "phonetic": "/reɪd/",
+    "meaning": "n. 袭击；突袭；搜捕；抢劫 vi. 突袭 vt. 袭击，突袭"
+  },
+  {
+    "id": 335,
+    "word": "questionnaire",
+    "phonetic": "/ˌkwestʃəˈner/",
+    "meaning": "n. 问卷；调查表"
+  },
+  {
+    "id": 336,
+    "word": "plague",
+    "phonetic": "/pleɪɡ/",
+    "meaning": "n. 瘟疫，鼠疫；灾祸，天灾；麻烦事，讨厌的人；愿上天降灾难于……（用于诅咒） v. 使折 磨，使苦恼；纠缠，缠扰；使得灾祸"
+  },
+  {
+    "id": 337,
+    "word": "slot",
+    "phonetic": "/slɑːt/",
+    "meaning": "n. 位置；狭槽；水沟；硬币投币口 vt. 跟踪；开槽于"
+  },
+  {
+    "id": 338,
+    "word": "latitude",
+    "phonetic": "/ˈlætɪtuːd/",
+    "meaning": "n. 纬度；界限；活动范围"
+  },
+  {
+    "id": 339,
+    "word": "majesty",
+    "phonetic": "/ˈmædʒəsti/",
+    "meaning": "n. 威严；最高权威，王权；雄伟；权威"
+  },
+  {
+    "id": 340,
+    "word": "menace",
+    "phonetic": "/ˈmenəs/",
+    "meaning": "n. 威胁；恐吓 vi. 恐吓；进行威胁 vt. 威胁；恐吓"
+  },
+  {
+    "id": 341,
+    "word": "prestige",
+    "phonetic": "/preˈstiːʒ/",
+    "meaning": "n. 威望，声望；声誉 adj. 令人敬仰的；受尊重的；贵重的"
+  },
+  {
+    "id": 342,
+    "word": "web",
+    "phonetic": "/web/",
+    "meaning": "n. 网；卷筒纸；蹼；织物；圈套 vt. 用网缠住；使中圈套 vi. 形成网"
+  },
+  {
+    "id": 343,
+    "word": "integrity",
+    "phonetic": "/ɪnˈteɡrəti/",
+    "meaning": "n. 完整；正直；诚实；廉正"
+  },
+  {
+    "id": 344,
+    "word": "perfection",
+    "phonetic": "/pərˈfekʃn/",
+    "meaning": "n. 完善；完美"
+  },
+  {
+    "id": 345,
+    "word": "layman",
+    "phonetic": "/ˈleɪmən/",
+    "meaning": "n. 外行；门外汉；俗人；一般信徒"
+  },
+  {
+    "id": 346,
+    "word": "surgeon",
+    "phonetic": "/ˈsɜːrdʒən/",
+    "meaning": "n. 外科医生"
+  },
+  {
+    "id": 347,
+    "word": "watt",
+    "phonetic": "/wɑːt/",
+    "meaning": "n. 瓦特"
+  },
+  {
+    "id": 348,
+    "word": "pension",
+    "phonetic": "/'penʃən/",
+    "meaning": "n. 退休金，抚恤金；津贴；膳宿费 vt. 发给养老金或抚恤金"
+  },
+  {
+    "id": 349,
+    "word": "solidarity",
+    "phonetic": "/ˌsɑːlɪˈdærəti/",
+    "meaning": "n. 团结，团结一致"
+  },
+  {
+    "id": 350,
+    "word": "misery",
+    "phonetic": "/ˈmɪzəri/",
+    "meaning": "n. 痛苦，悲惨；不幸；苦恼；穷困"
+  },
+  {
+    "id": 351,
+    "word": "statistics",
+    "phonetic": "/stəˈtɪstɪks/",
+    "meaning": "n. 统计；统计学；[统计] 统计资料；统计数字"
+  },
+  {
+    "id": 352,
+    "word": "peer",
+    "phonetic": "/pɪr/",
+    "meaning": "n. 同等地位的人，同龄人；贵族 v. 凝视，盯着看；隐现；看见；匹配"
+  },
+  {
+    "id": 353,
+    "word": "paradise",
+    "phonetic": "/ˈpærədaɪs/",
+    "meaning": "n. 天堂至福境地"
+  },
+  {
+    "id": 354,
+    "word": "cue",
+    "phonetic": "/kjuː/",
+    "meaning": "n. 提示，暗示；线索 vt. 给…暗示"
+  },
+  {
+    "id": 355,
+    "word": "trait",
+    "phonetic": "/treɪt/",
+    "meaning": "n. 特性，特点；品质；少许"
+  },
+  {
+    "id": 356,
+    "word": "symposium",
+    "phonetic": "/sɪmˈpoʊziəm/",
+    "meaning": "n. 讨论会，座谈会；专题论文集；酒宴，宴会"
+  },
+  {
+    "id": 357,
+    "word": "seminar",
+    "phonetic": "/ˈsemɪnɑːr/",
+    "meaning": "n. 讨论会，研讨班"
+  },
+  {
+    "id": 358,
+    "word": "probe",
+    "phonetic": "/proʊb/",
+    "meaning": "n. 探针；调查 vi. 调查；探测 vt. 探查；用探针探测"
+  },
+  {
+    "id": 359,
+    "word": "locality",
+    "phonetic": "/loʊˈkæləti/",
+    "meaning": "n. 所在；位置；地点"
+  },
+  {
+    "id": 360,
+    "word": "scrap",
+    "phonetic": "/skræp/",
+    "meaning": "n. 碎片；残余物；打架；少量 vt. 废弃；使解体；拆毁 adj. 废弃的；零碎的 vi. 吵架"
+  },
+  {
+    "id": 361,
+    "word": "tempo",
+    "phonetic": "/ˈtempoʊ/",
+    "meaning": "n. 速度，发展速度；拍子 362. recession/rɪˈseʃn/   n. 衰退；不景气；后退；凹处"
+  },
+  {
+    "id": 363,
+    "word": "shaft",
+    "phonetic": "/ʃæft/",
+    "meaning": "n. 竖井；通风井；（电梯的）升降机井；杆，柄 vt. 欺骗；苛待"
+  },
+  {
+    "id": 364,
+    "word": "tract",
+    "phonetic": "/trækt/",
+    "meaning": "n. 束；大片土地，地带；小册子"
+  },
+  {
+    "id": 365,
+    "word": "oath",
+    "phonetic": "/oʊθ/",
+    "meaning": "n. 誓言，誓约；诅咒，咒骂"
+  },
+  {
+    "id": 366,
+    "word": "momentum",
+    "phonetic": "/moʊˈmentəm/",
+    "meaning": "n. 势头；[物] 动量；动力；冲力"
+  },
+  {
+    "id": 367,
+    "word": "recipe",
+    "phonetic": "/ˈresəpi/",
+    "meaning": "n. 食谱；[临床] 处方；秘诀；烹饪法"
+  },
+  {
+    "id": 368,
+    "word": "entity",
+    "phonetic": "/ˈentəti/",
+    "meaning": "n. 实体；存在"
+  },
+  {
+    "id": 369,
+    "word": "quartz",
+    "phonetic": "/kwɔːrts/",
+    "meaning": "n. 石英"
+  },
+  {
+    "id": 370,
+    "word": "plaster",
+    "phonetic": "/ˈplæstər/",
+    "meaning": "n. 石膏；灰泥；膏药 vt. 减轻；粘贴；涂以灰泥；敷以膏药；使平服"
+  },
+  {
+    "id": 371,
+    "word": "verse",
+    "phonetic": "/vɜːrs/",
+    "meaning": "n. 诗，诗篇；韵文；诗节 vi. 作诗 vt. 使熟练，使精通"
+  },
+  {
+    "id": 372,
+    "word": "unemployment",
+    "phonetic": "/ˌʌnɪmˈplɔɪmənt/",
+    "meaning": "n. 失业；失业率；失业人数"
+  },
+  {
+    "id": 373,
+    "word": "remnant",
+    "phonetic": "/ˈremnənt/",
+    "meaning": "n. 剩余 adj. 剩余的"
+  },
+  {
+    "id": 374,
+    "word": "surplus",
+    "phonetic": "/ˈsɜːrplʌs/",
+    "meaning": "n. 剩余；[贸易] 顺差；盈余；过剩 adj. 剩余的；过剩的 375. saint/seɪnt/ n. 圣人；圣徒；道德崇高的人 adj. 神圣的 vt. 成为圣徒"
+  },
+  {
+    "id": 376,
+    "word": "productivity",
+    "phonetic": "/ˌproʊdʌkˈtɪvəti/",
+    "meaning": "n. 生产力；生产率；生产能力"
+  },
+  {
+    "id": 377,
+    "word": "myth",
+    "phonetic": "/mɪθ/",
+    "meaning": "n. 神话；虚构的人，虚构的事"
+  },
+  {
+    "id": 378,
+    "word": "sociology",
+    "phonetic": "/ˌsoʊsiˈɑːlədʒi/",
+    "meaning": "n. 社会学；群体生态学"
+  },
+  {
+    "id": 379,
+    "word": "trifle",
+    "phonetic": "/ˈtraɪfl/",
+    "meaning": "n. 少量；琐事；不值钱的东西；屈莱弗甜食 v. 轻浮地说（或做）；虚度，浪费；轻视"
+  },
+  {
+    "id": 380,
+    "word": "mall",
+    "phonetic": "/mɔːl/",
+    "meaning": "n. 商场，购物广场；步行商业区；步行道；铁圈球球场"
+  },
+  {
+    "id": 381,
+    "word": "prose",
+    "phonetic": "/proʊz/",
+    "meaning": "n. 散文；单调 adj. 散文的；平凡的；乏味的 vi. 写散文；乏味地讲话 vt. 把…写成散文"
+  },
+  {
+    "id": 382,
+    "word": "software",
+    "phonetic": "/ˈsɔːftwer/",
+    "meaning": "n. 软件"
+  },
+  {
+    "id": 383,
+    "word": "hose",
+    "phonetic": "/hoʊz/",
+    "meaning": "n. 软管；长筒袜；男性穿的紧身裤 vt. 用软管浇水；痛打"
+  },
+  {
+    "id": 384,
+    "word": "threshold",
+    "phonetic": "/ˈθreʃhoʊld/",
+    "meaning": "n. 入口；门槛；开始；极限；临界值"
+  },
+  {
+    "id": 385,
+    "word": "recipient",
+    "phonetic": "/rɪˈsɪpiənt/",
+    "meaning": "n. 容器，接受者；容纳者 adj. 容易接受的；容纳的"
+  },
+  {
+    "id": 386,
+    "word": "perception",
+    "phonetic": "/pərˈsepʃn/",
+    "meaning": "n. 认识能力；知觉，感觉；洞察力；看法；获取"
+  },
+  {
+    "id": 387,
+    "word": "concession",
+    "phonetic": "/kənˈseʃn/",
+    "meaning": "n. 让步；特许（权）；承认；退位"
+  },
+  {
+    "id": 388,
+    "word": "repertoire",
+    "phonetic": "/ˈrepərtwɑːr/",
+    "meaning": "n. 全部节目；计算机指令系统；（美）某人或机器的全部技能"
+  },
+  {
+    "id": 389,
+    "word": "racket",
+    "phonetic": "/ˈrækɪt/",
+    "meaning": "n. 球拍；吵闹，喧闹 vt. 过着花天酒地的生活 vi. 过着花天酒地的生活"
+  },
+  {
+    "id": 390,
+    "word": "petition",
+    "phonetic": "/pəˈtɪʃn/",
+    "meaning": "n. 请愿；请愿书；祈求；[法] 诉状 vi. 请愿；请求 vt. 请愿；请求；恳求"
+  },
+  {
+    "id": 391,
+    "word": "contempt",
+    "phonetic": "/kənˈtempt/",
+    "meaning": "n. 轻视，蔑视；耻辱"
+  },
+  {
+    "id": 392,
+    "word": "scorn",
+    "phonetic": "/skɔːrn/",
+    "meaning": "n. 轻蔑；嘲笑；藐视的对象 v. 轻蔑；藐视；不屑做"
+  },
+  {
+    "id": 393,
+    "word": "erosion",
+    "phonetic": "/ɪˈroʊʒn/",
+    "meaning": "n. 侵蚀，腐蚀"
+  },
+  {
+    "id": 394,
+    "word": "wallet",
+    "phonetic": "/ˈwɑːlɪt/",
+    "meaning": "n. 钱包，皮夹"
+  },
+  {
+    "id": 395,
+    "word": "premise",
+    "phonetic": "/ˈpremɪs/",
+    "meaning": "n. 前提，假定；   （常复数）商店、餐馆、公司等使用的房屋及土地；    （常复数）上诉各项 v. 以……为前提；引出，预先提出；说明"
+  },
+  {
+    "id": 396,
+    "word": "predecessor",
+    "phonetic": "/ˈpredəsesər/",
+    "meaning": "n. 前任，前辈"
+  },
+  {
+    "id": 397,
+    "word": "motel",
+    "phonetic": "/moʊˈtel/",
+    "meaning": "n. 汽车旅馆"
+  },
+  {
+    "id": 398,
+    "word": "temperament",
+    "phonetic": "/ˈtemprəmənt/",
+    "meaning": "n. 气质，性情，性格；急躁"
+  },
+  {
+    "id": 399,
+    "word": "scent",
+    "phonetic": "/sent/",
+    "meaning": "n. 气味；嗅觉；痕迹；察觉能力 vt. 闻到；发觉；使充满…的气味；循着遗臭追踪 vi. 发出… 的气味；有…的迹象；嗅着气味追赶"
+  },
+  {
+    "id": 400,
+    "word": "odor",
+    "phonetic": "/ˈoʊdər/",
+    "meaning": "n. 气味；名声"
+  },
+  {
+    "id": 401,
+    "word": "revelation",
+    "phonetic": "/ˌrevəˈleɪʃn/",
+    "meaning": "n. 启示；揭露；出乎意料的事；被揭露的真相"
+  },
+  {
+    "id": 402,
+    "word": "entrepreneur",
+    "phonetic": "/ˌɑːntrəprəˈnɜːr/",
+    "meaning": "n. 企业家；承包人；主办者"
+  },
+  {
+    "id": 403,
+    "word": "prayer",
+    "phonetic": "/prer/",
+    "meaning": "n. 祈祷，祷告；恳求；祈祷文"
+  },
+  {
+    "id": 404,
+    "word": "fraud",
+    "phonetic": "/frɔːd/",
+    "meaning": "n. 欺骗；骗子；诡计"
+  },
+  {
+    "id": 405,
+    "word": "pope",
+    "phonetic": "/poʊp/",
+    "meaning": "n. 蒲伯（英国诗人）；罗马教皇"
+  },
+  {
+    "id": 406,
+    "word": "rupture",
+    "phonetic": "/ˈrʌptʃər/",
+    "meaning": "n. 破裂；决裂；疝气 vi. 破裂；发疝气 vt. 使破裂；断绝；发生疝"
+  },
+  {
+    "id": 407,
+    "word": "fracture",
+    "phonetic": "/ˈfræktʃər/",
+    "meaning": "n. 破裂，断裂；[外科] 骨折 vi. 破裂；折断 vt. 使破裂"
+  },
+  {
+    "id": 408,
+    "word": "commentary",
+    "phonetic": "/ˈkɑːmənteri/",
+    "meaning": "n. 评论；注释；评注；说明"
+  },
+  {
+    "id": 409,
+    "word": "appraisal",
+    "phonetic": "/əˈpreɪzl/",
+    "meaning": "n. 评价；估价（尤指估价财产，以便征税）；估计"
+  },
+  {
+    "id": 410,
+    "word": "terrace",
+    "phonetic": "/ˈterəs/",
+    "meaning": "n. 平台；梯田；阳台 vt. 使成梯田，使成阶地；使有平台屋顶 vi. 成阶地；成梯田；筑成坛 adj. （女服）叠层式的"
+  },
+  {
+    "id": 411,
+    "word": "slum",
+    "phonetic": "/slʌm/",
+    "meaning": "n. 贫民窟； （不宜居住的）房屋；脏乱的地方 v. （为猎奇或救济）去贫民窟；将就适应，过 穷日子"
+  },
+  {
+    "id": 412,
+    "word": "inflation",
+    "phonetic": "/ɪnˈfleɪʃn/",
+    "meaning": "n. 膨胀；通货膨胀；夸张；自命不凡"
+  },
+  {
+    "id": 413,
+    "word": "configuration",
+    "phonetic": "/kənˌfɪɡjəˈreɪʃn/",
+    "meaning": "n. 配置；结构；外形"
+  },
+  {
+    "id": 414,
+    "word": "spouse",
+    "phonetic": "/spaʊs,spaʊz/",
+    "meaning": "n. 配偶 vt. 和…结婚"
+  },
+  {
+    "id": 415,
+    "word": "amends",
+    "phonetic": "/əˈmendz/",
+    "meaning": "n. 赔偿；赔罪 v. 修订（amend 的第三人称单数）     ；改进"
+  },
+  {
+    "id": 416,
+    "word": "escort",
+    "phonetic": "/ˈeskɔːrt/",
+    "meaning": "n. 陪同；护航舰；护卫队；护送者 vt. 护送；陪同；为…护航"
+  },
+  {
+    "id": 417,
+    "word": "foam",
+    "phonetic": "/foʊm/",
+    "meaning": "n. 泡沫；水沫；灭火泡沫 vi. 起泡沫；吐白沫；起着泡沫流动 vt. 使起泡沫；使成泡沫状物"
+  },
+  {
+    "id": 418,
+    "word": "rebellion",
+    "phonetic": "/rɪˈbeljən/",
+    "meaning": "n. 叛乱；反抗；谋反；不服从"
+  },
+  {
+    "id": 419,
+    "word": "flap",
+    "phonetic": "/flæp/",
+    "meaning": "n. 拍打，拍打声；神经紧张；           （飞机的）襟翼；风门，挡板；[医]皮瓣 vi. 拍动；神经紧张；鼓翼 而飞；（帽边等）垂下 vt. 拍打；扔；拉下帽边；飘动"
+  },
+  {
+    "id": 420,
+    "word": "nickel",
+    "phonetic": "/ˈnɪkl/",
+    "meaning": "n. 镍；镍币；五分镍币 vt. 镀镍于"
+  },
+  {
+    "id": 421,
+    "word": "youngster",
+    "phonetic": "/ˈjʌŋstər/",
+    "meaning": "n. 年轻人；少年"
+  },
+  {
+    "id": 422,
+    "word": "competence",
+    "phonetic": "/ˈkɑːmpɪtəns/",
+    "meaning": "n. 能力，胜任；权限；作证能力；足以过舒适生活的收入"
+  },
+  {
+    "id": 423,
+    "word": "refugee",
+    "phonetic": "/ˌrefjuˈdʒiː/",
+    "meaning": "n. 难民，避难者；流亡者，逃亡者"
+  },
+  {
+    "id": 424,
+    "word": "priest",
+    "phonetic": "/priːst/",
+    "meaning": "n. 牧师；神父；教士 vt. 使成为神职人员；任命…为祭司"
+  },
+  {
+    "id": 425,
+    "word": "goal",
+    "phonetic": "/ɡoʊl/",
+    "meaning": "n. 目标；球门，得分数；终点 vi. 攻门，射门得分"
+  },
+  {
+    "id": 426,
+    "word": "timber",
+    "phonetic": "/ˈtɪmbər/",
+    "meaning": "n. 木材；木料"
+  },
+  {
+    "id": 427,
+    "word": "imitation",
+    "phonetic": "/ˌɪmɪˈteɪʃn/",
+    "meaning": "n. 模仿，仿造；仿制品 adj. 人造的，仿制的"
+  },
+  {
+    "id": 428,
+    "word": "proposition",
+    "phonetic": "/ˌprɑːpəˈzɪʃn/",
+    "meaning": "n. 命题；提议；主题；议题 vt. 向……提议；向……求欢"
+  },
+  {
+    "id": 429,
+    "word": "veil",
+    "phonetic": "/veɪl/",
+    "meaning": "n. 面纱；面罩；遮蔽物；托词 vt. 遮蔽；掩饰；以面纱遮掩；用帷幕分隔 vi. 蒙上面纱；出现轻 度灰雾"
+  },
+  {
+    "id": 430,
+    "word": "facet",
+    "phonetic": "/ˈfæsɪt/",
+    "meaning": "n. 面；方面；小平面 vt. 在…上琢面"
+  },
+  {
+    "id": 431,
+    "word": "porch",
+    "phonetic": "/pɔːrtʃ/",
+    "meaning": "n. 门廊；走廊"
+  },
+  {
+    "id": 432,
+    "word": "media",
+    "phonetic": "/ˈmiːdiə/",
+    "meaning": "n. 媒体；媒质（medium 的复数）；血管中层；浊塞音；中脉"
+  },
+  {
+    "id": 433,
+    "word": "attorney",
+    "phonetic": "/əˈtɜːrni/",
+    "meaning": "n. 律师；代理人；检察官"
+  },
+  {
+    "id": 434,
+    "word": "thesis",
+    "phonetic": "/ˈθiːsɪs/",
+    "meaning": "n. 论文；论点"
+  },
+  {
+    "id": 435,
+    "word": "ethics",
+    "phonetic": "/ˈeθɪks/",
+    "meaning": "n. 伦理学；伦理观；道德标准"
+  },
+  {
+    "id": 436,
+    "word": "staircase",
+    "phonetic": "/ˈsterkeɪs/",
+    "meaning": "n. 楼梯"
+  },
+  {
+    "id": 437,
+    "word": "monopoly",
+    "phonetic": "/məˈnɑːpəli/",
+    "meaning": "n. 垄断；垄断者；专卖权"
+  },
+  {
+    "id": 438,
+    "word": "exile",
+    "phonetic": "/ˈeksaɪl,ˈeɡzaɪl/",
+    "meaning": "n. 流放，充军；放逐，被放逐者；流犯 vt. 放逐，流放；使背井离乡"
+  },
+  {
+    "id": 439,
+    "word": "retail",
+    "phonetic": "/ˈriːteɪl; rɪˈteɪl/",
+    "meaning": "n. 零售 v. 零售， （以某价格）零售；详述；散播（私密消息） adv. 以零售方式 adj. 零售的"
+  },
+  {
+    "id": 440,
+    "word": "vicinity",
+    "phonetic": "/vəˈsɪnəti/",
+    "meaning": "n. 邻近，附近；近处"
+  },
+  {
+    "id": 441,
+    "word": "prey",
+    "phonetic": "/preɪ/",
+    "meaning": "n. 猎物；受害者，牺牲品；（情绪易受伤的）脆弱的人；掠夺品 v. 捕食；伤害；折磨，困扰"
+  },
+  {
+    "id": 442,
+    "word": "junction",
+    "phonetic": "/ˈdʒʌŋkʃn/",
+    "meaning": "n. 连接，接合；交叉点；接合点"
+  },
+  {
+    "id": 443,
+    "word": "stereo",
+    "phonetic": "/ˈsterioʊ/",
+    "meaning": "n. 立体声；立体声系统 adj. 立体的；立体声的；立体感觉的"
+  },
+  {
+    "id": 444,
+    "word": "legislation",
+    "phonetic": "/ˌledʒɪsˈleɪʃn/",
+    "meaning": "n. 立法；法律"
+  },
+  {
+    "id": 445,
+    "word": "justification",
+    "phonetic": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+    "meaning": "n. 理由；辩护；认为有理，认为正当；释罪"
+  },
+  {
+    "id": 446,
+    "word": "tribute",
+    "phonetic": "/ˈtrɪbjuːt/",
+    "meaning": "n. 礼物；[税收] 贡物；颂词；（尤指对死者的）致敬，悼念，吊唁礼物"
+  },
+  {
+    "id": 447,
+    "word": "courtesy",
+    "phonetic": "/ˈkɜːrtəsi/",
+    "meaning": "n. 礼貌；好意；恩惠 adj. 殷勤的；被承认的；出于礼节的"
+  },
+  {
+    "id": 448,
+    "word": "optimism",
+    "phonetic": "/ˈɑːptɪmɪzəm/",
+    "meaning": "n. 乐观；乐观主义"
+  },
+  {
+    "id": 449,
+    "word": "litter",
+    "phonetic": "/ˈlɪtər/",
+    "meaning": "n. 垃圾；轿，担架；一窝（动物的幼崽）；凌乱 vt. 乱丢；给…垫褥草；把…弄得乱七八糟 vi. 产 仔；乱扔废弃物"
+  },
+  {
+    "id": 450,
+    "word": "dilemma",
+    "phonetic": "/dɪˈlemə/",
+    "meaning": "n. 困境；进退两难；两刀论法"
+  },
+  {
+    "id": 451,
+    "word": "shutter",
+    "phonetic": "/ˈʃʌtər/",
+    "meaning": "n. 快门；百叶窗；关闭物；遮板 vt. 为…装百叶窗；以百叶窗遮闭"
+  },
+  {
+    "id": 452,
+    "word": "quart",
+    "phonetic": "/kwɔːrt/",
+    "meaning": "n. 夸脱（容量单位）；一夸脱的容器"
+  },
+  {
+    "id": 453,
+    "word": "panic",
+    "phonetic": "/ˈpænɪk/",
+    "meaning": "n. 恐慌，惊慌；大恐慌 adj. 恐慌的；没有理由的 vt. 使恐慌 vi. 十分惊慌"
+  },
+  {
+    "id": 454,
+    "word": "plea",
+    "phonetic": "/pliː/",
+    "meaning": "n. 恳求，请求；辩解，辩护；借口，托辞"
+  },
+  {
+    "id": 455,
+    "word": "thirst",
+    "phonetic": "/θɜːrst/",
+    "meaning": "n. 渴望；口渴；热望 vi. 渴望；口渴"
+  },
+  {
+    "id": 456,
+    "word": "likelihood",
+    "phonetic": "/ˈlaɪklihʊd/",
+    "meaning": "n. 可能性，可能"
+  },
+  {
+    "id": 457,
+    "word": "reign",
+    "phonetic": "/reɪn/",
+    "meaning": "n. 君主统治时期；任期；      （运动员）持荣誉头衔时期；主宰期 v. 统治；成为最佳；盛行，支 配"
+  },
+  {
+    "id": 458,
+    "word": "sovereign",
+    "phonetic": "/ˈsɑːvrɪn/",
+    "meaning": "n. 君主；独立国；金磅 adj. 至高无上的；有主权的；拥有最高统治权的；不折不 扣的；有效的"
+  },
+  {
+    "id": 459,
+    "word": "equilibrium",
+    "phonetic": "/ˌiːkwɪˈlɪbriəm/",
+    "meaning": "n. 均衡；平静；保持平衡的能力"
+  },
+  {
+    "id": 460,
+    "word": "corps",
+    "phonetic": "/kɔːr/",
+    "meaning": "n. 军团；兵种；兵队；（德国大学的）学生联合会"
+  },
+  {
+    "id": 461,
+    "word": "dismay",
+    "phonetic": "/dɪsˈmeɪ/",
+    "meaning": "n. 沮丧，灰心；惊慌 vt. 使沮丧；使惊慌"
+  },
+  {
+    "id": 462,
+    "word": "spectacle",
+    "phonetic": "/ˈspektəkl/",
+    "meaning": "n. 景象；场面；奇观；壮观；盛大的演出；（复）眼镜"
+  },
+  {
+    "id": 463,
+    "word": "elite",
+    "phonetic": "/eɪˈliːt/",
+    "meaning": "n. 精英；精华；中坚分子"
+  },
+  {
+    "id": 464,
+    "word": "proficiency",
+    "phonetic": "/prəˈfɪʃnsi/",
+    "meaning": "n. 精通，熟练"
+  },
+  {
+    "id": 465,
+    "word": "proceeding",
+    "phonetic": "/prəˈsiːdɪŋ/",
+    "meaning": "n. 进行；程序；诉讼；事项 v. 开始；继续做；行进（proceed 的 ing 形式）"
+  },
+  {
+    "id": 466,
+    "word": "pretext",
+    "phonetic": "/ˈpriːtekst/",
+    "meaning": "n. 借口；托辞 vt. 以…为借口"
+  },
+  {
+    "id": 467,
+    "word": "verdict",
+    "phonetic": "/ˈvɜːrdɪkt/",
+    "meaning": "n. 结论；裁定"
+  },
+  {
+    "id": 468,
+    "word": "masterpiece",
+    "phonetic": "/ˈmæstərpiːs/",
+    "meaning": "n. 杰作；绝无仅有的人"
+  },
+  {
+    "id": 469,
+    "word": "relay",
+    "phonetic": "/ˈriːleɪ,rɪˈleɪ/",
+    "meaning": "n. 接力赛；轮班，轮换；继电器；中继设备 v. 传达，转发；转播；重新铺设"
+  },
+  {
+    "id": 470,
+    "word": "proximity",
+    "phonetic": "/prɑːkˈsɪməti/",
+    "meaning": "n. 接近，[数]邻近；接近；接近度，距离；亲近"
+  },
+  {
+    "id": 471,
+    "word": "script",
+    "phonetic": "/skrɪpt/",
+    "meaning": "n. 脚本；手迹；书写用的字母 vt. 把…改编为剧本 vi. 写电影脚本"
+  },
+  {
+    "id": 472,
+    "word": "hinge",
+    "phonetic": "/hɪndʒ/",
+    "meaning": "n. 铰链，折叶；关键，转折点；枢要，中枢 v. 用铰链连接；依…为转移；给…安装铰链；        （门 等）装有蝶铰"
+  },
+  {
+    "id": 473,
+    "word": "tar",
+    "phonetic": "/tɑːr/",
+    "meaning": "n. 焦油；柏油；水手 vt. 涂以焦油；玷污"
+  },
+  {
+    "id": 474,
+    "word": "capsule",
+    "phonetic": "/ˈkæpsl,ˈkæpsuːl/",
+    "meaning": "n. 胶囊；蒴果；太空舱；小容器 adj. 压缩的；概要的 vt. 压缩；简述"
+  },
+  {
+    "id": 475,
+    "word": "transaction",
+    "phonetic": "/trænˈzækʃn/",
+    "meaning": "n. 交易；事务；办理；会报，学报"
+  },
+  {
+    "id": 476,
+    "word": "symphony",
+    "phonetic": "/ˈsɪmfəni/",
+    "meaning": "n. 交响乐；谐声，和声"
+  },
+  {
+    "id": 477,
+    "word": "intersection",
+    "phonetic": "/ˌɪntərˈsekʃn/",
+    "meaning": "n. 交叉；十字路口；交集；交叉点"
+  },
+  {
+    "id": 478,
+    "word": "sauce",
+    "phonetic": "/sɔːs/",
+    "meaning": "n. 酱油；沙司；调味汁 vt. 使增加趣味；给…调味"
+  },
+  {
+    "id": 479,
+    "word": "bonus",
+    "phonetic": "/ˈboʊnəs/",
+    "meaning": "n. 奖金；红利；额外津贴"
+  },
+  {
+    "id": 480,
+    "word": "jail",
+    "phonetic": "/dʒeɪl/",
+    "meaning": "n. 监狱；监牢；拘留所 vt. 监禁；下狱"
+  },
+  {
+    "id": 481,
+    "word": "spy",
+    "phonetic": "/spaɪ/",
+    "meaning": "n. 间谍；密探 v. 从事间谍活动；突然看见；认出"
+  },
+  {
+    "id": 482,
+    "word": "hypothesis",
+    "phonetic": "/haɪˈpɑːθəsɪs/",
+    "meaning": "n. 假设"
+  },
+  {
+    "id": 483,
+    "word": "successor",
+    "phonetic": "/səkˈsesər/",
+    "meaning": "n. 继承者；后续的事物"
+  },
+  {
+    "id": 484,
+    "word": "jerk",
+    "phonetic": "/dʒɜːrk/",
+    "meaning": "n. 急拉；猛的一动；肌肉抽搐；蠢人；没品的人 vi. 痉挛；急拉；颠簸地行进 vt. 猛拉 adj. 香 料腌制的"
+  },
+  {
+    "id": 485,
+    "word": "thrill",
+    "phonetic": "/θrɪl/",
+    "meaning": "n. 激动；震颤；紧张 vt. 使…颤动；使…紧张；使…感到兴奋或激动 vi. 颤抖；感到兴奋；感到紧 张"
+  },
+  {
+    "id": 486,
+    "word": "agitation",
+    "phonetic": "/ˌædʒɪˈteɪʃn/",
+    "meaning": "n. 激动；搅动；煽动；烦乱"
+  },
+  {
+    "id": 487,
+    "word": "mechanism",
+    "phonetic": "/ˈmekənɪzəm/",
+    "meaning": "n. 机制；原理，途径；进程；机械装置；技巧"
+  },
+  {
+    "id": 488,
+    "word": "locomotive",
+    "phonetic": "/ˌloʊkəˈmoʊtɪv/",
+    "meaning": "n. 机车；火车头；（学校啦啦队）节奏由慢到快的欢呼 adj. 产生动力的，与动 力有关的；运动的，移动的"
+  },
+  {
+    "id": 489,
+    "word": "acquisition",
+    "phonetic": "/ˌækwɪˈzɪʃn/",
+    "meaning": "n. 获得物，获得；收购"
+  },
+  {
+    "id": 490,
+    "word": "confusion",
+    "phonetic": "/kənˈfjuːʒn/",
+    "meaning": "n. 混淆，混乱；困惑"
+  },
+  {
+    "id": 491,
+    "word": "mess",
+    "phonetic": "/mes/",
+    "meaning": "n. 混乱；食堂，伙食团；困境；脏乱的东西 vt. 弄乱，弄脏；毁坏；使就餐 vi. 把事情弄糟； 制造脏乱；玩弄"
+  },
+  {
+    "id": 492,
+    "word": "retrospect",
+    "phonetic": "/ˈretrəspekt/",
+    "meaning": "n. 回顾，追溯 vi. 回顾，追溯；回想 vt. 回顾；追忆"
+  },
+  {
+    "id": 493,
+    "word": "royalty",
+    "phonetic": "/ˈrɔɪəlti/",
+    "meaning": "n. 皇室；版税；王权；专利税"
+  },
+  {
+    "id": 494,
+    "word": "illusion",
+    "phonetic": "/ɪˈluːʒn/",
+    "meaning": "n. 幻觉，错觉；错误的观念或信仰"
+  },
+  {
+    "id": 495,
+    "word": "partition",
+    "phonetic": "/pɑːrˈtɪʃn/",
+    "meaning": "n. 划分，分开；[数] 分割；隔墙；隔离物 vt. [数] 分割；分隔；区分"
+  },
+  {
+    "id": 496,
+    "word": "fossil",
+    "phonetic": "/ˈfɑːsl/",
+    "meaning": "n. 化石；僵化的事物；顽固不化的人 adj. 化石的；陈腐的，守旧的"
+  },
+  {
+    "id": 497,
+    "word": "offspring",
+    "phonetic": "/ˈɔːfsprɪŋ/",
+    "meaning": "n. 后代，子孙；产物"
+  },
+  {
+    "id": 498,
+    "word": "shuttle",
+    "phonetic": "/ˈʃʌtl/",
+    "meaning": "n. 航天飞机；穿梭；梭子；穿梭班机、公共汽车等 vt. 使穿梭般来回移动；短程穿梭般运送 vi. 穿梭往返"
+  },
+  {
+    "id": 499,
+    "word": "pest",
+    "phonetic": "/pest/",
+    "meaning": "n. 害虫；有害之物；讨厌的人"
+  },
+  {
+    "id": 500,
+    "word": "poster",
+    "phonetic": "/ˈpoʊstər/",
+    "meaning": "n. 海报，广告；招贴"
+  },
+  {
+    "id": 501,
+    "word": "transition",
+    "phonetic": "/trænˈsɪʃn/",
+    "meaning": "n. 过渡；转变；[分子生物] 转换；变调"
+  },
+  {
+    "id": 502,
+    "word": "specification",
+    "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+    "meaning": "n. 规格；说明书；详述 503. spectrum/ˈspektrəm/ n. 光谱；频谱；范围；余象"
+  },
+  {
+    "id": 504,
+    "word": "irrigation",
+    "phonetic": "/ˌɪrɪˈɡeɪʃn/",
+    "meaning": "n. 灌溉；[临床] 冲洗；冲洗法 505. spectator/ˈspekteɪtər/ n. 观众；旁观者 506. tariff/ˈtærɪf/ n. 关税表；收费表 vt. 定税率；征收关税"
+  },
+  {
+    "id": 507,
+    "word": "monster",
+    "phonetic": "/ˈmɑːnstər/",
+    "meaning": "n. 怪物；巨人，巨兽；残忍的人 adj. 巨大的，庞大的"
+  },
+  {
+    "id": 508,
+    "word": "consultant",
+    "phonetic": "/kənˈsʌltənt/",
+    "meaning": "n. 顾问；咨询者；会诊医生"
+  },
+  {
+    "id": 509,
+    "word": "skeleton",
+    "phonetic": "/ˈskelɪtn/",
+    "meaning": "n. 骨架，骨骼；纲要；骨瘦如柴的人 adj. 骨骼的；骨瘦如柴的；概略的"
+  },
+  {
+    "id": 510,
+    "word": "cereal",
+    "phonetic": "/ˈsɪriəl/",
+    "meaning": "n. 谷类，谷物；谷类食品；谷类植物 adj. 谷类的；谷类制成的"
+  },
+  {
+    "id": 511,
+    "word": "trench",
+    "phonetic": "/trentʃ/",
+    "meaning": "n. 沟，沟渠；战壕；堑壕 vt. 掘沟 vi. 挖战壕；侵害"
+  },
+  {
+    "id": 512,
+    "word": "assault",
+    "phonetic": "/əˈsɔːlt/",
+    "meaning": "n. 攻击；袭击 vt. 攻击；袭击 vi. 袭击；动武"
+  },
+  {
+    "id": 513,
+    "word": "studio",
+    "phonetic": "/ˈstuːdioʊ/",
+    "meaning": "n. 工作室；[广播][电视] 演播室；画室；电影制片厂"
+  },
+  {
+    "id": 514,
+    "word": "kit",
+    "phonetic": "/kɪt/",
+    "meaning": "n. 工具箱；成套工具 vt. 装备 vi. 装备"
+  },
+  {
+    "id": 515,
+    "word": "replacement",
+    "phonetic": "/rɪˈpleɪsmənt/",
+    "meaning": "n. 更换；复位；代替者；补充兵员"
+  },
+  {
+    "id": 516,
+    "word": "warrant",
+    "phonetic": "/ˈwɔːrənt/",
+    "meaning": "n. 根据；证明；正当理由；委任状 vt. 保证；担保；批准；辩解"
+  },
+  {
+    "id": 517,
+    "word": "lamb",
+    "phonetic": "/læm/",
+    "meaning": "n. 羔羊，小羊；羔羊肉 vt. 生小羊，产羔羊 vi. 生小羊，产羔羊"
+  },
+  {
+    "id": 518,
+    "word": "plateau",
+    "phonetic": "/plæˈtoʊ/",
+    "meaning": "n. 高原；稳定水平；托盘；平顶女帽 vi. 达到平衡；达到稳定时期"
+  },
+  {
+    "id": 519,
+    "word": "disturbance",
+    "phonetic": "/dɪˈstɜːrbəns/",
+    "meaning": "n. 干扰；骚乱；忧虑"
+  },
+  {
+    "id": 520,
+    "word": "sentiment",
+    "phonetic": "/ˈsentɪmənt/",
+    "meaning": "n. 感情，情绪；情操；观点；多愁善感"
+  },
+  {
+    "id": 521,
+    "word": "sensation",
+    "phonetic": "/senˈseɪʃn/",
+    "meaning": "n. 感觉；轰动；感动"
+  },
+  {
+    "id": 522,
+    "word": "Thanksgiving",
+    "phonetic": "/ˌθæŋksˈɡɪvɪŋ/",
+    "meaning": "n. 感恩"
+  },
+  {
+    "id": 523,
+    "word": "notion",
+    "phonetic": "/ˈnoʊʃn/",
+    "meaning": "n. 概念；见解；打算"
+  },
+  {
+    "id": 524,
+    "word": "costume",
+    "phonetic": "/ˈkɑːstuːm/",
+    "meaning": "n. 服装，装束；戏装，剧装 vt. 给…穿上服装"
+  },
+  {
+    "id": 525,
+    "word": "hatch",
+    "phonetic": "/hætʃ/",
+    "meaning": "n. 孵化；舱口 vt. 孵；策划 vi. 孵化"
+  },
+  {
+    "id": 526,
+    "word": "veto",
+    "phonetic": "/ˈviːtoʊ/",
+    "meaning": "n. 否决权 vt. 否决；禁止 vi. 否决；禁止"
+  },
+  {
+    "id": 527,
+    "word": "seam",
+    "phonetic": "/siːm/",
+    "meaning": "n. 缝；接缝 vt. 缝合；接合；使留下伤痕 vi. 裂开；产生裂缝"
+  },
+  {
+    "id": 528,
+    "word": "irony",
+    "phonetic": "/ˈaɪrəni/",
+    "meaning": "n. 讽刺；反语；具有讽刺意味的事 adj. 铁的；似铁的"
+  },
+  {
+    "id": 529,
+    "word": "rage",
+    "phonetic": "/reɪdʒ/",
+    "meaning": "n. 愤怒；狂暴，肆虐；情绪激动 vi. 大怒，发怒；流行，风行"
+  },
+  {
+    "id": 530,
+    "word": "indignation",
+    "phonetic": "/ˌɪndɪɡˈneɪʃn/",
+    "meaning": "n. 愤慨；愤怒；义愤"
+  },
+  {
+    "id": 531,
+    "word": "orientation",
+    "phonetic": "/ˌɔːriənˈteɪʃn/",
+    "meaning": "n. 方向；定向；适应；情况介绍"
+  },
+  {
+    "id": 532,
+    "word": "offence",
+    "phonetic": "/əˈfens/",
+    "meaning": "n. 犯罪；违反；过错；攻击"
+  },
+  {
+    "id": 533,
+    "word": "turnover",
+    "phonetic": "/ˈtɜːrnoʊvər/",
+    "meaning": "n. 翻覆；[贸易] 营业额；流通量；半圆卷饼；失误 adj. 翻过来的；可翻转的"
+  },
+  {
+    "id": 534,
+    "word": "valve",
+    "phonetic": "/vælv/",
+    "meaning": "n. 阀；[解剖] 瓣膜；真空管；活门 vt. 装阀于；以活门调节"
+  },
+  {
+    "id": 535,
+    "word": "penalty",
+    "phonetic": "/ˈpenəlti/",
+    "meaning": "n. 罚款，罚金；处罚"
+  },
+  {
+    "id": 536,
+    "word": "spokesman",
+    "phonetic": "/ˈspoʊksmən/",
+    "meaning": "n. 发言人；代言人"
+  },
+  {
+    "id": 537,
+    "word": "nightmare",
+    "phonetic": "/ˈnaɪtmer/",
+    "meaning": "n. 恶梦，噩梦；梦魇般的经历 adj. 可怕的；噩梦似的"
+  },
+  {
+    "id": 538,
+    "word": "yoke",
+    "phonetic": "/joʊk/",
+    "meaning": "n. 轭；束缚；牛轭 vt. 结合；给…上轭 vi. 结合；匹配"
+  },
+  {
+    "id": 539,
+    "word": "premium",
+    "phonetic": "/ˈpriːmiəm/",
+    "meaning": "n. 额外费用；奖金；保险费；溢价 adj. 高价的；优质的"
+  },
+  {
+    "id": 540,
+    "word": "symmetry",
+    "phonetic": "/ˈsɪmətri/",
+    "meaning": "n. 对称（性）；整齐，匀称"
+  },
+  {
+    "id": 541,
+    "word": "segment",
+    "phonetic": "/ˈseɡmənt/",
+    "meaning": "n. 段，部分；（水果或花的）瓣，（动物的）节；弓形；音段；（广播或节目的）时间段 v. 分割；（细胞）分裂"
+  },
+  {
+    "id": 542,
+    "word": "literacy",
+    "phonetic": "/ˈlɪtərəsi/",
+    "meaning": "n. 读写能力；精通文学"
+  },
+  {
+    "id": 543,
+    "word": "solo",
+    "phonetic": "/ˈsoʊloʊ/",
+    "meaning": "n. 独奏；独唱；独奏曲 adj. 独奏的；独唱的；单独的 vt. 单人攀登；单独驾 vi. 单独表演； 放单飞 adv. 单独地"
+  },
+  {
+    "id": 544,
+    "word": "impetus",
+    "phonetic": "/ˈɪmpɪtəs/",
+    "meaning": "n. 动力；促进；冲力；动量"
+  },
+  {
+    "id": 545,
+    "word": "incentive",
+    "phonetic": "/ɪnˈsentɪv/",
+    "meaning": "n. 动机；刺激"
+  },
+  {
+    "id": 546,
+    "word": "summit",
+    "phonetic": "/ˈsʌmɪt/",
+    "meaning": "n. 顶点；最高级会议；最高阶层 adj. 最高级的；政府首脑的"
+  },
+  {
+    "id": 547,
+    "word": "sculpture",
+    "phonetic": "/ˈskʌlptʃər/",
+    "meaning": "n. 雕塑；雕刻；刻蚀 vt. 雕塑；雕刻；刻蚀 vi. 从事雕刻"
+  },
+  {
+    "id": 548,
+    "word": "refreshment",
+    "phonetic": "/rɪˈfreʃmənt/",
+    "meaning": "n. 点心；起提神作用的东西；精力恢复"
+  },
+  {
+    "id": 549,
+    "word": "mortgage",
+    "phonetic": "/ˈmɔːrɡɪdʒ/",
+    "meaning": "n. 抵押；抵押贷款额 v. 抵押；以某人的前途作代价"
+  },
+  {
+    "id": 550,
+    "word": "murmur",
+    "phonetic": "/ˈmɜːrmər/",
+    "meaning": "n. 低语；低语声；低声抱怨；潺潺声 vi. 低声说；私下抱怨；发出轻柔持续的声音 vt. 低声说"
+  },
+  {
+    "id": 551,
+    "word": "rating",
+    "phonetic": "/ˈreɪtɪŋ/",
+    "meaning": "n. 等级；等级评定；额定功率 v. 对…评价（rate 的 ing 形式）"
+  },
+  {
+    "id": 552,
+    "word": "Mediterranean",
+    "phonetic": "/ˌmedɪtəˈreɪniən/",
+    "meaning": "n. 地中海 adj. 地中海的"
+  },
+  {
+    "id": 553,
+    "word": "morality",
+    "phonetic": "/məˈræləti/",
+    "meaning": "n. 道德；品行，美德 554. theft/θeft/  n. 盗窃；偷；赃物"
+  },
+  {
+    "id": 555,
+    "word": "tutor",
+    "phonetic": "/ˈtuːtər/",
+    "meaning": "n. 导师；家庭教师；助教；（尤指音乐）课本 v. 辅导；约束；当家庭教师，当大学导师"
+  },
+  {
+    "id": 556,
+    "word": "midst",
+    "phonetic": "/mɪdst/",
+    "meaning": "n. 当中，中间 prep. 在…中间（等于 amidst）"
+  },
+  {
+    "id": 557,
+    "word": "representation",
+    "phonetic": "/ˌreprɪzenˈteɪʃn/",
+    "meaning": "n. 代表；表现；表示法；陈述"
+  },
+  {
+    "id": 558,
+    "word": "magnitude",
+    "phonetic": "/ˈmæɡnɪtuːd/",
+    "meaning": "n. 大小；量级；[地震] 震级；重要；光度"
+  },
+  {
+    "id": 559,
+    "word": "lobby",
+    "phonetic": "/ˈlɑːbi/",
+    "meaning": "n. 大厅；休息室；会客室；游说议员的团体 vt. 对……进行游说 vi. 游说议员"
+  },
+  {
+    "id": 560,
+    "word": "multitude",
+    "phonetic": "/ˈmʌltɪtuːd/",
+    "meaning": "n. 大量，多数；群众，人群"
+  },
+  {
+    "id": 561,
+    "word": "marble",
+    "phonetic": "/ˈmɑːrbl/",
+    "meaning": "n. 大理石；大理石制品；弹珠 adj. 大理石的；冷酷无情的"
+  },
+  {
+    "id": 562,
+    "word": "stride",
+    "phonetic": "/straɪd/",
+    "meaning": "n. 大步；步幅；进展 vt. 跨过；大踏步走过；跨坐在… vi. 跨；跨过；大步行走"
+  },
+  {
+    "id": 563,
+    "word": "inventory",
+    "phonetic": "/ˈɪnvəntɔːri/",
+    "meaning": "n. 存货，存货清单；详细目录；财产清册 vt. 给……开列清单"
+  },
+  {
+    "id": 564,
+    "word": "stimulus",
+    "phonetic": "/ˈstɪmjələs/",
+    "meaning": "n. 刺激；激励；刺激物"
+  },
+  {
+    "id": 565,
+    "word": "thorn",
+    "phonetic": "/θɔːrn/",
+    "meaning": "n. 刺；荆棘"
+  },
+  {
+    "id": 566,
+    "word": "tile",
+    "phonetic": "/taɪl/",
+    "meaning": "n. 瓷砖，瓦片 vt. 铺以瓦；铺以瓷砖"
+  },
+  {
+    "id": 567,
+    "word": "innovation",
+    "phonetic": "/ˌɪnəˈveɪʃn/",
+    "meaning": "n. 创新，革新；新方法"
+  },
+  {
+    "id": 568,
+    "word": "legend",
+    "phonetic": "/ˈledʒənd/",
+    "meaning": "n. 传奇；说明；图例；刻印文字"
+  },
+  {
+    "id": 569,
+    "word": "romance",
+    "phonetic": "/ˈroʊmæns/",
+    "meaning": "n. 传奇；浪漫史；风流韵事；冒险故事 vi. 虚构；渲染；写传奇"
+  },
+  {
+    "id": 570,
+    "word": "missionary",
+    "phonetic": "/ˈmɪʃəneri/",
+    "meaning": "n. 传教士 adj. 传教的；传教士的；传教士般的"
+  },
+  {
+    "id": 571,
+    "word": "disposition",
+    "phonetic": "/ˌdɪspəˈzɪʃn/",
+    "meaning": "n. 处置；[心理] 性情；[军] 部署；倾向"
+  },
+  {
+    "id": 572,
+    "word": "scandal",
+    "phonetic": "/ˈskændl/",
+    "meaning": "n. 丑闻；流言蜚语；诽谤；公愤"
+  },
+  {
+    "id": 573,
+    "word": "deficit",
+    "phonetic": "/ˈdefɪsɪt/",
+    "meaning": "n. 赤字；不足额"
+  },
+  {
+    "id": 574,
+    "word": "tenant",
+    "phonetic": "/ˈtenənt/",
+    "meaning": "n. 承租人；房客；佃户；居住者 vt. 租借（常用于被动语态）"
+  },
+  {
+    "id": 575,
+    "word": "commitment",
+    "phonetic": "/kəˈmɪtmənt/",
+    "meaning": "n. 承诺，保证；委托；承担义务；献身；花费金钱、时间、人力等"
+  },
+  {
+    "id": 576,
+    "word": "constituent",
+    "phonetic": "/kənˈstɪtʃuənt/",
+    "meaning": "n. 成分；选民；委托人 adj. 构成的；选举的；有任命（或选举）权的；立宪 的；有宪法制定（或修改）权的"
+  },
+  {
+    "id": 577,
+    "word": "stereotype",
+    "phonetic": "/ˈsteriətaɪp/",
+    "meaning": "n. 陈腔滥调，老套；成见；模式化形象；铅版，铅版（浇铸或印刷） v. 对……形成 模式化的看法，对……存有成见；套用老套，使一成不变；使用铅版"
+  },
+  {
+    "id": 578,
+    "word": "quiver",
+    "phonetic": "/ˈkwɪvər/",
+    "meaning": "n. 颤抖；箭袋；震动 vi. 颤抖；振动 vt. 使…颤动；抖动"
+  },
+  {
+    "id": 579,
+    "word": "hierarchy",
+    "phonetic": "/ˈhaɪərɑːrki/",
+    "meaning": "n. 层级；等级制度"
+  },
+  {
+    "id": 580,
+    "word": "tactics",
+    "phonetic": "/ˈtæktɪks/",
+    "meaning": "n. 策略；战术；用兵学"
+  },
+  {
+    "id": 581,
+    "word": "profile",
+    "phonetic": "/ˈproʊfaɪl/",
+    "meaning": "n. 侧面；轮廓；外形；剖面；简况 vt. 描…的轮廓；扼要描述 vi. 给出轮廓"
+  },
+  {
+    "id": 582,
+    "word": "flank",
+    "phonetic": "/flæŋk/",
+    "meaning": "n. 侧面；侧翼；侧腹 vt. 守侧面；位于…的侧面；攻击侧面 vi. 侧面与…相接 adv. 在左右两 边"
+  },
+  {
+    "id": 583,
+    "word": "meadow",
+    "phonetic": "/ˈmedoʊ/",
+    "meaning": "n. 草地；牧场"
+  },
+  {
+    "id": 584,
+    "word": "pasture",
+    "phonetic": "/ˈpæstʃər/",
+    "meaning": "n. 草地；牧场；牧草 vt. 放牧；吃草"
+  },
+  {
+    "id": 585,
+    "word": "warehouse",
+    "phonetic": "/ˈwerhaʊs/",
+    "meaning": "n. 仓库；货栈；大商店 vt. 储入仓库；以他人名义购进（股票）"
+  },
+  {
+    "id": 586,
+    "word": "participant",
+    "phonetic": "/pɑːrˈtɪsɪpənt/",
+    "meaning": "n. 参与者，参加者 adj. 参与的"
+  },
+  {
+    "id": 587,
+    "word": "senator",
+    "phonetic": "/ˈsenətər/",
+    "meaning": "n. 参议员；（古罗马的）元老院议员；评议员，理事"
+  },
+  {
+    "id": 588,
+    "word": "parameter",
+    "phonetic": "/pəˈræmɪtər/",
+    "meaning": "n. 参数；系数；参量"
+  },
+  {
+    "id": 589,
+    "word": "subordinate",
+    "phonetic": "/səˈbɔːrdɪnət/",
+    "meaning": "n. 部属，下属，下级；从属，次要 vt. 使……居下位；使……服从 adj. 从属的， 隶属的；次要的"
+  },
+  {
+    "id": 590,
+    "word": "sector",
+    "phonetic": "/ˈsektər/",
+    "meaning": "n. 部门；扇形，扇区；象限仪；函数尺 vt. 把…分成扇形"
+  },
+  {
+    "id": 591,
+    "word": "tribe",
+    "phonetic": "/traɪb/",
+    "meaning": "n. 部落；族；宗族；一伙"
+  },
+  {
+    "id": 592,
+    "word": "misfortune",
+    "phonetic": "/ˌmɪsˈfɔːrtʃən/",
+    "meaning": "n. 不幸；灾祸，灾难"
+  },
+  {
+    "id": 593,
+    "word": "discrepancy",
+    "phonetic": "/dɪˈskrepənsi/",
+    "meaning": "n. 不符；矛盾；相差"
+  },
+  {
+    "id": 594,
+    "word": "subsidy",
+    "phonetic": "/ˈsʌbsədi/",
+    "meaning": "n. 补贴；津贴；补助金"
+  },
+  {
+    "id": 595,
+    "word": "exposition",
+    "phonetic": "/ˌekspəˈzɪʃn/",
+    "meaning": "n. 博览会；阐述；展览会"
+  },
+  {
+    "id": 596,
+    "word": "ripple",
+    "phonetic": "/ˈrɪpl/",
+    "meaning": "n. 波纹；涟漪；[物] 涟波 vi. 起潺潺声 vt. 在…上形成波痕"
+  },
+  {
+    "id": 597,
+    "word": "ward",
+    "phonetic": "/wɔːrd/",
+    "meaning": "n. 病房；保卫；监视；区，选区 vt. 避开；保卫；守护"
+  },
+  {
+    "id": 598,
+    "word": "norm",
+    "phonetic": "/nɔːrm/",
+    "meaning": "n. 标准，规范"
+  },
+  {
+    "id": 599,
+    "word": "slogan",
+    "phonetic": "/ˈsloʊɡən/",
+    "meaning": "n. 标语；呐喊声"
+  },
+  {
+    "id": 600,
+    "word": "fringe",
+    "phonetic": "/frɪndʒ/",
+    "meaning": "n. 边缘；穗；刘海 adj. 边缘的；附加的 vt. 加穗于"
+  },
+  {
+    "id": 601,
+    "word": "verge",
+    "phonetic": "/vɜːrdʒ/",
+    "meaning": "n. 边缘；绿地；极限；山墙突瓦；权杖（作为职位标志） v. 濒临，接近；趋向；处在边缘"
+  },
+  {
+    "id": 602,
+    "word": "rim",
+    "phonetic": "/rɪm/",
+    "meaning": "n. 边，边缘；轮辋；圆圈 vi. 作…的边，装边于 vt. 作…的边，装边于"
+  },
+  {
+    "id": 603,
+    "word": "essence",
+    "phonetic": "/ˈesns/",
+    "meaning": "n. 本质，实质；精华；香精"
+  },
+  {
+    "id": 604,
+    "word": "paradox",
+    "phonetic": "/ˈpærədɑːks/",
+    "meaning": "n. 悖论，反论；似是而非的论点；自相矛盾的人或事 n. （Paradox）《杀破狼：贪狼》 （一部剧情动作电影）"
+  },
+  {
+    "id": 605,
+    "word": "tablet",
+    "phonetic": "/ˈtæblət/",
+    "meaning": "n. 碑；药片；写字板；小块；平板电脑 vt. 用碑牌纪念；将(备忘录等)写在板上；将…制 成小片或小块"
+  },
+  {
+    "id": 606,
+    "word": "grief",
+    "phonetic": "/ɡriːf/",
+    "meaning": "n. 悲痛；忧伤；不幸"
+  },
+  {
+    "id": 607,
+    "word": "riot",
+    "phonetic": "/ˈraɪət/",
+    "meaning": "n. 暴乱；放纵；蔓延 vi. 骚乱；放荡 vt. 浪费，挥霍"
+  },
+  {
+    "id": 608,
+    "word": "messenger",
+    "phonetic": "/ˈmesɪndʒər/",
+    "meaning": "n. 报信者，送信者；先驱"
+  },
+  {
+    "id": 609,
+    "word": "revenge",
+    "phonetic": "/rɪˈvendʒ/",
+    "meaning": "n. 报复；复仇 vt. 报复；替…报仇；洗雪 vi. 报仇；雪耻"
+  },
+  {
+    "id": 610,
+    "word": "fort",
+    "phonetic": "/fɔːrt/",
+    "meaning": "n. 堡垒；要塞；（美）边界贸易站 vt. 设要塞保卫 vi. 构筑要塞"
+  },
+  {
+    "id": 611,
+    "word": "pledge",
+    "phonetic": "/pledʒ/",
+    "meaning": "n. 保证，誓言；抵押；抵押品，典当物 vt. 保证，许诺；用……抵押；举杯祝……健康"
+  },
+  {
+    "id": 612,
+    "word": "retention",
+    "phonetic": "/rɪˈtenʃn/",
+    "meaning": "n. 保留；扣留，滞留；记忆力；闭尿"
+  },
+  {
+    "id": 613,
+    "word": "safeguard",
+    "phonetic": "/ˈseɪfɡɑːrd/",
+    "meaning": "n. 保护；保卫；保护措施；预防措施 v. 保护；护卫"
+  },
+  {
+    "id": 614,
+    "word": "liner",
+    "phonetic": "/ˈlaɪnər/",
+    "meaning": "n. 班轮，班机；衬垫；画线者"
+  },
+  {
+    "id": 615,
+    "word": "wrench",
+    "phonetic": "/rentʃ/",
+    "meaning": "n. 扳手，扳钳；扭伤；痛苦；歪曲；猛扭 vt. 扭伤；猛扭；曲解；折磨 vi. 扭伤；猛扭；猛 绞"
+  },
+  {
+    "id": 616,
+    "word": "trigger",
+    "phonetic": "/ˈtrɪɡər/",
+    "meaning": "n. 扳机；起因，引起反应的事；触发器，引爆装置 v. 触发，引起；开动（装置）"
+  },
+  {
+    "id": 617,
+    "word": "knob",
+    "phonetic": "/nɑːb/",
+    "meaning": "n. 把手；瘤；球形突出物 vi. 鼓起 vt. 使有球形突出物"
+  },
+  {
+    "id": 618,
+    "word": "installment",
+    "phonetic": "/ɪnˈstɔːlmənt/",
+    "meaning": "n. 安装；分期付款；部分；就职"
+  },
+  {
+    "id": 619,
+    "word": "manuscript",
+    "phonetic": "/ˈmænjuskrɪpt/",
+    "meaning": "n. [图情] 手稿；原稿 adj. 手写的"
+  },
+  {
+    "id": 620,
+    "word": "galaxy",
+    "phonetic": "/ˈɡæləksi/",
+    "meaning": "n. [天] 星系；银河系（the Galaxy）；一群显赫的人 n. 三星智能手机品牌 2015 年三星 中国公布 Galaxy 的中文名称为“盖乐世”（Galaxy）[ 复数 galaxies ]"
+  },
+  {
+    "id": 621,
+    "word": "remainder",
+    "phonetic": "/rɪˈmeɪndər/",
+    "meaning": "n. [数] 余数，残余；剩余物；其余的人 adj. 剩余的；吃剩的 vt. 廉价出售；削价出 售 vi. 廉价出售；削价出售"
+  },
+  {
+    "id": 622,
+    "word": "species",
+    "phonetic": "/ˈspiːʃiːz/",
+    "meaning": "n. [生物] 物种；种类 adj. 物种上的"
+  },
+  {
+    "id": 623,
+    "word": "suitcase",
+    "phonetic": "/ˈsuːtkeɪs/",
+    "meaning": "n. [轻] 手提箱；衣箱"
+  },
+  {
+    "id": 624,
+    "word": "humidity",
+    "phonetic": "/hjuːˈmɪdəti/",
+    "meaning": "n. [气象] 湿度；湿气"
+  },
+  {
+    "id": 625,
+    "word": "symptom",
+    "phonetic": "/ˈsɪmptəm/",
+    "meaning": "n. [临床] 症状；征兆"
+  },
+  {
+    "id": 626,
+    "word": "inertia",
+    "phonetic": "/ɪˈnɜːrʃə/",
+    "meaning": "n. [力] 惯性；惰性，迟钝；不活动"
+  },
+  {
+    "id": 627,
+    "word": "resonance",
+    "phonetic": "/ˈrezənəns/",
+    "meaning": "n. [力] 共振；共鸣；反响"
+  },
+  {
+    "id": 628,
+    "word": "kidney",
+    "phonetic": "/ˈkɪdni/",
+    "meaning": "n. [解剖] 肾脏；腰子；个性"
+  },
+  {
+    "id": 629,
+    "word": "validity",
+    "phonetic": "/vəˈlɪdəti/",
+    "meaning": "n. [计] 有效性；正确；正确性"
+  },
+  {
+    "id": 630,
+    "word": "option",
+    "phonetic": "/ˈɑːpʃn/",
+    "meaning": "n. [计] 选项；选择权；买卖的特权"
+  },
+  {
+    "id": 631,
+    "word": "oxide",
+    "phonetic": "/ˈɑːksaɪd/",
+    "meaning": "n. [化学] 氧化物"
+  },
+  {
+    "id": 632,
+    "word": "silicon",
+    "phonetic": "/ˈsɪlɪkən/",
+    "meaning": "n. [化学] 硅；硅元素"
+  },
+  {
+    "id": 633,
+    "word": "purity",
+    "phonetic": "/ˈpjʊrəti/",
+    "meaning": "n. [化学] 纯度；纯洁；纯净；纯粹"
+  },
+  {
+    "id": 634,
+    "word": "testimony",
+    "phonetic": "/ˈtestɪmoʊni/",
+    "meaning": "n. [法] 证词，证言；证据"
+  },
+  {
+    "id": 635,
+    "word": "jury",
+    "phonetic": "/ˈdʒʊri/",
+    "meaning": "n. [法] 陪审团；评判委员会 adj. 应急的"
+  },
+  {
+    "id": 636,
+    "word": "heir",
+    "phonetic": "/er/",
+    "meaning": "n. [法] 继承人；后嗣；嗣子"
+  },
+  {
+    "id": 637,
+    "word": "epoch",
+    "phonetic": "/ˈepək/",
+    "meaning": "n. [地质] 世；新纪元；新时代；时间上的一点"
+  },
+  {
+    "id": 638,
+    "word": "longitude",
+    "phonetic": "/ˈlɑːndʒɪtuːd/",
+    "meaning": "n. [地理] 经度；经线"
+  },
+  {
+    "id": 639,
+    "word": "terrain",
+    "phonetic": "/təˈreɪn/",
+    "meaning": "n. [地理] 地形，地势；领域；地带 640. virus/ˈvaɪrəs/n. [病毒] 病毒；恶毒；毒害"
+  },
+  {
+    "id": 641,
+    "word": "renaissance",
+    "phonetic": "/ˈrenəsɑːns/",
+    "meaning": "n. （艺术等的）新生，复活 n. (Renaissance) 文艺复兴，文艺复兴风格 642. pore/pɔːr/    n. （皮肤上的）毛孔；       （植物的）气孔，孔隙 v. 仔细打量，审视；凝视；认真研读，审阅；深 思熟虑"
+  },
+  {
+    "id": 643,
+    "word": "criterion",
+    "phonetic": "/kraɪˈtɪriən/",
+    "meaning": "n. （批评判断的）标准；准则；规范；准据"
+  },
+  {
+    "id": 644,
+    "word": "pedal",
+    "phonetic": "/ˈpedl/",
+    "meaning": "n. （车辆，乐器的）踏板 v. 骑（自行车）；踩踏板 adj. 脚的；脚踏的"
+  },
+  {
+    "id": 645,
+    "word": "whereas",
+    "phonetic": "/ˌwerˈæz/",
+    "meaning": "conj. 然而；鉴于 n. 序言，开场白；条件语句"
+  },
+  {
+    "id": 646,
+    "word": "whereby",
+    "phonetic": "/werˈbaɪ/",
+    "meaning": "conj. 凭借；通过…；借以；与…一致 adv. 凭此；借以"
+  },
+  {
+    "id": 647,
+    "word": "invariably",
+    "phonetic": "/ɪnˈveriəbli/",
+    "meaning": "adv. 总是；不变地；一定地"
+  },
+  {
+    "id": 648,
+    "word": "specifically",
+    "phonetic": "/spəˈsɪfɪkli/",
+    "meaning": "adv. 特别地；明确地"
+  },
+  {
+    "id": 649,
+    "word": "incidentally",
+    "phonetic": "/ˌɪnsɪˈdentli/",
+    "meaning": "adv. 顺便；偶然地；附带地"
+  },
+  {
+    "id": 650,
+    "word": "readily",
+    "phonetic": "/ˈredɪli/",
+    "meaning": "adv. 容易地；乐意地；无困难地"
+  },
+  {
+    "id": 651,
+    "word": "hitherto",
+    "phonetic": "/ˌhɪðərˈtuː/",
+    "meaning": "adv. 迄今；至今"
+  },
+  {
+    "id": 652,
+    "word": "thereafter",
+    "phonetic": "/ˌðerˈæftər/",
+    "meaning": "adv. 其后；从那时以后"
+  },
+  {
+    "id": 653,
+    "word": "seemingly",
+    "phonetic": "/ˈsiːmɪŋli/",
+    "meaning": "adv. 看来似乎；表面上看来"
+  },
+  {
+    "id": 654,
+    "word": "presumably",
+    "phonetic": "/prɪˈzuːməbli/",
+    "meaning": "adv. 大概；推测起来；可假定"
+  },
+  {
+    "id": 655,
+    "word": "articulate",
+    "phonetic": "/ɑːrˈtɪkjuleɪt/",
+    "meaning": "adj.有关节的,发音清晰的 vt.用关节连接,接合,清晰明白地说"
+  },
+  {
+    "id": 656,
+    "word": "nasty",
+    "phonetic": "/ˈnæsti/",
+    "meaning": "adj.污秽的,肮脏的,令人厌恶的,淫秽的,下流的,凶相的,威胁的"
+  },
+  {
+    "id": 657,
+    "word": "spiral",
+    "phonetic": "/ˈspaɪrəl/",
+    "meaning": "adj.螺旋形的 n.螺旋 v.盘旋"
+  },
+  {
+    "id": 658,
+    "word": "optimum",
+    "phonetic": "/ˈɑːptɪməm/",
+    "meaning": "adj. 最适宜的 n. 最佳效果；最适宜条件"
+  },
+  {
+    "id": 659,
+    "word": "minimal",
+    "phonetic": "/ˈmɪnɪml/",
+    "meaning": "adj. 最低的；最小限度的"
+  },
+  {
+    "id": 660,
+    "word": "spontaneous",
+    "phonetic": "/spɑːnˈteɪniəs/",
+    "meaning": "adj. 自发的；自然的；无意识的"
+  },
+  {
+    "id": 661,
+    "word": "ultraviolet",
+    "phonetic": "/ˌʌltrəˈvaɪələt/",
+    "meaning": "adj. 紫外的；紫外线的 n. 紫外线辐射，紫外光"
+  },
+  {
+    "id": 662,
+    "word": "spectacular",
+    "phonetic": "/spekˈtækjələr/",
+    "meaning": "adj. 壮观的，惊人的；公开展示的"
+  },
+  {
+    "id": 663,
+    "word": "residential",
+    "phonetic": "/ˌrezɪˈdenʃl/",
+    "meaning": "adj. 住宅的；与居住有关的"
+  },
+  {
+    "id": 664,
+    "word": "predominant",
+    "phonetic": "/prɪˈdɑːmɪnənt/",
+    "meaning": "adj. 主要的；卓越的；支配的；有力的；有影响的"
+  },
+  {
+    "id": 665,
+    "word": "subjective",
+    "phonetic": "/səbˈdʒektɪv/",
+    "meaning": "adj. 主观的；个人的；自觉的"
+  },
+  {
+    "id": 666,
+    "word": "periodic",
+    "phonetic": "/ˌpɪriˈɑːdɪk/",
+    "meaning": "adj. 周期的；定期的"
+  },
+  {
+    "id": 667,
+    "word": "crucial",
+    "phonetic": "/ˈkruːʃl/",
+    "meaning": "adj. 重要的；决定性的；定局的；决断的"
+  },
+  {
+    "id": 668,
+    "word": "ethnic",
+    "phonetic": "/ˈeθnɪk/",
+    "meaning": "adj. 种族的；人种的"
+  },
+  {
+    "id": 669,
+    "word": "medieval",
+    "phonetic": "/ˌmediˈiːvl,ˌmiːdˈiːvl/",
+    "meaning": "adj. 中世纪的；原始的；仿中世纪的；老式的"
+  },
+  {
+    "id": 670,
+    "word": "vocational",
+    "phonetic": "/voʊˈkeɪʃənl/",
+    "meaning": "adj. 职业的，行业的"
+  },
+  {
+    "id": 671,
+    "word": "notable",
+    "phonetic": "/ˈnoʊtəbl/",
+    "meaning": "adj. 值得注意的，显著的；著名的 n. 名人，显要人物 672. authentic/ɔːˈθentɪk/ adj. 真正的，真实的；可信的"
+  },
+  {
+    "id": 673,
+    "word": "strategic",
+    "phonetic": "/strəˈtiːdʒɪk/",
+    "meaning": "adj. 战略上的，战略的"
+  },
+  {
+    "id": 674,
+    "word": "premature",
+    "phonetic": "/ˌpriːməˈtʃʊr,ˌpriːməˈtʊr/",
+    "meaning": "adj. 早产的；不成熟的；比预期早的 n. 早产儿；过早发生的事物"
+  },
+  {
+    "id": 675,
+    "word": "lunar",
+    "phonetic": "/ˈluːnər/",
+    "meaning": "adj. 月亮的，月球的；阴历的；银的；微亮的"
+  },
+  {
+    "id": 676,
+    "word": "controversial",
+    "phonetic": "/ˌkɑːntrəˈvɜːrʃl/",
+    "meaning": "adj. 有争议的；有争论的"
+  },
+  {
+    "id": 677,
+    "word": "promising",
+    "phonetic": "/ˈprɑːmɪsɪŋ/",
+    "meaning": "adj. 有希望的，有前途的 v. 许诺，答应（promise 的现在分词形式）"
+  },
+  {
+    "id": 678,
+    "word": "profitable",
+    "phonetic": "/ˈprɑːfɪtəbl/",
+    "meaning": "adj. 有利可图的；赚钱的；有益的"
+  },
+  {
+    "id": 679,
+    "word": "ingenious",
+    "phonetic": "/ɪnˈdʒiːniəs/",
+    "meaning": "adj. 有独创性的；机灵的，精制的；心灵手巧的"
+  },
+  {
+    "id": 680,
+    "word": "resultant",
+    "phonetic": "/rɪˈzʌltənt/",
+    "meaning": "adj. 由此导致的，因而发生的 n. 合力，合成速率；结果"
+  },
+  {
+    "id": 681,
+    "word": "perpetual",
+    "phonetic": "/pərˈpetʃuəl/",
+    "meaning": "adj. 永久的；不断的；四季开花的；无期限的"
+  },
+  {
+    "id": 682,
+    "word": "obscene",
+    "phonetic": "/əbˈsiːn/",
+    "meaning": "adj. 淫秽的；猥亵的；可憎的"
+  },
+  {
+    "id": 683,
+    "word": "bleak",
+    "phonetic": "/bliːk/",
+    "meaning": "adj. 阴冷的；荒凉的，无遮蔽的；黯淡的，无希望的；冷酷的；单调的"
+  },
+  {
+    "id": 684,
+    "word": "eloquent",
+    "phonetic": "/ˈeləkwənt/",
+    "meaning": "adj. 意味深长的；雄辩的，有口才的；有说服力的；动人的"
+  },
+  {
+    "id": 685,
+    "word": "brittle",
+    "phonetic": "/ˈbrɪtl/",
+    "meaning": "adj. 易碎的，脆弱的；易生气的"
+  },
+  {
+    "id": 686,
+    "word": "susceptible",
+    "phonetic": "/səˈseptəbl/",
+    "meaning": "adj. 易受影响的；易感动的；容许……的 n. 易得病的人"
+  },
+  {
+    "id": 687,
+    "word": "vulnerable",
+    "phonetic": "/ˈvʌlnərəbl/",
+    "meaning": "adj. 易受攻击的，易受……的攻击；易受伤害的；有弱点的"
+  },
+  {
+    "id": 688,
+    "word": "exotic",
+    "phonetic": "/ɪɡˈzɑːtɪk/",
+    "meaning": "adj. 异国的；外来的；异国情调的"
+  },
+  {
+    "id": 689,
+    "word": "compulsory",
+    "phonetic": "/kəmˈpʌlsəri/",
+    "meaning": "adj. 义务的；必修的；被强制的 n. （花样滑冰、竞技体操等的）规定动作"
+  },
+  {
+    "id": 690,
+    "word": "savage",
+    "phonetic": "/ˈsævɪdʒ/",
+    "meaning": "adj. 野蛮的；残酷的；狂怒的；荒凉的 n. 未开化的人；粗鲁的人；残暴成性的人 vt. 乱 咬；粗暴的对待 691. grim/ɡrɪm/ adj. 严肃的；令人沮丧的；阴沉的；糟糕的"
+  },
+  {
+    "id": 692,
+    "word": "stern",
+    "phonetic": "/stɜːrn/",
+    "meaning": "adj. 严厉的；坚定的；严峻的；认真的 n. 船尾；末端；（幽默）（人的）臀部"
+  },
+  {
+    "id": 693,
+    "word": "rigorous",
+    "phonetic": "/ˈrɪɡərəs/",
+    "meaning": "adj. 严格的，严厉的；严密的；严酷的"
+  },
+  {
+    "id": 694,
+    "word": "sexual",
+    "phonetic": "/ˈsekʃuəl/",
+    "meaning": "adj. 性的；性别的；有性的 695. hysterical/hɪˈsterɪkl/ adj. 歇斯底里的；异常兴奋的"
+  },
+  {
+    "id": 696,
+    "word": "indicative",
+    "phonetic": "/ɪnˈdɪkətɪv/",
+    "meaning": "adj. 象征的；指示的；表示…的 n. 陈述语气；陈述语气的动词形式"
+  },
+  {
+    "id": 697,
+    "word": "linear",
+    "phonetic": "/ˈlɪniər/",
+    "meaning": "adj. 线的，线型的；直线的，线状的；长度的"
+  },
+  {
+    "id": 698,
+    "word": "realistic",
+    "phonetic": "/ˌriːəˈlɪstɪk/",
+    "meaning": "adj. 现实的；现实主义的；逼真的；实在论的"
+  },
+  {
+    "id": 699,
+    "word": "conspicuous",
+    "phonetic": "/kənˈspɪkjuəs/",
+    "meaning": "adj. 显著的；显而易见的"
+  },
+  {
+    "id": 700,
+    "word": "striking",
+    "phonetic": "/ˈstraɪkɪŋ/",
+    "meaning": "adj. 显著的，突出的，惊人的；打击的；罢工的 v. 打（strike 的 ing 形式）"
+  },
+  {
+    "id": 701,
+    "word": "invalid",
+    "phonetic": "/ɪnˈvælɪd/",
+    "meaning": "adj. 无效的；有病的；残疾的 n. 病人；残疾者 vt. 使伤残；使退役 vi. 变得病弱；因 病而奉命退役"
+  },
+  {
+    "id": 702,
+    "word": "void",
+    "phonetic": "/vɔɪd/",
+    "meaning": "adj. 无效的；空的；无人（居住）的；缺乏的 n. 空间；空白；空虚感 v. 使无效；排放（大小便）"
+  },
+  {
+    "id": 703,
+    "word": "invaluable",
+    "phonetic": "/ɪnˈvæljuəbl/",
+    "meaning": "adj. 无价的；非常贵重的"
+  },
+  {
+    "id": 704,
+    "word": "literal",
+    "phonetic": "/ˈlɪtərəl/",
+    "meaning": "adj. 文字的；逐字的；无夸张的"
+  },
+  {
+    "id": 705,
+    "word": "situated",
+    "phonetic": "/ˈsɪtʃueɪtɪd/",
+    "meaning": "adj. 位于…的；处于…境遇的 v. 使位于；使处于（situate 的过去分词）"
+  },
+  {
+    "id": 706,
+    "word": "prospective",
+    "phonetic": "/prəˈspektɪv/",
+    "meaning": "adj. 未来的；预期的"
+  },
+  {
+    "id": 707,
+    "word": "miniature",
+    "phonetic": "/ˈmɪnətʃər,ˈmɪnətʃʊr/",
+    "meaning": "adj. 微型的，小规模的 n. 缩图；微型画；微型图画绘画术 vt. 是…的 缩影"
+  },
+  {
+    "id": 708,
+    "word": "feeble",
+    "phonetic": "/ˈfiːbl/",
+    "meaning": "adj. 微弱的，无力的；虚弱的；薄弱的"
+  },
+  {
+    "id": 709,
+    "word": "subtle",
+    "phonetic": "/ˈsʌtl/",
+    "meaning": "adj. 微妙的；精细的；敏感的；狡猾的；稀薄的"
+  },
+  {
+    "id": 710,
+    "word": "negligible",
+    "phonetic": "/ˈneɡlɪdʒəbl/",
+    "meaning": "adj. 微不足道的，可以忽略的"
+  },
+  {
+    "id": 711,
+    "word": "marginal",
+    "phonetic": "/ˈmɑːrdʒɪnl/",
+    "meaning": "adj. 微不足道的，不重要的；边缘的；临界的；末端的 n. 边缘席位"
+  },
+  {
+    "id": 712,
+    "word": "stubborn",
+    "phonetic": "/ˈstʌbərn/",
+    "meaning": "adj. 顽固的；顽强的；难处理的"
+  },
+  {
+    "id": 713,
+    "word": "intact",
+    "phonetic": "/ɪnˈtækt/",
+    "meaning": "adj. 完整的；原封不动的；未受损伤的"
+  },
+  {
+    "id": 714,
+    "word": "oval",
+    "phonetic": "/ˈoʊvl/",
+    "meaning": "adj. 椭圆的；卵形的 n. 椭圆形；卵形"
+  },
+  {
+    "id": 715,
+    "word": "pedestrian",
+    "phonetic": "/pəˈdestriən/",
+    "meaning": "adj. 徒步的；缺乏想像力的 n. 行人；步行者"
+  },
+  {
+    "id": 716,
+    "word": "simultaneous",
+    "phonetic": "/ˌsaɪmlˈteɪniəs/",
+    "meaning": "adj. 同时的；联立的；同时发生的 n. 同时译员"
+  },
+  {
+    "id": 717,
+    "word": "naive",
+    "phonetic": "/naɪˈiːv/",
+    "meaning": "adj. 天真的,幼稚的"
+  },
+  {
+    "id": 718,
+    "word": "ceramic",
+    "phonetic": "/səˈræmɪk/",
+    "meaning": "adj. 陶瓷的；陶器的；制陶艺术的 n. 陶瓷；陶瓷制品"
+  },
+  {
+    "id": 719,
+    "word": "petty",
+    "phonetic": "/ˈpeti/",
+    "meaning": "adj. 琐碎的；小气的；小规模的"
+  },
+  {
+    "id": 720,
+    "word": "instantaneous",
+    "phonetic": "/ˌɪnstənˈteɪniəs/",
+    "meaning": "adj. 瞬间的；即时的；猝发的"
+  },
+  {
+    "id": 721,
+    "word": "obedient",
+    "phonetic": "/əˈbiːdiənt/",
+    "meaning": "adj. 顺从的，服从的；孝顺的"
+  },
+  {
+    "id": 722,
+    "word": "watertight",
+    "phonetic": "/ˈwɔːtərtaɪt/",
+    "meaning": "adj. 水密的；不漏水的；无懈可击的"
+  },
+  {
+    "id": 723,
+    "word": "numerical",
+    "phonetic": "/nuːˈmerɪkl/",
+    "meaning": "adj. 数值的；数字的；用数字表示的（等于 numeric）"
+  },
+  {
+    "id": 724,
+    "word": "tentative",
+    "phonetic": "/ˈtentətɪv/",
+    "meaning": "adj. 试验性的，暂定的；踌躇的 n. 假设，试验"
+  },
+  {
+    "id": 725,
+    "word": "municipal",
+    "phonetic": "/mjuːˈnɪsɪpl/",
+    "meaning": "adj. 市政的，市的；地方自治的"
+  },
+  {
+    "id": 726,
+    "word": "notorious",
+    "phonetic": "/noʊˈtɔːriəs/",
+    "meaning": "adj. 声名狼藉的，臭名昭著的"
+  },
+  {
+    "id": 727,
+    "word": "esthetic",
+    "phonetic": "/esˈθetɪk/",
+    "meaning": "adj. 审美的（等于 aesthetic）；感觉的 n. 美学；审美家；唯美主义者"
+  },
+  {
+    "id": 728,
+    "word": "divine",
+    "phonetic": "/dɪˈvaɪn/",
+    "meaning": "adj. 神圣的；非凡的；天赐的；极好的 vt. 占卜；预言；用占卜勘探 vi. 占卜；预言； 使用占卜勘探矿 n. 牧师；神学家"
+  },
+  {
+    "id": 729,
+    "word": "profound",
+    "phonetic": "/prəˈfaʊnd/",
+    "meaning": "adj. 深厚的；意义深远的；渊博的"
+  },
+  {
+    "id": 730,
+    "word": "extravagant",
+    "phonetic": "/ɪkˈstrævəɡənt/",
+    "meaning": "adj. 奢侈的；浪费的；过度的；放纵的"
+  },
+  {
+    "id": 731,
+    "word": "triple",
+    "phonetic": "/ˈtrɪpl/",
+    "meaning": "adj. 三倍的；三方的 n. 三倍数；三个一组 vi. 增至三倍 vt. 使成三倍"
+  },
+  {
+    "id": 732,
+    "word": "limp",
+    "phonetic": "/lɪmp/",
+    "meaning": "adj. 柔软的，无力的；软弱的 vi. 跛行，一拐一拐地走；缓慢费力地前进 n. 跛行"
+  },
+  {
+    "id": 733,
+    "word": "cordial",
+    "phonetic": "/ˈkɔːrdʒəl/",
+    "meaning": "adj. 热情友好的；由衷的；兴奋的 n. 甜果汁饮料；镇定药；兴奋剂；甜香酒"
+  },
+  {
+    "id": 734,
+    "word": "thermal",
+    "phonetic": "/ˈθɜːrml/",
+    "meaning": "adj. 热的；热量的；保热的 n. 上升的热气流"
+  },
+  {
+    "id": 735,
+    "word": "unanimous",
+    "phonetic": "/juˈnænɪməs/",
+    "meaning": "adj. 全体一致的；意见一致的；无异议的"
+  },
+  {
+    "id": 736,
+    "word": "adolescent",
+    "phonetic": "/ˌædəˈlesnt/",
+    "meaning": "adj. 青春期的；未成熟的 n. 青少年"
+  },
+  {
+    "id": 737,
+    "word": "robust",
+    "phonetic": "/roʊˈbʌst/",
+    "meaning": "adj. 强健的；健康的；粗野的；粗鲁的"
+  },
+  {
+    "id": 738,
+    "word": "formidable",
+    "phonetic": "/fəˈmɪdəbl/",
+    "meaning": "adj. 强大的；可怕的；令人敬畏的；艰难的"
+  },
+  {
+    "id": 739,
+    "word": "latent",
+    "phonetic": "/ˈleɪtnt/",
+    "meaning": "adj. 潜在的；潜伏的；隐藏的"
+  },
+  {
+    "id": 740,
+    "word": "underlying",
+    "phonetic": "/ˌʌndərˈlaɪɪŋ/",
+    "meaning": "adj. 潜在的；根本的；在下面的；优先的 v. 放在…的下面；为…的基础；优先 于（underlie 的 ing 形式）"
+  },
+  {
+    "id": 741,
+    "word": "bizarre",
+    "phonetic": "/bɪˈzɑːr/",
+    "meaning": "adj. 奇异的（指态度，容貌，款式等）"
+  },
+  {
+    "id": 742,
+    "word": "shabby",
+    "phonetic": "/ˈʃæbi/",
+    "meaning": "adj. 破旧的；卑鄙的；吝啬的；低劣的"
+  },
+  {
+    "id": 743,
+    "word": "barren",
+    "phonetic": "/ˈbærən/",
+    "meaning": "adj. 贫瘠的；不生育的；无益的；沉闷无趣的；空洞的 n. 荒地"
+  },
+  {
+    "id": 744,
+    "word": "weary",
+    "phonetic": "/ˈwɪri/",
+    "meaning": "adj. 疲倦的；厌烦的；令人厌烦的 vi. 疲倦；厌烦 vt. 使疲倦；使厌烦"
+  },
+  {
+    "id": 745,
+    "word": "anonymous",
+    "phonetic": "/əˈnɑːnɪməs/",
+    "meaning": "adj. 匿名的，无名的；无个性特征的"
+  },
+  {
+    "id": 746,
+    "word": "muddy",
+    "phonetic": "/ˈmʌdi/",
+    "meaning": "adj. 泥泞的；模糊的；混乱的 vt. 使污浊；使沾上泥；把…弄糊涂 vi. 变得泥泞；沾满烂泥"
+  },
+  {
+    "id": 747,
+    "word": "productive",
+    "phonetic": "/prəˈdʌktɪv/",
+    "meaning": "adj. 能生产的；生产的，生产性的；多产的；富有成效的"
+  },
+  {
+    "id": 748,
+    "word": "masculine",
+    "phonetic": "/ˈmæskjəlɪn/",
+    "meaning": "adj. 男性的；阳性的；男子气概的 n. 男性；阳性，阳性词"
+  },
+  {
+    "id": 749,
+    "word": "explicit",
+    "phonetic": "/ɪkˈsplɪsɪt/",
+    "meaning": "adj. 明确的；清楚的；直率的；详述的"
+  },
+  {
+    "id": 750,
+    "word": "nominal",
+    "phonetic": "/ˈnɑːmɪnl/",
+    "meaning": "adj. 名义上的；有名无实的；[会计] 票面上的 n. [语] 名词性词"
+  },
+  {
+    "id": 751,
+    "word": "extinct",
+    "phonetic": "/ɪkˈstɪŋkt/",
+    "meaning": "adj. 灭绝的，绝种的；熄灭的 vt. 使熄灭"
+  },
+  {
+    "id": 752,
+    "word": "slim",
+    "phonetic": "/slɪm/",
+    "meaning": "adj. 苗条的；修长的；微小的；差的 vt. 使…体重减轻；使…苗条 vi. 减轻体重；变细"
+  },
+  {
+    "id": 753,
+    "word": "immune",
+    "phonetic": "/ɪˈmjuːn/",
+    "meaning": "adj. 免疫的；免于……的，免除的 n. 免疫者；免除者"
+  },
+  {
+    "id": 754,
+    "word": "diffuse",
+    "phonetic": "/dɪˈfjuːs/",
+    "meaning": "adj. 弥漫的；散开的 vt. 扩散；传播；漫射 vi. 传播；四散"
+  },
+  {
+    "id": 755,
+    "word": "aesthetic",
+    "phonetic": "/esˈθetɪk/",
+    "meaning": "adj. 美的；美学的；审美的，具有审美趣味的 n. 审美；美学"
+  },
+  {
+    "id": 756,
+    "word": "reckless",
+    "phonetic": "/ˈrekləs/",
+    "meaning": "adj. 鲁莽的，不顾后果的；粗心大意的 757. prevalent/ˈprevələnt/ adj. 流行的；普遍的，广传的"
+  },
+  {
+    "id": 758,
+    "word": "interim",
+    "phonetic": "/ˈɪntərɪm/",
+    "meaning": "adj. 临时的，暂时的；中间的；间歇的 n. 过渡时期，中间时期；暂定"
+  },
+  {
+    "id": 759,
+    "word": "consecutive",
+    "phonetic": "/kənˈsekjətɪv/",
+    "meaning": "adj. 连贯的；连续不断的"
+  },
+  {
+    "id": 760,
+    "word": "discrete",
+    "phonetic": "/dɪˈskriːt/",
+    "meaning": "adj. 离散的，不连续的 n. 分立元件；独立部件"
+  },
+  {
+    "id": 761,
+    "word": "sober",
+    "phonetic": "/ˈsoʊbər/",
+    "meaning": "adj. 冷静的，清醒的；未醉的 vt. 使严肃；使醒酒，使清醒"
+  },
+  {
+    "id": 762,
+    "word": "cumulative",
+    "phonetic": "/ˈkjuːmjəleɪtɪv/",
+    "meaning": "adj. 累积的"
+  },
+  {
+    "id": 763,
+    "word": "tolerant",
+    "phonetic": "/ˈtɑːlərənt/",
+    "meaning": "adj. 宽容的；容忍的；有耐药力的"
+  },
+  {
+    "id": 764,
+    "word": "spacious",
+    "phonetic": "/ˈspeɪʃəs/",
+    "meaning": "adj. 宽敞的，广阔的；无边无际的"
+  },
+  {
+    "id": 765,
+    "word": "verbal",
+    "phonetic": "/ˈvɜːrbl/",
+    "meaning": "adj. 口头的；言语的；动词的；照字面的 n. 动词的非谓语形式"
+  },
+  {
+    "id": 766,
+    "word": "spatial",
+    "phonetic": "/ˈspeɪʃl/",
+    "meaning": "adj. 空间的；存在于空间的；受空间条件限制的"
+  },
+  {
+    "id": 767,
+    "word": "practicable",
+    "phonetic": "/ˈpræktɪkəbl/",
+    "meaning": "adj. 可用的；行得通的；可实行的"
+  },
+  {
+    "id": 768,
+    "word": "suspicious",
+    "phonetic": "/səˈspɪʃəs/",
+    "meaning": "adj. 可疑的；怀疑的；多疑的"
+  },
+  {
+    "id": 769,
+    "word": "dubious",
+    "phonetic": "/ˈduːbiəs/",
+    "meaning": "adj. 可疑的；暧昧的；无把握的；半信半疑的"
+  },
+  {
+    "id": 770,
+    "word": "edible",
+    "phonetic": "/ˈedəbl/",
+    "meaning": "adj. 可食用的 n. 食品；食物"
+  },
+  {
+    "id": 771,
+    "word": "wretched",
+    "phonetic": "/ˈretʃɪd/",
+    "meaning": "adj. 可怜的；卑鄙的；令人苦恼或难受的"
+  },
+  {
+    "id": 772,
+    "word": "pathetic",
+    "phonetic": "/pəˈθetɪk/",
+    "meaning": "adj. 可怜的，悲哀的；感伤的；乏味的"
+  },
+  {
+    "id": 773,
+    "word": "intelligible",
+    "phonetic": "/ɪnˈtelɪdʒəbl/",
+    "meaning": "adj. 可理解的；明了的；仅能用智力了解的"
+  },
+  {
+    "id": 774,
+    "word": "homogeneous",
+    "phonetic": "/ˌhoʊməˈdʒiːniəs/",
+    "meaning": "adj. 均匀的；[数] 齐次的；同种的；同类的，同质的"
+  },
+  {
+    "id": 775,
+    "word": "sheer",
+    "phonetic": "/ʃɪr/",
+    "meaning": "adj. 绝对的；透明的；峻峭的；纯粹的 adv. 完全；陡峭地 vi. 偏航 vt. 使偏航；使急转向 n. 偏航；透明薄织物"
+  },
+  {
+    "id": 776,
+    "word": "rectangular",
+    "phonetic": "/rekˈtæŋɡjələr/",
+    "meaning": "adj. 矩形的；成直角的"
+  },
+  {
+    "id": 777,
+    "word": "exquisite",
+    "phonetic": "/ɪkˈskwɪzɪt/",
+    "meaning": "adj. 精致的；细腻的；优美的，高雅的；异常的；剧烈的 n. 服饰过于讲究的男子"
+  },
+  {
+    "id": 778,
+    "word": "shrewd",
+    "phonetic": "/ʃruːd/",
+    "meaning": "adj. 精明的；狡猾的；机灵的 n. 精明（的人）；机灵（的人）"
+  },
+  {
+    "id": 779,
+    "word": "empirical",
+    "phonetic": "/ɪmˈpɪrɪkl/",
+    "meaning": "adj. 经验主义的，完全根据经验的；实证的"
+  },
+  {
+    "id": 780,
+    "word": "metallic",
+    "phonetic": "/məˈtælɪk/",
+    "meaning": "adj. 金属的，含金属的"
+  },
+  {
+    "id": 781,
+    "word": "concise",
+    "phonetic": "/kənˈsaɪs/",
+    "meaning": "adj. 简明的，简洁的"
+  },
+  {
+    "id": 782,
+    "word": "curt",
+    "phonetic": "/kɜːrt/",
+    "meaning": "adj. 简短而失礼的，唐突无礼的；简略的，简要的；草率的"
+  },
+  {
+    "id": 783,
+    "word": "straightforward",
+    "phonetic": "/ˌstreɪtˈfɔːrwərd/",
+    "meaning": "adj. 简单的；坦率的；明确的；径直的 adv. 直截了当地；坦率地"
+  },
+  {
+    "id": 784,
+    "word": "compatible",
+    "phonetic": "/kəmˈpætəbl/",
+    "meaning": "adj. 兼容的；能共处的；可并立的"
+  },
+  {
+    "id": 785,
+    "word": "intermittent",
+    "phonetic": "/ˌɪntərˈmɪtənt/",
+    "meaning": "adj. 间歇的；断断续续的；间歇性"
+  },
+  {
+    "id": 786,
+    "word": "sturdy",
+    "phonetic": "/ˈstɜːrdi/",
+    "meaning": "adj. 坚定的；强健的；健全的 n. 羊晕倒病"
+  },
+  {
+    "id": 787,
+    "word": "quarterly",
+    "phonetic": "/ˈkwɔːrtərli/",
+    "meaning": "adj. 季度的，按季度的；一年四次的 adv. 按季度，[农] 一季一次地；纵横四分地 n. 季 刊"
+  },
+  {
+    "id": 788,
+    "word": "terrific",
+    "phonetic": "/təˈrɪfɪk/",
+    "meaning": "adj. 极好的；极其的，非常的；可怕的"
+  },
+  {
+    "id": 789,
+    "word": "superb",
+    "phonetic": "/suːˈpɜːrb/",
+    "meaning": "adj. 极好的；华丽的；宏伟的"
+  },
+  {
+    "id": 790,
+    "word": "polar",
+    "phonetic": "/ˈpoʊlər/",
+    "meaning": "adj. 极地的；两极的；正好相反的 n. 极面；极线"
+  },
+  {
+    "id": 791,
+    "word": "timely",
+    "phonetic": "/ˈtaɪmli/",
+    "meaning": "adj. 及时的；适时的 adv. 及时地；早"
+  },
+  {
+    "id": 792,
+    "word": "drastic",
+    "phonetic": "/ˈdræstɪk/",
+    "meaning": "adj. 激烈的；猛烈的 n. 烈性泻药"
+  },
+  {
+    "id": 793,
+    "word": "radical",
+    "phonetic": "/ˈrædɪkl/",
+    "meaning": "adj. 激进的；根本的；彻底的 n. 基础；激进分子；[物化] 原子团；[数] 根数"
+  },
+  {
+    "id": 794,
+    "word": "integral",
+    "phonetic": "/ˈɪntɪɡrəl/",
+    "meaning": "adj. 积分的；完整的，整体的；构成整体所必须的 n. 积分；部分；完整"
+  },
+  {
+    "id": 795,
+    "word": "muscular",
+    "phonetic": "/ˈmʌskjələr/",
+    "meaning": "adj. 肌肉的；肌肉发达的；强健的"
+  },
+  {
+    "id": 796,
+    "word": "obscure",
+    "phonetic": "/əbˈskjʊr/",
+    "meaning": "adj. 昏暗的，朦胧的；晦涩的，不清楚的；隐蔽的；不著名的，无名的 vt. 使…模糊不 清，掩盖；隐藏；使难理解 n. 某种模糊的或不清楚的东西"
+  },
+  {
+    "id": 797,
+    "word": "pregnant",
+    "phonetic": "/ˈpreɡnənt/",
+    "meaning": "adj. 怀孕的；富有意义的"
+  },
+  {
+    "id": 798,
+    "word": "skeptical",
+    "phonetic": "/ˈskeptɪkl/",
+    "meaning": "adj. 怀疑的；     （哲学）怀疑论的，不可知论的"
+  },
+  {
+    "id": 799,
+    "word": "gorgeous",
+    "phonetic": "/ˈɡɔːrdʒəs/",
+    "meaning": "adj. 华丽的，灿烂的；极好的"
+  },
+  {
+    "id": 800,
+    "word": "reciprocal",
+    "phonetic": "/rɪˈsɪprəkl/",
+    "meaning": "adj. 互惠的；相互的；倒数的，彼此相反的 n. [数] 倒数；互相起作用的事物"
+  },
+  {
+    "id": 801,
+    "word": "gloomy",
+    "phonetic": "/ˈɡluːmi/",
+    "meaning": "adj. 黑暗的；沮丧的；阴郁的"
+  },
+  {
+    "id": 802,
+    "word": "legitimate",
+    "phonetic": "/lɪˈdʒɪtɪmət/",
+    "meaning": "adj. 合法的；正当的；合理的；正统的 vt. 使合法；认为正当（等于 legitimize）"
+  },
+  {
+    "id": 803,
+    "word": "militant",
+    "phonetic": "/ˈmɪlɪtənt/",
+    "meaning": "adj. 好战的 n. 富有战斗性的人；好斗者；激进分子"
+  },
+  {
+    "id": 804,
+    "word": "implicit",
+    "phonetic": "/ɪmˈplɪsɪt/",
+    "meaning": "adj. 含蓄的；暗示的；盲从的"
+  },
+  {
+    "id": 805,
+    "word": "scared",
+    "phonetic": "/skerd/",
+    "meaning": "adj. 害怕的 v. 使害怕（scare 的过去分词）"
+  },
+  {
+    "id": 806,
+    "word": "deliberate",
+    "phonetic": "/dɪˈlɪbərət/",
+    "meaning": "adj. 故意的；深思熟虑的；从容的 vt. 仔细考虑；商议"
+  },
+  {
+    "id": 807,
+    "word": "stationary",
+    "phonetic": "/ˈsteɪʃəneri/",
+    "meaning": "adj. 固定的；静止的；定居的；常备军的 n. 不动的人；驻军"
+  },
+  {
+    "id": 808,
+    "word": "eccentric",
+    "phonetic": "/ɪkˈsentrɪk/",
+    "meaning": "adj. 古怪的，反常的 n. 古怪的人"
+  },
+  {
+    "id": 809,
+    "word": "solitary",
+    "phonetic": "/ˈsɑːləteri/",
+    "meaning": "adj. 孤独的；独居的 n. 独居者；隐士"
+  },
+  {
+    "id": 810,
+    "word": "republican",
+    "phonetic": "/rɪˈpʌblɪkən/",
+    "meaning": "adj. 共和国的；共和政体的；共和主义的；拥护共和政体的 n. 共和主义者"
+  },
+  {
+    "id": 811,
+    "word": "offensive",
+    "phonetic": "/əˈfensɪv/",
+    "meaning": "adj. 攻击的；冒犯的；无礼的；讨厌的 n. 攻势；攻击"
+  },
+  {
+    "id": 812,
+    "word": "vocal",
+    "phonetic": "/ˈvoʊkl/",
+    "meaning": "adj. 歌唱的；声音的，有声的 adj. 直言不讳的 n. 声乐作品；元音"
+  },
+  {
+    "id": 813,
+    "word": "lofty",
+    "phonetic": "/ˈlɔːfti/",
+    "meaning": "adj. 高的；崇高的；高级的；高傲的"
+  },
+  {
+    "id": 814,
+    "word": "imaginative",
+    "phonetic": "/ɪˈmædʒɪnətɪv/",
+    "meaning": "adj. 富于想象的；有创造力的"
+  },
+  {
+    "id": 815,
+    "word": "intricate",
+    "phonetic": "/ˈɪntrɪkət/",
+    "meaning": "adj. 复杂的；错综的，缠结的"
+  },
+  {
+    "id": 816,
+    "word": "corrupt",
+    "phonetic": "/kəˈrʌpt/",
+    "meaning": "adj. 腐败的，贪污的；堕落的 vt. 使腐烂；使堕落，使恶化 vi. 堕落，腐化；腐烂"
+  },
+  {
+    "id": 817,
+    "word": "subsidiary",
+    "phonetic": "/səbˈsɪdieri/",
+    "meaning": "adj. 辅助的，次要的；附属的；子公司的 n. 子公司；辅助者"
+  },
+  {
+    "id": 818,
+    "word": "prone",
+    "phonetic": "/proʊn/",
+    "meaning": "adj. 俯卧的；有…倾向的，易于…的"
+  },
+  {
+    "id": 819,
+    "word": "radiant",
+    "phonetic": "/ˈreɪdiənt/",
+    "meaning": "adj. 辐射的；容光焕发的；光芒四射的 n. 光点；发光的物体"
+  },
+  {
+    "id": 820,
+    "word": "insane",
+    "phonetic": "/ɪnˈseɪn/",
+    "meaning": "adj. 疯狂的；精神病的；极愚蠢的"
+  },
+  {
+    "id": 821,
+    "word": "cynical",
+    "phonetic": "/ˈsɪnɪkl/",
+    "meaning": "adj. 愤世嫉俗的；冷嘲的"
+  },
+  {
+    "id": 822,
+    "word": "indignant",
+    "phonetic": "/ɪnˈdɪɡnənt/",
+    "meaning": "adj. 愤愤不平的；义愤的"
+  },
+  {
+    "id": 823,
+    "word": "foul",
+    "phonetic": "/faʊl/",
+    "meaning": "adj. 犯规的；邪恶的；污秽的；淤塞的 vt. 犯规；弄脏；淤塞；缠住，妨害 vi. 犯规；腐烂；缠 结 n. 犯规；缠绕 adv. 违反规则地，不正当地"
+  },
+  {
+    "id": 824,
+    "word": "mortal",
+    "phonetic": "/ˈmɔːrtl/",
+    "meaning": "adj. 凡人的；致死的；终有一死的；不共戴天的 n. 人类，凡人"
+  },
+  {
+    "id": 825,
+    "word": "luminous",
+    "phonetic": "/ˈluːmɪnəs/",
+    "meaning": "adj. 发光的；明亮的；清楚的"
+  },
+  {
+    "id": 826,
+    "word": "vicious",
+    "phonetic": "/ˈvɪʃəs/",
+    "meaning": "adj. 恶毒的；恶意的；堕落的；有错误的；品性不端的；剧烈的"
+  },
+  {
+    "id": 827,
+    "word": "redundant",
+    "phonetic": "/rɪˈdʌndənt/",
+    "meaning": "adj. 多余的，过剩的；被解雇的，失业的；冗长的，累赘的"
+  },
+  {
+    "id": 828,
+    "word": "versatile",
+    "phonetic": "/ˈvɜːrsətl/",
+    "meaning": "adj. 多才多艺的；通用的，万能的；多面手的"
+  },
+  {
+    "id": 829,
+    "word": "blunt",
+    "phonetic": "/blʌnt/",
+    "meaning": "adj. 钝的，不锋利的；生硬的；直率的 vt. 使迟钝"
+  },
+  {
+    "id": 830,
+    "word": "transient",
+    "phonetic": "/ˈtrænʃnt/",
+    "meaning": "adj. 短暂的；路过的 n. 瞬变现象；过往旅客；候鸟"
+  },
+  {
+    "id": 831,
+    "word": "turbulent",
+    "phonetic": "/ˈtɜːrbjələnt/",
+    "meaning": "adj. 动荡的；湍流的；与紊流有关的"
+  },
+  {
+    "id": 832,
+    "word": "orthodox",
+    "phonetic": "/ˈɔːrθədɑːks/",
+    "meaning": "adj. 东正教派的；正教的 n. 东正教徒；正教徒 adj. (orthodax) 正统的；传统的；惯常 的；普通的 n. (orthodax) 正统的人；正统的事物"
+  },
+  {
+    "id": 833,
+    "word": "oriental",
+    "phonetic": "/ˌɔːriˈentl/",
+    "meaning": "adj. 东方的；东方人的 n. 东方人"
+  },
+  {
+    "id": 834,
+    "word": "qualitative",
+    "phonetic": "/ˈkwɑːlɪteɪtɪv/",
+    "meaning": "adj. 定性的；质的，性质上的"
+  },
+  {
+    "id": 835,
+    "word": "quantitative",
+    "phonetic": "/ˈkwɑːntəteɪtɪv/",
+    "meaning": "adj. 定量的；量的，数量的"
+  },
+  {
+    "id": 836,
+    "word": "imperial",
+    "phonetic": "/ɪmˈpɪriəl/",
+    "meaning": "adj. 帝国的；皇帝的；至高无上的；威严的 n. 纸张尺寸；特等品"
+  },
+  {
+    "id": 837,
+    "word": "timid",
+    "phonetic": "/ˈtɪmɪd/",
+    "meaning": "adj. 胆小的；羞怯的"
+  },
+  {
+    "id": 838,
+    "word": "massive",
+    "phonetic": "/ˈmæsɪv/",
+    "meaning": "adj. 大量的；巨大的，厚重的；魁伟的"
+  },
+  {
+    "id": 839,
+    "word": "metropolitan",
+    "phonetic": "/ˌmetrəˈpɑːlɪtən/",
+    "meaning": "adj. 大都市的；大主教辖区的；宗主国的 n. 大城市人；大主教；宗主国的公 民"
+  },
+  {
+    "id": 840,
+    "word": "erroneous",
+    "phonetic": "/ɪˈroʊniəs/",
+    "meaning": "adj. 错误的；不正确的"
+  },
+  {
+    "id": 841,
+    "word": "vulgar",
+    "phonetic": "/ˈvʌlɡər/",
+    "meaning": "adj. 粗俗的；通俗的；本土的 n. 平民，百姓"
+  },
+  {
+    "id": 842,
+    "word": "provocative",
+    "phonetic": "/prəˈvɑːkətɪv/",
+    "meaning": "adj. 刺激的，挑拨的；气人的 n. 刺激物，挑拨物；兴奋剂"
+  },
+  {
+    "id": 843,
+    "word": "supersonic",
+    "phonetic": "/ˌsuːpərˈsɑːnɪk/",
+    "meaning": "adj. 超音速的；超声波的 n. 超音速；超声波"
+  },
+  {
+    "id": 844,
+    "word": "trivial",
+    "phonetic": "/ˈtrɪviəl/",
+    "meaning": "adj. 不重要的，琐碎的；琐细的"
+  },
+  {
+    "id": 845,
+    "word": "opaque",
+    "phonetic": "/oʊˈpeɪk/",
+    "meaning": "adj. 不透明的；不传热的；迟钝的 n. 不透明物 vt. 使不透明；使不反光 846. indefinite/ɪnˈdefɪnət/ adj. 不确定的；无限的；模糊的"
+  },
+  {
+    "id": 847,
+    "word": "incredible",
+    "phonetic": "/ɪnˈkredəbl/",
+    "meaning": "adj. 不能相信的，难以置信的；极好的，极大的"
+  },
+  {
+    "id": 848,
+    "word": "adverse",
+    "phonetic": "/ədˈvɜːrs,ˈædvɜːrs/",
+    "meaning": "adj. 不利的；相反的；敌对的（名词 adverseness，副词 adversely）"
+  },
+  {
+    "id": 849,
+    "word": "irrespective",
+    "phonetic": "/ˌɪrɪˈspektɪv/",
+    "meaning": "adj. 不考虑的，不顾的 adv. 不考虑地，不顾地"
+  },
+  {
+    "id": 850,
+    "word": "supplementary",
+    "phonetic": "/ˌsʌplɪˈmentri/",
+    "meaning": "adj. 补充的；追加的 n. 补充者；增补物"
+  },
+  {
+    "id": 851,
+    "word": "lame",
+    "phonetic": "/leɪm/",
+    "meaning": "adj. 跛足的；僵痛的；不完全的；无说服力的；差劲的，蹩脚的 vi. 变跛 vt. 使跛；使成残 废"
+  },
+  {
+    "id": 852,
+    "word": "imperative",
+    "phonetic": "/ɪmˈperətɪv/",
+    "meaning": "adj. 必要的，不可避免的；紧急的；命令的，专横的；势在必行的；[语]祈使的 n. 必要的事；命令；需要；规则；[语]祈使语气"
+  },
+  {
+    "id": 853,
+    "word": "intrinsic",
+    "phonetic": "/ɪnˈtrɪnzɪk/",
+    "meaning": "adj. 本质的，固有的"
+  },
+  {
+    "id": 854,
+    "word": "exempt",
+    "phonetic": "/ɪɡˈzempt/",
+    "meaning": "adj. 被免除（责任或义务）的，获豁免的 v. 免除，豁免 n. 被免除义务者（尤指被免税 者）"
+  },
+  {
+    "id": 855,
+    "word": "tragic",
+    "phonetic": "/ˈtrædʒɪk/",
+    "meaning": "adj. 悲剧的；悲痛的，不幸的"
+  },
+  {
+    "id": 856,
+    "word": "inclusive",
+    "phonetic": "/ɪnˈkluːsɪv/",
+    "meaning": "adj. 包含的，包括的；包含全部费用的；"
+  },
+  {
+    "id": 857,
+    "word": "patriotic",
+    "phonetic": "/ˌpeɪtriˈɑːtɪk/",
+    "meaning": "adj. 爱国的"
+  },
+  {
+    "id": 858,
+    "word": "periodical",
+    "phonetic": "/ˌpɪriˈɑːdɪkl/",
+    "meaning": "adj. [数] 周期的；定期的 n. 期刊；杂志"
+  },
+  {
+    "id": 859,
+    "word": "random",
+    "phonetic": "/ˈrændəm/",
+    "meaning": "adj. [数] 随机的；任意的；胡乱的 n. 随意 adv. 胡乱地"
+  },
+  {
+    "id": 860,
+    "word": "virtual",
+    "phonetic": "/ˈvɜːrtʃuəl/",
+    "meaning": "adj. [计] 虚拟的；实质上的，事实上的（但未在名义上或正式获承认）"
+  }
+]
