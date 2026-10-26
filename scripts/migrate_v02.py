@@ -49,8 +49,8 @@ if existing.returncode==0 and existing.stdout:
 
 stop=run('shell','am','force-stop',NEW)
 assert stop.returncode==0, 'Could not stop new app before writing preferences.'
-write=run('shell','run-as',NEW,'sh','-c',f'mkdir -p shared_prefs && cat > {PREFS} && chmod 600 {PREFS}',input=old.stdout)
-assert write.returncode==0, 'Writing new-app study data failed; source and local backup remain intact.'
+write=run('shell','-T',f"run-as {NEW} sh -c 'mkdir -p shared_prefs && cat > {PREFS} && chmod 600 {PREFS}'",input=old.stdout)
+assert write.returncode==0, 'Writing new-app study data failed; source and local backup remain intact. Device error: '+write.stderr.decode('utf-8',errors='replace')[:500]
 verify=run('shell','run-as',NEW,'cat',PREFS)
 assert verify.returncode==0 and verify.stdout==old.stdout, 'Target verification failed; source and local backup remain intact.'
 print(f'Copied study data to {NEW}. Old app remains installed. Backup: {args.backup.resolve()}')
