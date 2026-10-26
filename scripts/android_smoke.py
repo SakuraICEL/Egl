@@ -15,7 +15,8 @@ import sys
 
 def report_failure(kind, value, traceback):
     try:
-        Path('smoke-results/failure-ui.xml').write_text(adb('shell','cat','/sdcard/moli-window.xml'),encoding='utf-8')
+        try: Path('smoke-results/failure-ui.xml').write_text(adb('shell','cat','/sdcard/moli-window.xml'),encoding='utf-8')
+        except Exception: pass
         Path('smoke-results/logcat.txt').write_text(adb('logcat','-d','-t','3000'),encoding='utf-8')
         Path('smoke-results/failure.png').write_bytes(subprocess.check_output(['adb','exec-out','screencap','-p'],timeout=30))
     finally:
@@ -45,7 +46,7 @@ def tap(text,exact=False):
     time.sleep(0.8)
 
 def launch():
-    result=adb('shell','am','start','-W','-n',PACKAGE+'/.MainActivity')
+    result=adb('shell','am','start','-W','-n',PACKAGE+'/com.moli.cet6.MainActivity')
     assert 'Error:' not in result,result
     wait_for('六级背词')
 
