@@ -42,6 +42,30 @@ jobs:
           path: app/build/test-results/testDebugUnitTest/
           if-no-files-found: ignore
 
+      - name: Enable emulator acceleration
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Verify offline app on emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          arch: x86_64
+          target: default
+          profile: pixel_2
+          disable-animations: true
+          script: python3 scripts/android_smoke.py
+
+      - name: Upload smoke results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-smoke-results
+          path: smoke-results/
+          if-no-files-found: ignore
+
       - name: Rename APK
         run: cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.apk
 
