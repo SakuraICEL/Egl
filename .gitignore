@@ -1,0 +1,6 @@
+dist/
+sources/ecdict.csv
+.gradle/
+local.properties
+**/build/
+*.keystore

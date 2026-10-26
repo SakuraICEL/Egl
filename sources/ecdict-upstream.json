@@ -1,0 +1,127 @@
+{
+  "sha": "ab22ad36302cafc6349a050e2b60894855208055",
+  "node_id": "C_kwDOBRoCxNoAKGFiMjJhZDM2MzAyY2FmYzYzNDlhMDUwZTJiNjA4OTQ4NTUyMDgwNTU",
+  "commit": {
+    "author": {
+      "name": "Linwei",
+      "email": "skywind3000@gmail.com",
+      "date": "2026-10-24T09:15:06Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-24T09:15:06Z"
+    },
+    "message": "Merge pull request #147 from 23swccp/fill-missing-chinese-translations\n\n补充SQLite 数据库stardict.db中缺失中文释义的14915个词条",
+    "tree": {
+      "sha": "63abab1c1103d9dcbe9388568389b6e4cd79c0ba",
+      "url": "https://api.github.com/repos/skywind3000/ECDICT/git/trees/63abab1c1103d9dcbe9388568389b6e4cd79c0ba"
+    },
+    "url": "https://api.github.com/repos/skywind3000/ECDICT/git/commits/ab22ad36302cafc6349a050e2b60894855208055",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJq3HcaCRC1aQ7uu5UhlAAAqmgQAAU5xRUEpWlKY/n7PfIQ7Wki\n7G5gWU5OHljg00zBNYXG7xRGVWmTU1wTEUfRQmXl1wPY4NiTayU6Fys/fi0JVC05\nMy9B50jxhrChSKgbKbLHPMS+FI7WRmOMeM6fe1uiS2T4LBO/37GhYQJyJOS5OZ4S\nQD75FT/5MSUSGlezL9mp0nOxK01lYnV50kEGGh1n72RnHSgNMLyd/PGPy+uA+OMZ\nJKqIjHsSZQlrut196fvHGsvmuTWw020No9EE8MVJtkRDs+NPFgDn65J1uDrGZcLG\nhvJgGv4XiSh2ZtLn9fYOzxY2nsHR2DpftJg6BksFcArE4QfghghdBeIft6Q4EcMr\n7vvxvKe4l46HrTFVe8S434tU58qHaKkK4MRYjePh7gRj5VWTZ994ibOf6h0j6MwM\n/COI7HPwVnPeJWotpk1EhZfxSDPfIqrU7GPafYXwYHT/IT5IKmmbZESh+KNWkLV3\nSSQ3noeNa3sb5aeUmShF7qTAlN7kZ+LBH/Z6l79CqHoVo6hGQsizhNly6g+K/vtx\nz89y0UBbtBrAsUuzwBNKPSsWuJeTVcIlYF/jjcNbRwTbQnb/2c0bOXfUfvbtJPDS\nOfSQ1xvZfKshgdHP8RYmIiKoUNrzeJOsKtGYxTSWhQszm8IBoKgZBP/7vI/fi1Ta\nVriH7fOToGdr6C7ZuIyu\n=iVRY\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 63abab1c1103d9dcbe9388568389b6e4cd79c0ba\nparent bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b\nparent 365e19c62e55e869dd52bf710ad1bbf1373f8594\nauthor Linwei <skywind3000@gmail.com> 1792833306 +0800\ncommitter GitHub <noreply@github.com> 1792833306 +0800\n\nMerge pull request #147 from 23swccp/fill-missing-chinese-translations\n\n补充SQLite 数据库stardict.db中缺失中文释义的14915个词条",
+      "verified_at": "2026-10-24T09:15:07Z"
+    }
+  },
+  "url": "https://api.github.com/repos/skywind3000/ECDICT/commits/ab22ad36302cafc6349a050e2b60894855208055",
+  "html_url": "https://github.com/skywind3000/ECDICT/commit/ab22ad36302cafc6349a050e2b60894855208055",
+  "comments_url": "https://api.github.com/repos/skywind3000/ECDICT/commits/ab22ad36302cafc6349a050e2b60894855208055/comments",
+  "author": {
+    "login": "skywind3000",
+    "id": 3035071,
+    "node_id": "MDQ6VXNlcjMwMzUwNzE=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3035071?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/skywind3000",
+    "html_url": "https://github.com/skywind3000",
+    "followers_url": "https://api.github.com/users/skywind3000/followers",
+    "following_url": "https://api.github.com/users/skywind3000/following{/other_user}",
+    "gists_url": "https://api.github.com/users/skywind3000/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/skywind3000/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/skywind3000/subscriptions",
+    "organizations_url": "https://api.github.com/users/skywind3000/orgs",
+    "repos_url": "https://api.github.com/users/skywind3000/repos",
+    "events_url": "https://api.github.com/users/skywind3000/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/skywind3000/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "url": "https://api.github.com/repos/skywind3000/ECDICT/commits/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+      "html_url": "https://github.com/skywind3000/ECDICT/commit/bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b"
+    },
+    {
+      "sha": "365e19c62e55e869dd52bf710ad1bbf1373f8594",
+      "url": "https://api.github.com/repos/skywind3000/ECDICT/commits/365e19c62e55e869dd52bf710ad1bbf1373f8594",
+      "html_url": "https://github.com/skywind3000/ECDICT/commit/365e19c62e55e869dd52bf710ad1bbf1373f8594"
+    }
+  ],
+  "stats": {
+    "total": 21201,
+    "additions": 19702,
+    "deletions": 1499
+  },
+  "files": [
+    {
+      "sha": "b481da2d76264741fa364ec3067e4ec8bdef7eb0",
+      "filename": "contributions/translation-updates-20261020/changes.csv",
+      "status": "added",
+      "additions": 14916,
+      "deletions": 0,
+      "changes": 14916,
+      "blob_url": "https://github.com/skywind3000/ECDICT/blob/ab22ad36302cafc6349a050e2b60894855208055/contributions%2Ftranslation-updates-20261020%2Fchanges.csv",
+      "raw_url": "https://github.com/skywind3000/ECDICT/raw/ab22ad36302cafc6349a050e2b60894855208055/contributions%2Ftranslation-updates-20261020%2Fchanges.csv",
+      "contents_url": "https://api.github.com/repos/skywind3000/ECDICT/contents/contributions%2Ftranslation-updates-20261020%2Fchanges.csv?ref=ab22ad36302cafc6349a050e2b60894855208055"
+    },
+    {
+      "sha": "a6dc7d54ed196716db523eaf202f22461febbd6e",
+      "filename": "contributions/translation-updates-20261020/news.csv",
+      "status": "added",
+      "additions": 3287,
+      "deletions": 0,
+      "changes": 3287,
+      "blob_url": "https://github.com/skywind3000/ECDICT/blob/ab22ad36302cafc6349a050e2b60894855208055/contributions%2Ftranslation-updates-20261020%2Fnews.csv",
+      "raw_url": "https://github.com/skywind3000/ECDICT/raw/ab22ad36302cafc6349a050e2b60894855208055/contributions%2Ftranslation-updates-20261020%2Fnews.csv",
+      "contents_url": "https://api.github.com/repos/skywind3000/ECDICT/contents/contributions%2Ftranslation-updates-20261020%2Fnews.csv?ref=ab22ad36302cafc6349a050e2b60894855208055"
+    },
+    {
+      "sha": "0e527e22e0e0d22f012b0ed251a8dddd5891773b",
+      "filename": "ecdict.csv",
+      "status": "modified",
+      "additions": 1499,
+      "deletions": 1499,
+      "changes": 2998,
+      "blob_url": "https://github.com/skywind3000/ECDICT/blob/ab22ad36302cafc6349a050e2b60894855208055/ecdict.csv",
+      "raw_url": "https://github.com/skywind3000/ECDICT/raw/ab22ad36302cafc6349a050e2b60894855208055/ecdict.csv",
+      "contents_url": "https://api.github.com/repos/skywind3000/ECDICT/contents/ecdict.csv?ref=ab22ad36302cafc6349a050e2b60894855208055"
+    }
+  ]
+}

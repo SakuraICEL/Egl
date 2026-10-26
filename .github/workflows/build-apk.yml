@@ -34,12 +34,20 @@ jobs:
       - name: Build debug APK
         run: ./gradlew --no-daemon testDebugUnitTest assembleDebug
 
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-results
+          path: app/build/test-results/testDebugUnitTest/
+          if-no-files-found: ignore
+
       - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.2.apk
+        run: cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: CET6-Moli-v0.2-apk
-          path: CET6-Moli-v0.2.apk
+          name: CET6-Moli-v0.3-apk
+          path: CET6-Moli-v0.3.apk
           if-no-files-found: error
