@@ -65,7 +65,7 @@ class StudyViewModel(app: Application) : AndroidViewModel(app) {
             val today = LocalDate.now().toString()
             val storedDay = prefs.getString("day", "") ?: ""
             val todayCount = if (storedDay == today) prefs.getInt("todayCount", 0) else 0
-            if (storedDay != today) prefs.edit().putString("day", today).putInt("todayCount", 0).apply()
+            val storedCount = prefs.getInt("todayCount", 0)
 
             val hardIds = prefs.getString("hardIds", "")
                 .orEmpty().split(',').mapNotNull { it.toIntOrNull() }.toSet()
@@ -83,7 +83,10 @@ class StudyViewModel(app: Application) : AndroidViewModel(app) {
                 else words.filter { it.word in setOf("assume", "perspective") }.map { it.id }.toSet()
             val historyJson = JSONObject(prefs.getString("history", "{}") ?: "{}")
             val history = buildMap { historyJson.keys().forEach { put(it, historyJson.getInt(it)) } }.toMutableMap()
-            if (todayCount > 0 && !history.containsKey(today)) history[today] = todayCount
+            if (storedCount > 0 && storedDay.isNotBlank() && !history.containsKey(storedDay)) history[storedDay] = storedCount
+            val migratedHistory = JSONObject()
+            history.forEach { (day, count) -> migratedHistory.put(day, count) }
+            prefs.edit().putString("history", migratedHistory.toString()).putString("day", today).putInt("todayCount", todayCount).apply()
             prefs.edit().putString("notebook", notebook.joinToString(",")).apply()
             StudyUiState(words, currentId, todayCount, hardIds, reviews = reviews, notebook = notebook, history = history)
         } catch (e: Exception) {
@@ -133,6 +136,12 @@ class StudyViewModel(app: Application) : AndroidViewModel(app) {
             .putString("history", historyJson.toString()).putString("day", today.toString())
             .putInt("todayCount", history.getValue(today.toString())).apply()
         _state.value = s.copy(reviews = reviews, hardIds = hard, history = history, todayCount = history.getValue(today.toString()))
+    }
+
+    fun studyWord(id: Int) {
+        if (_state.value.words.none { it.id == id }) return
+        _state.value = _state.value.copy(currentWordId = id)
+        prefs.edit().putInt("currentWordId", id).apply()
     }
 
     fun toggleNotebook(id: Int) {
@@ -195,7 +204,7 @@ fun CET6App(vm: StudyViewModel = viewModel()) {
                     1 -> WordScreen(state, vm::rateCurrent, vm::toggleNotebook)
                     2 -> ReadingScreen(state, vm::toggleNotebook)
                     3 -> ReviewScreen(state, vm::rateWord, vm::toggleNotebook)
-                    else -> SearchScreen(state, vm::toggleNotebook)
+                    else -> SearchScreen(state, vm::toggleNotebook) { id -> vm.studyWord(id); tab = 1 }
                 }
             }
         }
@@ -237,9 +246,9 @@ private fun HomeScreen(state: StudyUiState, onStart: () -> Unit) {
             Card(shape = RoundedCornerShape(24.dp)) {
                 Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Text("今日任务", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                    Text("${state.todayCount} / $DAILY_GOAL 个", fontSize = 34.sp, fontWeight = FontWeight.Bold)
+                    Text("${state.todayCount} / $DAILY_GOAL 次", fontSize = 34.sp, fontWeight = FontWeight.Bold)
                     LinearProgressIndicator(progress = { progress }, modifier = Modifier.fillMaxWidth())
-                    Text(if (state.todayCount >= DAILY_GOAL) "今天目标完成 ✓" else "再学 ${DAILY_GOAL - state.todayCount.coerceAtMost(DAILY_GOAL)} 个即可完成")
+                    Text(if (state.todayCount >= DAILY_GOAL) "今天目标完成 ✓" else "再练 ${DAILY_GOAL - state.todayCount.coerceAtMost(DAILY_GOAL)} 次即可完成")
                     Button(onClick = onStart, modifier = Modifier.fillMaxWidth()) {
                         Text(if (state.todayCount == 0) "开始今日背词" else "继续背词")
                     }
@@ -326,7 +335,7 @@ private fun WordScreen(state: StudyUiState, onRate: (Int) -> Unit, onNotebook: (
             }
         }
         Text(
-            "词库来源：你上传的《大学英语六级高频词汇》",
+            "词库：原有六级高频词汇 + 个人词汇与阅读补充词",
             style = MaterialTheme.typography.labelSmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )
@@ -483,7 +492,7 @@ private fun ReviewScreen(state: StudyUiState, onRate: (Int, Int) -> Unit, onNote
 }
 
 @Composable
-private fun SearchScreen(state: StudyUiState, onNotebook: (Int) -> Unit) {
+private fun SearchScreen(state: StudyUiState, onNotebook: (Int) -> Unit, onStudy: (Int) -> Unit) {
     var query by rememberSaveable { mutableStateOf("") }
     var personal by rememberSaveable { mutableStateOf(false) }
     val results = state.words.filter {
@@ -501,6 +510,7 @@ private fun SearchScreen(state: StudyUiState, onNotebook: (Int) -> Unit) {
                     Text(word.phonetic)
                     Text(word.meaning)
                     SpeakButton(word.word)
+                    Button(onClick = { onStudy(word.id) }) { Text("学习这个词") }
                     TextButton(onClick = { onNotebook(word.id) }) { Text(if (word.id in state.notebook) "移出生词本" else "加入生词本") }
                 }
             }
