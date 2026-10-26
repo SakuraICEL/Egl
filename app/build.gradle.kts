@@ -8,15 +8,11 @@ plugins {
 
 }
 
-
-
 android {
 
     namespace = "com.moli.cet6"
 
     compileSdk = 35
-
-
 
     defaultConfig {
 
@@ -30,10 +26,7 @@ android {
 
         versionName = "0.3.1"
 
-
     }
-
-
 
     buildTypes {
 
@@ -45,12 +38,9 @@ android {
 
             versionNameSuffix = "-parallel"
 
-
         }
 
     }
-
-
 
     compileOptions {
 
@@ -66,15 +56,11 @@ android {
 
     }
 
-
-
     buildFeatures {
 
         compose = true
 
     }
-
-
 
     packaging {
 
@@ -83,8 +69,6 @@ android {
     }
 
 }
-
-
 
 dependencies {
 
@@ -111,4 +95,3 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
 
 }
-
