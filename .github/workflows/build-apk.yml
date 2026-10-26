@@ -31,8 +31,14 @@ jobs:
       - name: Make Gradle executable
         run: chmod +x ./gradlew
 
+      - name: Check application name encoding
+        run: python3 scripts/check_app_names.py
+
       - name: Build debug APK
         run: ./gradlew --no-daemon testDebugUnitTest assembleDebug assembleParallel
+
+      - name: Check compiled APK launcher names
+        run: python3 scripts/check_app_names.py --aapt "$ANDROID_HOME/build-tools/35.0.0/aapt"
 
       - name: Upload test results
         if: always()
@@ -75,14 +81,14 @@ jobs:
 
       - name: Rename APKs
         run: |
-          cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.apk
-          cp app/build/outputs/apk/parallel/app-parallel.apk CET6-Moli-v0.3-parallel.apk
+          cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.1.apk
+          cp app/build/outputs/apk/parallel/app-parallel.apk CET6-Moli-v0.3.1-parallel.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: CET6-Moli-v0.3-apk
+          name: CET6-Moli-v0.3.1-apk
           path: |
-            CET6-Moli-v0.3.apk
-            CET6-Moli-v0.3-parallel.apk
+            CET6-Moli-v0.3.1.apk
+            CET6-Moli-v0.3.1-parallel.apk
           if-no-files-found: error

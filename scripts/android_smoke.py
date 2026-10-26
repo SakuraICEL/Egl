@@ -55,6 +55,13 @@ if PACKAGE.endswith('.next'):
     assert 'package:com.moli.cet6' in adb('shell','pm','list','packages','com.moli.cet6'), 'Old app was removed'
 if os.environ.get('CET6_SMOKE_SKIP_CLEAR') != '1':
     adb('shell','pm','clear',PACKAGE)
+# Verify the installed app's actual label via PackageManager, including the parallel variant.
+expected_label='六级背词 · 莫璃新版' if PACKAGE.endswith('.next') else '六级背词 · 莫璃'
+# APK resource/launcher label is checked with aapt in the build step.
+adb('shell','am','start','-a','android.settings.APPLICATION_DETAILS_SETTINGS','-d','package:'+PACKAGE)
+wait_for(expected_label)
+Path('smoke-results/app-name.png').write_bytes(subprocess.check_output(['adb','exec-out','screencap','-p'],timeout=30))
+adb('shell','input','keyevent','KEYCODE_BACK')
 adb('shell','svc','wifi','disable')
 adb('shell','svc','data','disable')
 launch()
