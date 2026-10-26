@@ -58,7 +58,12 @@ jobs:
           disable-animations: true
           script: |
             adb install -r app/build/outputs/apk/debug/app-debug.apk
-            CET6_SMOKE_PACKAGE=com.moli.cet6.next CET6_SMOKE_APK=app/build/outputs/apk/parallel/app-parallel.apk python3 scripts/android_smoke.py
+            adb install -r app/build/outputs/apk/parallel/app-parallel.apk
+            adb shell am start -W -n com.moli.cet6/.MainActivity
+            sleep 2
+            adb shell am force-stop com.moli.cet6
+            python3 scripts/migrate_v02.py --serial emulator-5554 --allow-emulator --backup smoke-results/legacy-prefs-backup.xml
+            CET6_SMOKE_PACKAGE=com.moli.cet6.next CET6_SMOKE_APK=app/build/outputs/apk/parallel/app-parallel.apk CET6_SMOKE_SKIP_CLEAR=1 python3 scripts/android_smoke.py
 
       - name: Upload smoke results
         if: always()

@@ -52,7 +52,8 @@ def launch():
 adb('install','-r',APK)
 if PACKAGE.endswith('.next'):
     assert 'package:com.moli.cet6' in adb('shell','pm','list','packages','com.moli.cet6'), 'Old app was removed'
-adb('shell','pm','clear',PACKAGE)
+if os.environ.get('CET6_SMOKE_SKIP_CLEAR') != '1':
+    adb('shell','pm','clear',PACKAGE)
 adb('shell','svc','wifi','disable')
 adb('shell','svc','data','disable')
 launch()
