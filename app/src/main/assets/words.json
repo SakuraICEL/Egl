@@ -5044,5 +5044,131 @@
     "word": "virtual",
     "phonetic": "/ˈvɜːrtʃuəl/",
     "meaning": "adj. [计] 虚拟的；实质上的，事实上的（但未在名义上或正式获承认）"
+  },
+  {
+    "id": 861,
+    "word": "assume",
+    "phonetic": "",
+    "meaning": "假定；认为；承担"
+  },
+  {
+    "id": 862,
+    "word": "perspective",
+    "phonetic": "",
+    "meaning": "观点；视角；透视法"
+  },
+  {
+    "id": 863,
+    "word": "adapt",
+    "phonetic": "",
+    "meaning": "适应；改编"
+  },
+  {
+    "id": 864,
+    "word": "attach",
+    "phonetic": "",
+    "meaning": "附上；系上"
+  },
+  {
+    "id": 865,
+    "word": "contracts",
+    "phonetic": "",
+    "meaning": "合同；收缩（contract 的复数或第三人称单数）"
+  },
+  {
+    "id": 866,
+    "word": "feeds",
+    "phonetic": "",
+    "meaning": "供给；喂养（feed 的第三人称单数）"
+  },
+  {
+    "id": 867,
+    "word": "foreseeable",
+    "phonetic": "",
+    "meaning": "可预见的"
+  },
+  {
+    "id": 868,
+    "word": "heralds",
+    "phonetic": "",
+    "meaning": "预示；先驱（herald 的变形）"
+  },
+  {
+    "id": 869,
+    "word": "impractical",
+    "phonetic": "",
+    "meaning": "不切实际的"
+  },
+  {
+    "id": 870,
+    "word": "inaccessible",
+    "phonetic": "",
+    "meaning": "难以到达的；难以理解的"
+  },
+  {
+    "id": 871,
+    "word": "investments",
+    "phonetic": "",
+    "meaning": "投资（复数）"
+  },
+  {
+    "id": 872,
+    "word": "modify",
+    "phonetic": "",
+    "meaning": "修改；调整"
+  },
+  {
+    "id": 873,
+    "word": "predominantly",
+    "phonetic": "",
+    "meaning": "主要地；占主导地位地"
+  },
+  {
+    "id": 874,
+    "word": "preference",
+    "phonetic": "",
+    "meaning": "偏好"
+  },
+  {
+    "id": 875,
+    "word": "shift",
+    "phonetic": "",
+    "meaning": "转变；移动"
+  },
+  {
+    "id": 876,
+    "word": "traditional",
+    "phonetic": "",
+    "meaning": "传统的"
+  },
+  {
+    "id": 877,
+    "word": "unexpectedly",
+    "phonetic": "",
+    "meaning": "出乎意料地"
+  },
+  {
+    "id": 878,
+    "word": "mechanization",
+    "phonetic": "",
+    "meaning": "机械化"
+  },
+  {
+    "id": 879,
+    "word": "infrastructure",
+    "phonetic": "",
+    "meaning": "基础设施"
+  },
+  {
+    "id": 880,
+    "word": "agricultural",
+    "phonetic": "",
+    "meaning": "农业的"
+  },
+  {
+    "id": 881,
+    "word": "migrant",
+    "phonetic": "",
+    "meaning": "移民的；移居者"
   }
 ]

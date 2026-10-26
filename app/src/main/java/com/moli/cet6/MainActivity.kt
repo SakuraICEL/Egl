@@ -3,6 +3,14 @@ package com.moli.cet6
 import android.app.Application
 import android.os.Bundle
 import android.content.Context
+import android.speech.tts.TextToSpeech
+import android.widget.Toast
+import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
+import org.json.JSONObject
+import java.util.Locale
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
@@ -40,7 +48,10 @@ data class StudyUiState(
     val currentWordId: Int? = null,
     val todayCount: Int = 0,
     val hardIds: Set<Int> = emptySet(),
-    val loadError: String? = null
+    val loadError: String? = null,
+    val reviews: Map<Int, ReviewProgress> = emptyMap(),
+    val notebook: Set<Int> = emptySet(),
+    val history: Map<String, Int> = emptyMap()
 )
 
 class StudyViewModel(app: Application) : AndroidViewModel(app) {
@@ -60,7 +71,21 @@ class StudyViewModel(app: Application) : AndroidViewModel(app) {
                 .orEmpty().split(',').mapNotNull { it.toIntOrNull() }.toSet()
             val savedId = prefs.getInt("currentWordId", words.firstOrNull()?.id ?: -1)
             val currentId = words.firstOrNull { it.id == savedId }?.id ?: words.firstOrNull()?.id
-            StudyUiState(words, currentId, todayCount, hardIds)
+            val reviewsJson = JSONObject(prefs.getString("reviews", "{}") ?: "{}")
+            val reviews = buildMap {
+                reviewsJson.keys().forEach { key ->
+                    val o = reviewsJson.getJSONObject(key)
+                    put(key.toInt(), ReviewProgress(LocalDate.parse(o.getString("due")), o.getInt("familiarity"), o.getInt("streak")))
+                }
+                hardIds.forEach { if (!containsKey(it)) put(it, ReviewProgress(LocalDate.now(), 0, 0)) }
+            }
+            val notebook = if (prefs.contains("notebook")) prefs.getString("notebook", "").orEmpty().split(',').mapNotNull { it.toIntOrNull() }.toSet()
+                else words.filter { it.word in setOf("assume", "perspective") }.map { it.id }.toSet()
+            val historyJson = JSONObject(prefs.getString("history", "{}") ?: "{}")
+            val history = buildMap { historyJson.keys().forEach { put(it, historyJson.getInt(it)) } }.toMutableMap()
+            if (todayCount > 0 && !history.containsKey(today)) history[today] = todayCount
+            prefs.edit().putString("notebook", notebook.joinToString(",")).apply()
+            StudyUiState(words, currentId, todayCount, hardIds, reviews = reviews, notebook = notebook, history = history)
         } catch (e: Exception) {
             StudyUiState(loadError = e.message ?: "词库加载失败")
         }
@@ -77,30 +102,46 @@ class StudyViewModel(app: Application) : AndroidViewModel(app) {
         }
     }
 
-    fun rateCurrent(level: Int) {
+    fun refreshDay() {
         val s = _state.value
-        val currentId = s.currentWordId ?: return
-        val idx = s.words.indexOfFirst { it.id == currentId }.takeIf { it >= 0 } ?: 0
-        val nextId = s.words[(idx + 1) % s.words.size].id
-        val newHard = s.hardIds.toMutableSet().apply {
-            if (level <= 1) add(currentId) else remove(currentId)
-        }.toSet()
-        val newCount = s.todayCount + 1
-        _state.value = s.copy(currentWordId = nextId, todayCount = newCount, hardIds = newHard)
-        prefs.edit()
-            .putInt("currentWordId", nextId)
-            .putInt("todayCount", newCount)
-            .putString("day", LocalDate.now().toString())
-            .putString("hardIds", newHard.joinToString(","))
-            .apply()
+        _state.value = s.copy(todayCount = s.history[LocalDate.now().toString()] ?: 0)
     }
 
-    fun markMastered(wordId: Int) {
+    fun rateCurrent(level: Int) {
         val s = _state.value
-        val newHard = s.hardIds - wordId
-        _state.value = s.copy(hardIds = newHard)
-        prefs.edit().putString("hardIds", newHard.joinToString(",")).apply()
+        val id = s.currentWordId ?: return
+        rateWord(id, level)
+        val idx = s.words.indexOfFirst { it.id == id }
+        val next = s.words[(idx + 1) % s.words.size].id
+        _state.value = _state.value.copy(currentWordId = next)
+        prefs.edit().putInt("currentWordId", next).apply()
     }
+
+    fun rateWord(id: Int, level: Int) {
+        require(level in 0..2)
+        val s = _state.value
+        if (s.words.none { it.id == id }) return
+        val today = LocalDate.now()
+        val reviews = s.reviews + (id to scheduleReview(s.reviews[id], level, today))
+        val hard = if (level < 2) s.hardIds + id else s.hardIds - id
+        val history = s.history + (today.toString() to ((s.history[today.toString()] ?: 0) + 1))
+        val json = JSONObject()
+        reviews.forEach { (key, value) -> json.put(key.toString(), JSONObject().put("due", value.due.toString()).put("familiarity", value.familiarity).put("streak", value.streak)) }
+        val historyJson = JSONObject()
+        history.forEach { (day, count) -> historyJson.put(day, count) }
+        prefs.edit().putString("reviews", json.toString()).putString("hardIds", hard.joinToString(","))
+            .putString("history", historyJson.toString()).putString("day", today.toString())
+            .putInt("todayCount", history.getValue(today.toString())).apply()
+        _state.value = s.copy(reviews = reviews, hardIds = hard, history = history, todayCount = history.getValue(today.toString()))
+    }
+
+    fun toggleNotebook(id: Int) {
+        val s = _state.value
+        val ids = if (id in s.notebook) s.notebook - id else s.notebook + id
+        prefs.edit().putString("notebook", ids.joinToString(",")).apply()
+        _state.value = s.copy(notebook = ids)
+    }
+
 }
 
 class MainActivity : ComponentActivity() {
@@ -115,6 +156,14 @@ fun CET6App(vm: StudyViewModel = viewModel()) {
     val state by vm.state.collectAsState()
     var tab by rememberSaveable { mutableIntStateOf(0) }
 
+    val owner = LocalLifecycleOwner.current
+    DisposableEffect(owner) {
+        val observer = LifecycleEventObserver { _, event -> if (event == Lifecycle.Event.ON_RESUME) vm.refreshDay() }
+        owner.lifecycle.addObserver(observer)
+        onDispose { owner.lifecycle.removeObserver(observer) }
+    }
+    val speech = rememberSpeech()
+    CompositionLocalProvider(LocalSpeech provides speech) {
     MaterialTheme(
         colorScheme = lightColorScheme(
             primary = Color(0xFF6C4DFF),
@@ -127,11 +176,11 @@ fun CET6App(vm: StudyViewModel = viewModel()) {
         Scaffold(
             bottomBar = {
                 NavigationBar {
-                    listOf("首页", "背词", "阅读", "复习").forEachIndexed { index, title ->
+                    listOf("首页", "背词", "阅读", "复习", "词库").forEachIndexed { index, title ->
                         NavigationBarItem(
                             selected = tab == index,
                             onClick = { tab = index },
-                            icon = { Text(listOf("⌂", "Aa", "阅", "↻")[index], fontSize = 16.sp) },
+                            icon = { Text(listOf("⌂", "Aa", "阅", "↻", "词")[index], fontSize = 16.sp) },
                             label = { Text(title) }
                         )
                     }
@@ -143,13 +192,16 @@ fun CET6App(vm: StudyViewModel = viewModel()) {
                     ErrorScreen(state.loadError!!)
                 } else when (tab) {
                     0 -> HomeScreen(state, onStart = { tab = 1 })
-                    1 -> WordScreen(state, vm::rateCurrent)
-                    2 -> ReadingScreen()
-                    else -> ReviewScreen(state, vm::markMastered)
+                    1 -> WordScreen(state, vm::rateCurrent, vm::toggleNotebook)
+                    2 -> ReadingScreen(state, vm::toggleNotebook)
+                    3 -> ReviewScreen(state, vm::rateWord, vm::toggleNotebook)
+                    else -> SearchScreen(state, vm::toggleNotebook)
                 }
             }
         }
     }
+}
+
 }
 
 @Composable
@@ -197,14 +249,21 @@ private fun HomeScreen(state: StudyUiState, onStart: () -> Unit) {
         item {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                 StatCard("高频词库", "${state.words.size}", Modifier.weight(1f))
-                StatCard("待复习", "${state.hardIds.size}", Modifier.weight(1f))
+                StatCard("待复习", "${state.reviews.values.count { !it.due.isAfter(LocalDate.now()) }}", Modifier.weight(1f))
             }
         }
         item {
             Card(shape = RoundedCornerShape(20.dp)) {
                 Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text("第一版学习逻辑", fontWeight = FontWeight.Bold)
-                    Text("先看单词 → 自己回忆 → 再显示释义 → 按“不会 / 模糊 / 认识”评级。不会和模糊会自动进入复习页。")
+                    Text("学习统计", fontWeight = FontWeight.Bold)
+                    Text("累计反馈 ${state.history.values.sum()} 次 · 学习 ${state.history.size} 天")
+                    Text("已学 ${state.reviews.size} 词 · 熟悉 ${state.reviews.values.count { it.familiarity >= 3 }} 词 · 生词本 ${state.notebook.size} 词")
+                    val today = LocalDate.now()
+                    Text("近七天：" + (6 downTo 0).joinToString("  ") { offset ->
+                        val day = today.minusDays(offset.toLong())
+                        "${day.monthValue}/${day.dayOfMonth}: ${state.history[day.toString()] ?: 0}"
+                    })
+                    Text("先看单词 → 自己回忆 → 再显示释义 → 按“不会 / 模糊 / 认识”评级。不会当天重练，模糊隔天复习；认识后逐步延长间隔。统计按反馈次数计。")
                 }
             }
         }
@@ -222,7 +281,7 @@ private fun StatCard(label: String, value: String, modifier: Modifier = Modifier
 }
 
 @Composable
-private fun WordScreen(state: StudyUiState, onRate: (Int) -> Unit) {
+private fun WordScreen(state: StudyUiState, onRate: (Int) -> Unit, onNotebook: (Int) -> Unit) {
     val word = state.words.firstOrNull { it.id == state.currentWordId } ?: state.words.firstOrNull() ?: return
     var reveal by remember(word.id) { mutableStateOf(false) }
 
@@ -249,6 +308,8 @@ private fun WordScreen(state: StudyUiState, onRate: (Int) -> Unit) {
                     Spacer(Modifier.height(8.dp))
                     Text(word.phonetic, fontSize = 18.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
+                SpeakButton(word.word)
+                TextButton(onClick = { onNotebook(word.id) }) { Text(if (word.id in state.notebook) "移出生词本" else "加入生词本") }
                 Spacer(Modifier.height(28.dp))
                 if (reveal) {
                     Text(word.meaning, fontSize = 20.sp, textAlign = TextAlign.Center, lineHeight = 30.sp)
@@ -291,7 +352,7 @@ private val wordBank = listOf(
 )
 
 @Composable
-private fun ReadingScreen() {
+private fun ReadingScreen(state: StudyUiState, onNotebook: (Int) -> Unit) {
     var index by rememberSaveable { mutableIntStateOf(0) }
     var selected by rememberSaveable { mutableStateOf<String?>(null) }
     var score by rememberSaveable { mutableIntStateOf(0) }
@@ -325,6 +386,13 @@ private fun ReadingScreen() {
         }
         item {
             Text("请选择填入 __${item.no}__ 的词：", fontWeight = FontWeight.Bold)
+        }
+        item { Text("难词收藏（点击加入 / 移出生词本）", fontWeight = FontWeight.Bold) }
+        items(readingVocabulary) { entry ->
+            val word = state.words.firstOrNull { it.word == entry.first }
+            if (word != null) AssistChip(onClick = { onNotebook(word.id) }, label = {
+                Text("${if (word.id in state.notebook) "✓ " else "+ "}${word.word} · ${word.meaning}")
+            })
         }
         items(wordBank) { option ->
             OutlinedButton(
@@ -378,31 +446,124 @@ private fun ReadingScreen() {
 }
 
 @Composable
-private fun ReviewScreen(state: StudyUiState, onMastered: (Int) -> Unit) {
-    val hardWords = state.words.filter { it.id in state.hardIds }
-    LazyColumn(
-        modifier = Modifier.fillMaxSize().padding(horizontal = 20.dp),
-        contentPadding = PaddingValues(top = 24.dp, bottom = 24.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
-    ) {
-        item { ScreenTitle("复习", "不会 / 模糊的词会自动出现在这里") }
-        if (hardWords.isEmpty()) {
-            item {
-                Card(shape = RoundedCornerShape(20.dp)) {
-                    Text("暂时没有待复习词。背词时把“不确定”的词标成「模糊」即可加入这里。", Modifier.padding(18.dp))
-                }
-            }
-        } else {
-            items(hardWords, key = { it.id }) { word ->
-                Card(shape = RoundedCornerShape(18.dp)) {
-                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        Text(word.word, fontSize = 24.sp, fontWeight = FontWeight.Bold)
-                        if (word.phonetic.isNotBlank()) Text(word.phonetic, color = MaterialTheme.colorScheme.onSurfaceVariant)
+private fun ReviewScreen(state: StudyUiState, onRate: (Int, Int) -> Unit, onNotebook: (Int) -> Unit) {
+    val today = LocalDate.now()
+    val due = state.words.filter { state.reviews[it.id]?.due?.let { day -> !day.isAfter(today) } == true }
+        .sortedBy { state.reviews[it.id]?.due }
+    var currentId by rememberSaveable { mutableStateOf<Int?>(null) }
+    val word = due.firstOrNull { it.id == currentId } ?: due.firstOrNull()
+    var reveal by remember(word?.id) { mutableStateOf(false) }
+    LazyColumn(Modifier.fillMaxSize().padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        item { ScreenTitle("间隔复习", "今日到期 ${due.size} 词 · 未来待复习 ${state.reviews.size - due.size} 词") }
+        if (word == null) item { Text("今日复习完成。明天再来看看，或继续背词。") }
+        else item {
+            val progress = state.reviews.getValue(word.id)
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Text(word.word, fontSize = 32.sp, fontWeight = FontWeight.Bold)
+                    SpeakButton(word.word)
+                    Text("到期 ${progress.due} · 熟悉度 ${progress.familiarity}/5 · 连续认识 ${progress.streak} 次")
+                    if (reveal) {
                         Text(word.meaning)
-                        OutlinedButton(onClick = { onMastered(word.id) }) { Text("已掌握，移出复习") }
-                    }
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            listOf("不会", "模糊", "认识").forEachIndexed { level, label ->
+                                OutlinedButton(onClick = {
+                                    onRate(word.id, level)
+                                    currentId = due.firstOrNull { it.id != word.id }?.id
+                                    reveal = false
+                                }) { Text(label) }
+                            }
+                        }
+                    } else Button(onClick = { reveal = true }) { Text("回忆后显示释义") }
+                    TextButton(onClick = { onNotebook(word.id) }) { Text(if (word.id in state.notebook) "移出生词本" else "加入生词本") }
                 }
             }
         }
     }
 }
+
+@Composable
+private fun SearchScreen(state: StudyUiState, onNotebook: (Int) -> Unit) {
+    var query by rememberSaveable { mutableStateOf("") }
+    var personal by rememberSaveable { mutableStateOf(false) }
+    val results = state.words.filter {
+        (!personal || it.id in state.notebook) && (it.word.contains(query.trim(), true) || it.meaning.contains(query.trim(), true))
+    }
+    LazyColumn(Modifier.fillMaxSize().padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        item { ScreenTitle("词库与生词本", "离线搜索 · 无单词额度限制") }
+        item { OutlinedTextField(value = query, onValueChange = { query = it }, label = { Text("搜索英文或中文释义") }, modifier = Modifier.fillMaxWidth(), singleLine = true) }
+        item { FilterChip(selected = personal, onClick = { personal = !personal }, label = { Text("只看个人生词本 · ${state.notebook.size}") }) }
+        item { Text("找到 ${results.size} 个词") }
+        items(results, key = { it.id }) { word ->
+            Card(Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text(word.word, fontSize = 24.sp, fontWeight = FontWeight.Bold)
+                    Text(word.phonetic)
+                    Text(word.meaning)
+                    SpeakButton(word.word)
+                    TextButton(onClick = { onNotebook(word.id) }) { Text(if (word.id in state.notebook) "移出生词本" else "加入生词本") }
+                }
+            }
+        }
+    }
+}
+
+private data class Speech(val message: String, val speak: (String) -> Unit)
+private val LocalSpeech = staticCompositionLocalOf { Speech("正在初始化语音…") {} }
+
+@Composable
+private fun rememberSpeech(): Speech {
+    val context = LocalContext.current
+    var engine by remember { mutableStateOf<TextToSpeech?>(null) }
+    var ready by remember { mutableStateOf(false) }
+    var message by remember { mutableStateOf("正在初始化语音…") }
+    DisposableEffect(context) {
+        var disposed = false
+        val tts = TextToSpeech(context) { status ->
+            if (!disposed) {
+                val current = engine
+                val voice = if (status == TextToSpeech.SUCCESS) current?.voices?.filter {
+                    it.locale.language == Locale.ENGLISH.language && !it.isNetworkConnectionRequired &&
+                        !it.features.orEmpty().contains(TextToSpeech.Engine.KEY_FEATURE_NOT_INSTALLED)
+                }?.sortedBy { if (it.locale == Locale.US) 0 else 1 }?.firstOrNull() else null
+                ready = voice != null && current?.setVoice(voice) == TextToSpeech.SUCCESS
+                message = if (ready) "英语发音" else "请在系统语音设置中安装离线英语语音包"
+            }
+        }
+        engine = tts
+        onDispose { disposed = true; ready = false; tts.stop(); tts.shutdown(); engine = null }
+    }
+    return Speech(message) { text ->
+        if (!ready) Toast.makeText(context, message, Toast.LENGTH_LONG).show()
+        else if (engine?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "cet6-word") == TextToSpeech.ERROR)
+            Toast.makeText(context, "发音失败，请检查系统语音设置", Toast.LENGTH_LONG).show()
+    }
+}
+
+@Composable
+private fun SpeakButton(text: String) {
+    val speech = LocalSpeech.current
+    OutlinedButton(onClick = { speech.speak(text) }) { Text("▶ ${speech.message}") }
+}
+
+private val readingVocabulary = listOf(
+    "adapt" to "适应；改编",
+    "attach" to "附上；系上",
+    "contracts" to "合同；收缩（contract 的复数或第三人称单数）",
+    "feeds" to "供给；喂养（feed 的第三人称单数）",
+    "foreseeable" to "可预见的",
+    "heralds" to "预示；先驱（herald 的变形）",
+    "impractical" to "不切实际的",
+    "inaccessible" to "难以到达的；难以理解的",
+    "investments" to "投资（复数）",
+    "modify" to "修改；调整",
+    "predominantly" to "主要地；占主导地位地",
+    "preference" to "偏好",
+    "shift" to "转变；移动",
+    "traditional" to "传统的",
+    "unexpectedly" to "出乎意料地",
+    "mechanization" to "机械化",
+    "infrastructure" to "基础设施",
+    "agricultural" to "农业的",
+    "migrant" to "移民的；移居者"
+)
