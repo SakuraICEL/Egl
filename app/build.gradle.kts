@@ -14,6 +14,16 @@ android {
         targetSdk = 35
         versionCode = 3
         versionName = "0.3.0"
+        resValue("string", "app_name", "Áù¼¶±³´Ê ¡¤ ÄªÁ§")
+    }
+
+    buildTypes {
+        create("parallel") {
+            initWith(getByName("debug"))
+            applicationIdSuffix = ".next"
+            versionNameSuffix = "-parallel"
+            resValue("string", "app_name", "Áù¼¶±³´Ê ¡¤ ÄªÁ§ÐÂ°æ")
+        }
     }
 
     compileOptions {

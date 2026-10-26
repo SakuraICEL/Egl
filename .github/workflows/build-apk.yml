@@ -32,7 +32,7 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build debug APK
-        run: ./gradlew --no-daemon testDebugUnitTest assembleDebug
+        run: ./gradlew --no-daemon testDebugUnitTest assembleDebug assembleParallel
 
       - name: Upload test results
         if: always()
@@ -56,7 +56,9 @@ jobs:
           target: default
           profile: pixel_2
           disable-animations: true
-          script: python3 scripts/android_smoke.py
+          script: |
+            adb install -r app/build/outputs/apk/debug/app-debug.apk
+            CET6_SMOKE_PACKAGE=com.moli.cet6.next CET6_SMOKE_APK=app/build/outputs/apk/parallel/app-parallel.apk python3 scripts/android_smoke.py
 
       - name: Upload smoke results
         if: always()
@@ -66,12 +68,16 @@ jobs:
           path: smoke-results/
           if-no-files-found: ignore
 
-      - name: Rename APK
-        run: cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.apk
+      - name: Rename APKs
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk CET6-Moli-v0.3.apk
+          cp app/build/outputs/apk/parallel/app-parallel.apk CET6-Moli-v0.3-parallel.apk
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: CET6-Moli-v0.3-apk
-          path: CET6-Moli-v0.3.apk
+          path: |
+            CET6-Moli-v0.3.apk
+            CET6-Moli-v0.3-parallel.apk
           if-no-files-found: error

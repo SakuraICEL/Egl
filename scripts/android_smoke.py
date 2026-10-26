@@ -2,7 +2,8 @@
 import os, re, subprocess, time, xml.etree.ElementTree as ET
 from pathlib import Path
 
-PACKAGE='com.moli.cet6'
+PACKAGE=os.environ.get('CET6_SMOKE_PACKAGE','com.moli.cet6')
+APK=os.environ.get('CET6_SMOKE_APK','app/build/outputs/apk/debug/app-debug.apk')
 
 def adb(*args):
     return subprocess.check_output(['adb',*args],timeout=30).decode('utf-8',errors='replace')
@@ -48,7 +49,9 @@ def launch():
     assert 'Error:' not in result,result
     wait_for('六级背词')
 
-adb('install','-r','app/build/outputs/apk/debug/app-debug.apk')
+adb('install','-r',APK)
+if PACKAGE.endswith('.next'):
+    assert 'package:com.moli.cet6' in adb('shell','pm','list','packages','com.moli.cet6'), 'Old app was removed'
 adb('shell','pm','clear',PACKAGE)
 adb('shell','svc','wifi','disable')
 adb('shell','svc','data','disable')
